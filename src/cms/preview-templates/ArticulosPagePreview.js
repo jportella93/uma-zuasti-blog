@@ -1,19 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Articulos } from '../../templates/articulos-page'
+import { ArticulosPageTemplate } from '../../templates/articulos-page'
 
-const Articulos = ({ entry, widgetFor }) => (
-  <Articulos
+const ArticulosPagePreview = ({ entry, widgetFor }) => (
+  <ArticulosPageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
 )
 
-Articulos.propTypes = {
+ArticulosPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default Articulos
+export default ArticulosPagePreview

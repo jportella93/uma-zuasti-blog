@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ClasesYTalleres } from '../../templates/clasesYTalleres-page'
+import { ClasesYTalleresPageTemplate } from '../../templates/clases-y-talleres-page'
 
-const ClasesYTalleres = ({ entry, getAsset }) => {
+const ClasesYTalleresPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -13,7 +13,7 @@ const ClasesYTalleres = ({ entry, getAsset }) => {
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
 
   return (
-    <ClasesYTalleres
+    <ClasesYTalleresPageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
@@ -46,11 +46,11 @@ const ClasesYTalleres = ({ entry, getAsset }) => {
   )
 }
 
-ClasesYTalleres.propTypes = {
+ClasesYTalleresPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default ClasesYTalleres
+export default ClasesYTalleresPagePreview

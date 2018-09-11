@@ -6,7 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 
-export const ProductPageTemplate = ({
+export const ClasesYTalleresTemplate = ({
   image,
   title,
   heading,
@@ -61,30 +61,30 @@ export const ProductPageTemplate = ({
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
-                        <img
+                        {/* <img
                           style={{ borderRadius: '5px' }}
                           src={main.image1.image}
                           alt={main.image1.alt}
-                        />
+                        /> */}
                       </article>
                     </div>
                     <div className="tile is-parent">
                       <article className="tile is-child">
-                        <img
+                        {/* <img
                           style={{ borderRadius: '5px' }}
                           src={main.image2.image}
                           alt={main.image2.alt}
-                        />
+                        /> */}
                       </article>
                     </div>
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child">
-                      <img
+                      {/* <img
                         style={{ borderRadius: '5px' }}
                         src={main.image3.image}
                         alt={main.image3.alt}
-                      />
+                      /> */}
                     </article>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ export const ProductPageTemplate = ({
   </section>
 )
 
-ProductPageTemplate.propTypes = {
+ClasesYTalleresTemplate.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -131,12 +131,12 @@ ProductPageTemplate.propTypes = {
   }),
 }
 
-const ProductPage = ({ data }) => {
+const ClasesYTalleres = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <ClasesYTalleresTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -151,7 +151,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+ClasesYTalleres.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -159,10 +159,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default ClasesYTalleres
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const clasesYTalleresQuery = graphql`
+  query ClasesYTalleres($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
