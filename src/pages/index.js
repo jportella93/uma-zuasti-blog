@@ -12,14 +12,11 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+                  style={{ border: '1px solid #eaecee', padding: '2em 1em' }}
                   key={post.id}
                 >
                   <p>
@@ -34,7 +31,7 @@ export default class IndexPage extends React.Component {
                     <br />
                     <br />
                     <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
+                      Leer más →
                     </Link>
                   </p>
                 </div>
