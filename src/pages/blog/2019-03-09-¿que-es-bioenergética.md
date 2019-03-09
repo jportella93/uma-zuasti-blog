@@ -47,4 +47,6 @@ Uma Zuasti: Terapeuta Corporal Bioenergética
 
 Profesora de Biodanza nº de Reg PV 16 21
 
+![](/img/walton-holland.png)
+
 <https://www.youtube.com/watch?v=w8Aq8Tr2GTg>
