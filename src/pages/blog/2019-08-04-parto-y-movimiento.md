@@ -43,4 +43,4 @@ Psicopedagogía Corporal
 
 Profesora autorizada para impartir Parto y Movimiento.
 
-Master en Psicología Perinatal.
+Postgrado en Psicología Perinatal en el Instituto Europeo de Salud mental Perinatal.
