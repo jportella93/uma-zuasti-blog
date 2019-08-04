@@ -40,9 +40,3 @@ Psicopedagogía Corporal
 Profesora autorizada para impartir Parto y Movimiento.
 
 Master en Psicología Perinatal.
-
-\    
-
-![]()
-
-![](/img/logo-parto-y-movimiento.jpg)
