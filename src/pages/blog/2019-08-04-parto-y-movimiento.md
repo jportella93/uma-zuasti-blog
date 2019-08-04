@@ -42,3 +42,5 @@ Psicopedagogía Corporal
 Profesora autorizada para impartir Parto y Movimiento.
 
 Postgrado en Psicología Perinatal ( Instituto Europeo de Salud mental Perinatal).
+
+Profesora de Biodanza Nº Reg.PV1621 ,especialista en Biodanza para Gestastantes.
