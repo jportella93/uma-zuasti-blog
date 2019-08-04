@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Parto y Movimiento '
+title: 'Parto y Movimiento  '
 date: 2019-08-04T12:43:32.323Z
 description: Preparación corporal y sensorial al parto.
 tags:
@@ -33,7 +33,7 @@ Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuast
 
 \    
 
-![null](/img/logo-parto-y-movimiento.jpg)
+![](/img/logo-parto-y-movimiento.jpg)
 
 Uma Zuasti Baztán
 
