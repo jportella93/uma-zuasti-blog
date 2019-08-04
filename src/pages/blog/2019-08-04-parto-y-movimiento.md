@@ -29,9 +29,13 @@ Aumentar la confianza en el proceso fisiológico de parir.
 
 Las sesiones se realizan de forma grupal o individual, con o sin acompañante.
 
-Para ampliar información puedes dirigirte a: umazuasti@gmail.com
+Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuasti@gmail.com
 
-\    Tel:636 23 151 7
+\    
+
+![](/img/logo-parto-y-movimiento.jpg)
+
+ 
 
 Uma Zuasti Baztán
 
