@@ -33,9 +33,7 @@ Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuast
 
 \    
 
-![](/img/logo-parto-y-movimiento.jpg)
-
- 
+![null](/img/logo-parto-y-movimiento.jpg)
 
 Uma Zuasti Baztán
 
@@ -43,4 +41,4 @@ Psicopedagogía Corporal
 
 Profesora autorizada para impartir Parto y Movimiento.
 
-Postgrado en Psicología Perinatal en el Instituto Europeo de Salud mental Perinatal.
+Postgrado en Psicología Perinatal ( Instituto Europeo de Salud mental Perinatal).
