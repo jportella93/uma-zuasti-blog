@@ -9,6 +9,8 @@ tags:
   - Talleres
   - Tarragona
 ---
+![](/img/logo-parto-y-movimiento.jpg)
+
 ¿Qué es?
 
 Es un método integral de preparación corporal y sensorial al parto. Fundamentado en conocimientos anatómicos y sensoriales que posibilitan a la mujer embarazada aumentar la confianza y la seguridad para el parto. Transmitido desde el conocimiento, la escucha y el respeto.
@@ -33,7 +35,7 @@ Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuast
 
 \    
 
-![](/img/p1110153-2-.jpg)
+![null](/img/p1110153-2-.jpg)
 
 Uma Zuasti Baztán
 
