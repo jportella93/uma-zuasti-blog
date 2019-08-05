@@ -33,7 +33,7 @@ Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuast
 
 \    
 
-![](/img/logo-parto-y-movimiento.jpg)
+![](/img/p1110153-2-.jpg)
 
 Uma Zuasti Baztán
 
