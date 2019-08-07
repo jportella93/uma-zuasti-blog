@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Parto y Movimiento  '
+title: Parto y Movimiento®
 date: 2019-08-04T12:43:32.323Z
 description: Preparación corporal y sensorial al parto.
 tags:
@@ -9,7 +9,7 @@ tags:
   - Talleres
   - Tarragona
 ---
-![](/img/logo-parto-y-movimiento.jpg)
+![null](/img/logo-parto-y-movimiento.jpg)
 
 ¿Qué es?
 
@@ -41,7 +41,7 @@ Uma Zuasti Baztán
 
 Psicopedagogía Corporal
 
-Profesora autorizada para impartir Parto y Movimiento.
+Profesora autorizada para impartir Parto y Movimiento®.
 
 Postgrado en Psicología Perinatal ( Instituto Europeo de Salud mental Perinatal).
 
