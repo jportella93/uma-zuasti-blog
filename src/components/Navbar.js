@@ -6,12 +6,14 @@ import styled from 'styled-components'
 import {smallScreenLimit} from '../components/constants'
 import useResizeAware from 'react-resize-aware';
 
-const NavFoldedHeight = '90px';
+const NavFoldedHeight = '80px';
+const NavMaxExpandedHeight = '350px';
 
 const NavContainer = styled(Basic)`
   position: fixed;
+  z-index: 100;
   width: 100%;
-  background: gray;
+  background: rgb(203, 46, 89);
 `
 
 const NavPusher = styled.div`
@@ -20,9 +22,12 @@ const NavPusher = styled.div`
 
 const Nav = styled(Limited)`
   margin: auto;
-  max-height: ${props => props.isMenuOpen ? "200px" : NavFoldedHeight};
+  max-height: ${props => props.isMenuOpen ?
+    NavMaxExpandedHeight : NavFoldedHeight};
   transition: max-height 1s ease;
   overflow: hidden;
+  padding-bottom: ${props => props.isMenuOpen ?
+    "10px" : "0px"};
 `
 
 const TopLevelDiv = styled.div`
@@ -32,6 +37,8 @@ const TopLevelDiv = styled.div`
 `
 
 const StyledLogo = styled(Logo)`
+  margin-left: -12px;
+
   path {
     fill: #fafafa;
   }
@@ -53,7 +60,8 @@ const MenuItemBigScreen = styled(Link)`
 `
 
 const MenuItemSmallScreen = styled(Link)`
-  color: #567123;
+  color: #fafafa;
+  padding-bottom: 25px;
 `
 
 const submenuItemIds = [
