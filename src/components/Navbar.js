@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import logo from '../img/logo.svg'
+import Logo from '../img/logo.svg'
 import {Basic, Limited} from '../components/Containers'
 import styled from 'styled-components'
 import {smallScreenLimit} from '../components/constants'
@@ -29,6 +29,12 @@ const TopLevelDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`
+
+const StyledLogo = styled(Logo)`
+  path {
+    fill: #fafafa;
+  }
 `
 
 const FoldableSubmenuContainer = styled.div`
@@ -77,7 +83,7 @@ const Navbar = () => {
           {resizeListener}
           <TopLevelDiv>
             <Link to="/">
-              <img src={logo} alt="Uma Zuasti" />
+              <StyledLogo alt="Uma Zuasti" />
             </Link>
             {!showSmallScreenMenu &&
               <SubmenuContainer>
