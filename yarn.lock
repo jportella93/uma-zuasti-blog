@@ -11953,6 +11953,11 @@ react-redux@^5.1.1:
     react-is "^16.6.0"
     react-lifecycles-compat "^3.0.0"
 
+react-resize-aware@^3.0.0-beta.3:
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/react-resize-aware/-/react-resize-aware-3.0.0-beta.3.tgz#35aeddebfc4595f01323d0f473884099c4633f1b"
+  integrity sha512-XRnj1qgEAvrjOM7c/wsrVLBJxu0TNOKrhgWG7OasCdYiQSCyqiACxJUScTIknUk0bGV7MaagBjMa0CCYXK4ktQ==
+
 react-router-dom@^4.2.2:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"
