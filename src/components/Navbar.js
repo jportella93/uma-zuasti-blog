@@ -26,7 +26,7 @@ const Nav = styled(Limited)`
     NavMaxExpandedHeight : NavFoldedHeight};
   transition: max-height 1s ease;
   overflow: hidden;
-  padding-bottom: ${props => props.isMenuOpen ?
+  margin-bottom: ${props => props.isMenuOpen ?
     "10px" : "0px"};
 `
 
@@ -57,11 +57,20 @@ const SubmenuContainer = styled.div`
 
 const MenuItemBigScreen = styled(Link)`
   color: #fafafa;
+
+  :hover {
+    text-decoration: underline;
+    color: #fafafa;
+  }
 `
 
-const MenuItemSmallScreen = styled(Link)`
-  color: #fafafa;
-  padding-bottom: 25px;
+const linkActiveStyle = {
+  textDecoration: 'underline',
+  fontWeight: 'bold',
+}
+
+const MenuItemSmallScreen = styled(MenuItemBigScreen)`
+  margin-bottom: 25px;
 `
 
 const submenuItemIds = [
@@ -75,7 +84,13 @@ const submenuItemIds = [
 const getSubmenuItems = (isSmallScreen) => {
   const MenuItem = isSmallScreen ? MenuItemSmallScreen : MenuItemBigScreen;
   return submenuItemIds.map(id =>
-    <MenuItem key={id} to={`/${id.toLowerCase()}`}>{id}</MenuItem>)
+    <MenuItem
+      key={id}
+      to={`/${id.toLowerCase()}`}
+      activeStyle={linkActiveStyle}
+    >
+      {id}
+    </MenuItem>)
 }
 
 const Navbar = () => {
@@ -83,6 +98,8 @@ const Navbar = () => {
   const [resizeListener, sizes] = useResizeAware();
 
   const showSmallScreenMenu = sizes.width < smallScreenLimit;
+
+  if (isMenuOpen && !showSmallScreenMenu) setMenuOpen(false);
 
   return (
     <>
