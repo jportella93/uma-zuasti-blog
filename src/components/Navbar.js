@@ -1,10 +1,10 @@
-import React from 'react'
 import {Link} from 'gatsby'
-import Logo from '../img/logo.svg'
-import {Basic, Limited} from '../components/Containers'
+import React from 'react'
+import useResizeAware from 'react-resize-aware'
 import styled from 'styled-components'
 import {smallScreenLimit} from '../components/constants'
-import useResizeAware from 'react-resize-aware';
+import {Basic, Limited} from '../components/Containers'
+import Logo from '../img/logo.svg'
 
 const NavFoldedHeight = '80px';
 const NavMaxExpandedHeight = '350px';
