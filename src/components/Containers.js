@@ -10,3 +10,11 @@ export const Limited = styled(Basic)`
     max-width: 1140px;
   }
 `
+
+export const BlogLimited = styled(Basic)`
+  margin: auto;
+
+  @media (min-width: 768px) {
+    max-width: 767px;
+  }
+`
