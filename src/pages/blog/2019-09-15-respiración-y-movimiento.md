@@ -13,11 +13,9 @@ tags:
   - Bioenergetica
   - Movimiento
 ---
-El aire entra y sale, en susurros, entrecortado, libremente.La sangre circula por nuestro cuerpo y el aire, como olas del mar, nos recorre, nos sorprende, nos estremece.
+El aire entra y sale, en susurros, entrecortado, libremente.
 
-La sangre recorre nuestro cuerpo transportando el oxígeno que necesitamos para vivir, la respiración alimenta así nuestras células, limpiando nuestro cuerpo de lo que ya no nos sirve.
-
-La respiración como medio de transporte hacia aquello que se aloja adentro. Al respirar encontramos nuestro ritmo natural, y al seguirlo, nos encontramos con información sobre nosotrass mismas.
+La respiración como medio de transporte hacia aquello que se aloja adentro. Al respirar encontramos nuestro ritmo natural, y al seguirlo, nos encontramos con información sobre nosotras mismas.
 
 Posibilidad de asiento y circularidad a la vez, como si cierta calma fuese la que nos permitiera transformar, regenerando, nuestra energía vital.
 
@@ -31,6 +29,14 @@ Al movernos nos guía, al detenernos nos habla, al preguntarle nos moviliza. Por
 
 La respiración se ubica como cauce natural que alimenta nuestro cuerpo, dándole vida y movimiento a la vez. Puede tomar infinitas formas, ritmos y estados, expandirse, ampliarse, hundirse, trabarse, cortarse. Puede ser una gran señal de lo que aún no acontece y ayudarnos a descifrar lo que aún no comprendemos, puede dejarnos ver el estado de nuestro ser, sólo debemos “escucharla” y darle lugar a que se exprese, que se manifieste libremente en nuestro movimiento.
 
-Hay momentos en los que podemos encontrarla sensible al contagio, ¿qué sucede cuando estoy cerca de otra persona y sin darnos cuenta acabamos respirando en un ritmo compartido? Podríamos pensar que también en la respiración hay comunicación. Cómo la frecuencia, profundidad y ritmo se acompasan cuando entro en sintonía con otro,cuando me sensibilizo en un presente compartido. Al sentir la respiración del otro en tanto siento la propia, se crea algo íntimo. Es esa situación singular compartida, la que nos une en una misma sintonía. Allí podemos celebrar el sentirnos modificadas por nuestra respiración y la de otro, creando algo nuevo donde ya no existe lo propio o lo ajeno, sino una nueva construcción.
+Hay momentos en los que podemos encontrarla sensible al contagio,
+
+ ¿Qué sucede cuando estoy cerca de otra persona y sin darnos cuenta acabamos respirando en un ritmo compartido? 
+
+Podríamos pensar que también en la respiración hay comunicación. Cómo la frecuencia, profundidad y ritmo se acompasan cuando entro en sintonía con otro,cuando me sensibilizo en un presente compartido. Al sentir la respiración del otro en tanto siento la propia, se crea algo íntimo. Es esa situación singular compartida, la que nos une en una misma sintonía. Allí podemos celebrar el sentirnos modificadas por nuestra respiración y la de otro, creando algo nuevo donde ya no existe lo propio o lo ajeno, sino una nueva construcción.
+
+Uma zuasti
+
+Imagen: Pablo Ozcaray
 
 ![Uma Zuasti, Imagen : Pablo Orcaray](/img/pablo-orcaray-awivttqwqoc-unsplash.jpg)
