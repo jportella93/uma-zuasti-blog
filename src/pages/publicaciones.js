@@ -5,9 +5,9 @@ import React from 'react';
 import styled from 'styled-components';
 import {BlogLimited} from '../components/Containers';
 import Layout from '../components/Layout';
+import {defaultH1} from '../components/TextStyles'
 
-const Title = styled.h1`
-  font-size: 1.5rem;
+const Title = styled(defaultH1)`
   margin-bottom: 24px;
   margin-top: 24px;
 `
