@@ -5,9 +5,9 @@ import React from 'react';
 import styled from 'styled-components';
 import {BlogLimited} from '../components/Containers';
 import Layout from '../components/Layout';
-import {defaultH1} from '../components/TextStyles'
+import {H1, P} from '../components/TextStyles'
 
-const Title = styled(defaultH1)`
+const Title = styled(H1)`
   margin-bottom: 24px;
   margin-top: 24px;
 `
@@ -66,7 +66,7 @@ const PublicacionesView = ({data}) => {
         {posts
           .map(({node: post}) => (
             <PostCard key={post.id}>
-              <p>
+              <P>
                 <StyledLink
                   to={post.fields.slug}>
                   {post.frontmatter.title}
@@ -86,7 +86,7 @@ const PublicacionesView = ({data}) => {
                     ))}
                   </>
                 }
-              </p>
+              </P>
               <PostExcerp>
                 {post.excerpt}
                 <br />
