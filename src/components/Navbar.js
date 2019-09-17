@@ -3,13 +3,13 @@ import React from 'react'
 import useResizeAware from 'react-resize-aware'
 import styled from 'styled-components'
 import {smallScreenLimit} from '../components/constants'
-import {Basic, Limited} from '../components/Containers'
+import {BasicContainer, LimitedContainer} from '../components/Containers'
 import Logo from '../img/logo.svg'
 
 const NavFoldedHeight = '80px';
 const NavMaxExpandedHeight = '350px';
 
-const NavContainer = styled(Basic)`
+const NavContainer = styled(BasicContainer)`
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -20,7 +20,7 @@ const NavPusher = styled.div`
   height: ${NavFoldedHeight};
 `
 
-const Nav = styled(Limited)`
+const Nav = styled(LimitedContainer)`
   margin: auto;
   max-height: ${props => props.isMenuOpen ?
     NavMaxExpandedHeight : NavFoldedHeight};
