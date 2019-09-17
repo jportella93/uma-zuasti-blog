@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'gatsby';
 
 export const H1 = styled.h1`
 font-size: 2rem;
@@ -32,4 +33,13 @@ margin: 1.67rem 0;
 
 export const P = styled.p`
 margin: 1.12rem 0;
+`
+
+export const A = styled(Link)`
+  color: rgb(203,46,89);
+
+  :hover {
+    color: rgb(203,46,89);
+    text-decoration: underline;
+  }
 `
