@@ -11,13 +11,19 @@ tags:
   - Expresión
   - Arteterapia
   - Tarragona
-  - Articulo
+  - Artículos
 ---
 Los dibujos y la pintura,en las sesiones de biodanza, son expresiones espontáneas, que llevan a los niños y niñas a expresar sin trabas, sus pensamientos, emociones y sentimientos, acerca de sus vivencias.
 
+
+
 La palabras imponen límites, pero las imágenes poseen un nivel de penetración en la mente que supera el pensamiento discursivo.
 
+
+
 En ocasiones los dibujos infantiles nos aportan información que jamás nos comunicarían de otra forma. Escenas que representan sus vacaciones de verano,la excursión del colegio, o la llegada de un hermanito... etc, nos demuestran que la representación del dibujo de los niños pertenece tanto al mundo consciente, como al inconsciente .A través de éste último nos darían a conocer el modo de vivir particularmente esa experiencia.
+
+
 
 La comunicación a través del dibujo o la pintura, se basa en el lenguaje de las imágenes y en la interpretación psicoanalítica de las mismas, ya que, el proceso gráfico, permite expresar conflictos personales sin control consciente . Se podría encontrar cierta similitud en cómo el psicoanálisis utiliza el recuerdo de los sueños y de los símbolos que en ellos aparecen. De hecho, P. Schilder (1935), consideraba los dibujos como equivalentes al material de los sueños para reflejar el inconsciente.
 
@@ -29,6 +35,10 @@ Lo importante del dibujo en una sesión de biodanza es el proceso que utiliza el
 
 Otra de las funciones del dibujo en la sesión de biodanza es que potencia la autoexpresión, permite desarrollar el concepto del yo, así como una profunda autoconsciencia.Es importante para el niño que pueda identificarse con lo que hace, conocerse, saber como piensa, expresar lo que siente y ser partícipe del mundo que le rodea , ésto les aporta seguridad y confianza en ellos mismos , y esto es de gran importancia, porque son muchos los desequilibrios afectivos, o mentales que están asociados de alguna manera, a una falta de seguridad en uno mismo.
 
+
+
 En definitiva la actividad artística en la sesión de Biodanza, nos aporta una información muy valiosa acerca del mundo interior de los niños al no estar censurada por la mente consciente, y contribuye al proceso de detección y sanación de los conflictos inconscientes.
 
-![null](/img/dibujo-niño.jpg)
+
+
+![](/img/dibujo-niño.jpg)

@@ -10,7 +10,7 @@ tags:
   - Biodanza
   - Movimiento
   - Tarragona
-  - Articulo
+  - Artículos
 ---
 El ritmo es un patrón de regularidades cósmicas que se manifiesta en los sistemas vivientes.
 
