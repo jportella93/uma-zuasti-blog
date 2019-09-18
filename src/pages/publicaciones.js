@@ -19,7 +19,7 @@ const PublicacionesView = ({data}) => {
 
   return (
     <Layout>
-      <Helmet title="Publicaciones" />
+      <Helmet title={`Publicaciones | ${data.site.siteMetadata.title}`} />
       <BlogLimitedContainer>
         <Title>Publicaciones más recientes</Title>
         {
@@ -45,6 +45,11 @@ export default PublicacionesView;
 
 export const pageQuery = graphql`
   query PublicacionesQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
       filter: { frontmatter: { templateKey: { eq: "blog-post" }, tags: {in: "Artículos"} }}
