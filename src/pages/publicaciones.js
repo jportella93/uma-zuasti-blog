@@ -47,7 +47,7 @@ export const pageQuery = graphql`
   query PublicacionesQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+      filter: { frontmatter: { templateKey: { eq: "blog-post" }, tags: {in: "Artículos"} }}
     ) {
       edges {
         node {
