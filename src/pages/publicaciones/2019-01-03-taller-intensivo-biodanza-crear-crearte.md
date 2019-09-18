@@ -4,7 +4,7 @@ title: 'Taller Intensivo Biodanza, "Crear , Crearte"'
 date: 2019-01-03T11:46:03.105Z
 description: Laboratorio de Creatividad.
 tags:
-  - Taller
+  - Talleres
   - Creatividad
   - Tarragona
   - Biodanza

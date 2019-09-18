@@ -17,13 +17,13 @@ El Sistema Biodanza pertenece a las ciencias humanas. Tiene una sólida base te�
 
 La biodanza no consiste solo en danzar, sino en activar mediante ciertas danzas, potenciales afectivos y de comunicación que nos conecte con nosotros mismos, con el otro y con la naturaleza.
 
- 
+
 
 DANZA
 
 Biodanza tiene su inspiración en los orígenes primitivos de la danza. En su sentido originario es movimiento vivencial. La danza es un movimiento natural,pleno de sentido vital y que surge de lo mas profundo del ser humano. Biodanza propone una danza orgánica que responde a patrones de movimiento que originan la vida , y éstos movimientos , acompañados de la música , la voz y las dinámicas grupales tienen un gran poder transformador en la existencia y producen cambios, a nivel orgánico, afectivo-motor y existencial.
 
- 
+
 
 DEFINICÓN
 

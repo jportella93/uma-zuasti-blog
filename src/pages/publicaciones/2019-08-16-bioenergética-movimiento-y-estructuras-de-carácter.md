@@ -8,7 +8,6 @@ tags:
   - Bioenergética
   - Movimiento
   - Tarragona
-  - ''
 ---
 "Bioenergética, Movimiento y Estructuras de Carácter"
 

@@ -5,10 +5,10 @@ date: 2019-01-06T15:34:27.239Z
 description: >-
   “El instinto es una conducta innata, hereditaria, que no requiere aprendizaje
   y que se desencadena frente a estímulos específicos. Su finalidad biológica es
-  la adaptación al medio para lograr la supervivencia” 
+  la adaptación al medio para lograr la supervivencia”
 tags:
   - Biodanza
-  - Taller
+  - Talleres
   - Tarragona
 featuredImage: /img/the-good-café-1-.png
 ---
