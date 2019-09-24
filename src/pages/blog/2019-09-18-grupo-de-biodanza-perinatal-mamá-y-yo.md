@@ -22,12 +22,4 @@ La Biodanza Perinatal,te aporta los mismos beneficios que la práctica de Biodan
 
 Uma Zuasti
 
-
-
-
-
-
-
-
-
-![](/img/kevin-gent-mvk7pnnlulc-unsplash.jpg)
+![null](/img/cimg2469-4-.jpg)
