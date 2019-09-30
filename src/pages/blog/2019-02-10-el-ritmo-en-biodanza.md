@@ -7,9 +7,10 @@ description: >-
   necesidades de nuestra naturaleza primal,sintonizándonos con los ritmos de la
   naturaleza"
 tags:
-  - biodanza
-  - movimiento
+  - Biodanza
+  - Movimiento
   - Tarragona
+  - Articulo
 ---
 El ritmo es un patrón de regularidades cósmicas que se manifiesta en los sistemas vivientes.
 
