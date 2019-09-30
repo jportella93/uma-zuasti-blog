@@ -8,7 +8,7 @@ description: >-
   grupo de los jueves.
 tags:
   - Biodanza
-  - clases
+  - Clases
   - Tarragona
 ---
 El Sistema Biodanza pertenece a las ciencias humanas. Tiene una sólida base teórica y un modelo operacional. Se estructura en fundamentos científicos basados en la Biología,  la Psicología, la Etología , amplios estudios de antropología y danza.
