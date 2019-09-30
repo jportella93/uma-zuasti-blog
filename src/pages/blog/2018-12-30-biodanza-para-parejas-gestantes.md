@@ -6,9 +6,9 @@ description: >-
   Una metodología de acompañamiento para la gestación y para la preparación al
   parto. 
 tags:
-  - talleres
-  - biodanza
-  - tarragona
+  - Talleres
+  - Biodanza
+  - Tarragona
 ---
 El embarazo es un evento de gran significación en la vida de una mujer, en el que ocurren cambios fisiológicos, psicológicos, en las relaciones familiares y sociales.Por todo ésto es adecuado no solo un acompañamiento clínico, sino también psicológico de la embarazada, proporcionando que su ciclo gravídico-puerperal sea armonioso, para su mayor bien estar , el de el bebé y el de la familia. 
 
