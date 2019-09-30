@@ -20,8 +20,24 @@ _Con otras madres es más fácil_
 
 La Biodanza Perinatal,te aporta los mismos beneficios que la práctica de Biodanza, y además te da la oportunidad de desenvolverte entre iguales, ya que está formado por madres como tú, que tienen bebés o niños pequeños, y coordinados por una especialista, que os dará el punto de vista profesional, en los temas referentes al puerperio y la crianza.
 
+Dirigido a Mamás o Papás con bebé en porteo.
+
 Uma Zuasti
 
-![null]()
+\* info: umazuasti@gmail.com
+
+\    Tel. 636 23 15 1 7
+
+Uma Zuasti
+
+Psicopedagogía Corporal
+
+Educadora y Terapeuta, Postgrado en Psicología Perinatal.
+
+Profesora de Biodanza nº de reg. PV 1621
+
+
+
+![]()
 
 ![](/img/cimg2469-4-.jpg)
