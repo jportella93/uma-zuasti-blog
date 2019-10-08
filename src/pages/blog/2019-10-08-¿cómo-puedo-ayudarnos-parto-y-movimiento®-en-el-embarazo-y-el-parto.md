@@ -31,5 +31,3 @@ Uma Zuasti
 Psicopedagogía Corporal
 
 Profesora Autorizada Parto y Movimiento®
-
-![null](/img/p1090267_resultado-2-.jpg)
