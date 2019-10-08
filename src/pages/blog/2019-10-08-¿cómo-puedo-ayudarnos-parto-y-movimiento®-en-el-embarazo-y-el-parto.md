@@ -22,16 +22,10 @@ Sentiremos, mimaremos y exploraremos nuestro periné, entendiendo los impactos q
 
 También hacemos algunas sesiones con nuestra pareja, o acompañante, para que también puedan sentir todo lo que sucede,llevándose así entendimiento y muchas herramientas para acompañarnos. Entenderá cómo también tiene que cuidarse corporalmente para poder acompañar, hablaremos sobre formas de comunicarnos a través del cuerpo y sobretodo exploraremos una gran variedad de posiciones y movimientos para el día del parto, incluso si optáis por un parto con epidural.
 
-Compartir estos momentos juntos, como pareja y familia es muy rico, ya que os dará la oportunidad de conocer qué posiciones son las que más os gustan y así vuestra pareja tener más recursos a la hora de acompañaros.
-
-
+Compartir estos momentos juntos, como pareja , os dará la oportunidad de fortalecer más vuestro vínculo, mejorar la comunicación y la confianza y estar mejor preparados para el día del parto y el comienzo del puerperio,además de llevaros un montón de recursos que os servirán para siempre.
 
 Uma Zuasti
 
 Psicopedagogía Corporal
-
-![]()
-
-![]()
 
 Profesora Autorizada Parto y Movimiento®
