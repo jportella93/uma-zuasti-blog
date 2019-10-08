@@ -14,6 +14,8 @@ tags:
   - Tarragona
   - Parto
 ---
+![](/img/p1090279_resultado-2-.jpg)
+
 ¿Quieres descubrir-te?
 
 Durante las sesiones es un tiempo para nosotras, de conexión con nuestro cuerpo y nuestro bebé, donde vamos a descubrir y explorar nuestra pelvis, sus espacios, la movilidad que tiene, las asimetrías. De esta forma entenderemos por qué es tan importante la movilidad para acompañar a nuestro bebé en ese descenso a través de nosotras el día del parto y qué sucede en cada movimiento, cómo se transforma la pelvis.
