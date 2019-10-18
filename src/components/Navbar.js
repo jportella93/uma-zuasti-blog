@@ -8,6 +8,7 @@ import Logo from '../img/logo.svg'
 
 const NavFoldedHeight = '80px';
 const NavMaxExpandedHeight = '350px';
+const navbarZIndex = 50;
 
 const NavContainer = styled(BasicContainer)`
   position: fixed;
@@ -93,6 +94,24 @@ const getSubmenuItems = (isSmallScreen) => {
     </MenuItem>)
 }
 
+const Hamburguer = styled.button`
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: ${navbarZIndex + 1};
+
+  :hover {
+    opacity: 1 !important;
+  }
+`
+
+const HamburguerBars = styled.span`
+&, :before, :after {
+  background-color: ${props => props.isMenuOpen ?
+    palette.red : palette.white} !important;
+}
+`
+
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = React.useState(false);
   const [resizeListener, sizes] = useResizeAware();
@@ -103,37 +122,16 @@ const Navbar = () => {
 
   return (
     <>
-      <NavContainer>
-        <Nav isMenuOpen={isMenuOpen}>
-          {resizeListener}
-          <TopLevelDiv>
-            <Link to="/">
-              <StyledLogo alt="Uma Zuasti" />
-            </Link>
-            {!showSmallScreenMenu &&
-              <SubmenuContainer>
-                {getSubmenuItems(false)}
-              </SubmenuContainer>
-            }
-            {showSmallScreenMenu &&
-              <button
+      <OpenNavbarBg isMenuOpen={isMenuOpen}>
+        <Hamburguer
                 className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
                 onClick={() => setMenuOpen(!isMenuOpen)}
                 type="button">
                 <span className="hamburger-box">
-                  <span className="hamburger-inner"></span>
+            <HamburguerBars isMenuOpen={isMenuOpen} className="hamburger-inner"></HamburguerBars>
                 </span>
-              </button>
-            }
-          </TopLevelDiv>
-          {showSmallScreenMenu &&
-            <FoldableSubmenuContainer>
-              {getSubmenuItems(true)}
-            </FoldableSubmenuContainer>
-          }
-        </Nav>
-      </NavContainer>
-      <NavPusher />
+        </Hamburguer>
+      </OpenNavbarBg>
     </>
   )
 }
