@@ -99,6 +99,7 @@ const Hamburguer = styled.button`
   top: 0;
   right: 0;
   z-index: ${navbarZIndex + 1};
+  outline: none !important;
 
   :hover {
     opacity: 1 !important;
@@ -107,9 +108,26 @@ const Hamburguer = styled.button`
 
 const HamburguerBars = styled.span`
 &, :before, :after {
+  transition: background-color 1s ease;
   background-color: ${props => props.isMenuOpen ?
     palette.red : palette.white} !important;
 }
+`
+
+const OpenNavbarBg = styled.div`
+  height: ${props => props.isMenuOpen ?
+    '200vmax' : '0'};
+  width: ${props => props.isMenuOpen ?
+    '200vmax' : '0'};
+  top: ${props => props.isMenuOpen ?
+    '-50%' : '0'};
+  right: ${props => props.isMenuOpen ?
+    '-50%' : '0'};
+  transition: all 0.5s ease;
+  border-radius: 100%;
+  position: fixed;
+  z-index: ${navbarZIndex};
+  background-color: ${palette.white};
 `
 
 const Navbar = () => {
