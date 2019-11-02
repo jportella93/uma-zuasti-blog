@@ -10,7 +10,9 @@ tags:
   - Biodanza
   - Movimiento
 ---
-![null](/img/dattatreya-patra-roghbrtrg28-unsplash.jpg)
+![null](/img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg)
+
+![]()
 
 Acerca de los supuestos básicos que sustentan Biodanza como práctica.
 
@@ -34,11 +36,9 @@ En biodanza nos  focalizamos sobre todo en los procesos comunicativos manifiesto
 
 Focalizar los patrones de movimiento e interacción social, nos permite reflexionar acerca de nuestros modos de vivir y ser, tomar conciencia de qué conservamos y qué desechamos, qué hace a nuestra identidad humana y qué nos aleja de ella. De ésta manera podemos reconocer qué variaciones y particularidades culturales, sociales, históricas, determinan nuestros movimientos o accionar actual. Darnos cuenta que ese patrón recursivo determinará nuestros futuros movimientos, nos lleva a responsabilizarnos y producir las modificaciones necesarias y posibles dentro de las experiencias que nos tocan vivir. Notar cuál es nuestro repertorio disponible de movimientos y ampliar el espectro en cuanto a variedad y a matices es la tarea que desarrolla la Biodanza. Al reconocer las fortalezas y debilidades, la conciencia posibilita decidir sobre la parte que dominamos. Se trata de encontrar la mejor acción o la acción eficaz que posibilite satisfacer nuestras necesidades humanas vitales. 
 
-![null](/img/dattatreya-patra-roghbrtrg28-unsplash.jpg)
-
 Tambíen trabajamos con posiciones generatrices, arquetítipas ,éstos movimientos recursivos equivalen a dinámicas de esfuerzo o patrones de movimiento que se han fijado en el repertorio de la especie, heredados filogenéticamente, y adoptados a través de la historia natural, y que viven como potencialidad en cada nuevo individuo. Distintas especies animales han desarrollado patrones peculiares de movimiento, la repetición de estos ha moldeado su estructura corporal, constriñendo y posibilitando su repertorio propio de acción, a la vez que su estructura corporal determina los hábitos de movimiento de su especie.  
 
-_**La fluidez**_
+**_La fluidez_**
 
 El fluir ha sido asociado con libertad, bienestar, ausencia de obstáculos, vía libre para el despliegue de la potencialidad. Este concepto ha sido definido, tanto como una de las categorías del movimiento, como por los aportes contemporáneos de Mihaly Csikszentmihalyi (1990) quien relaciona los estados de la experiencia óptima con el fluir. Se trata de momentos de concentración plena, sentimiento de gozo creativo, de sentirse absorto en lo que se está haciendo. Momentos en que se siente el despliegue de la propia potencia. Está presente la sensación de estar en control sin controlar, sin esfuerzo. El fluir implica momentos en los que el rendimiento es máximo, en que el ego parece desaparecer y el paso del tiempo es imperceptible. Csikszentmihalyi manifiesta que se trata de un estado de conciencia imbuido en un accionar sin resistencias ni obstáculos.
 
