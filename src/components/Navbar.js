@@ -1,97 +1,32 @@
 import {Link} from 'gatsby'
 import React from 'react'
-import useResizeAware from 'react-resize-aware'
-import styled from 'styled-components'
-import {smallScreenLimit} from '../components/constants'
-import {BasicContainer, LimitedContainer} from '../components/Containers'
-import Logo from '../img/logo.svg'
+import styled, {css} from 'styled-components'
+import {palette} from '../components/constants'
+import logoRed from '../img/logo-red.svg'
+import mailRed from '../img/mail-red.svg'
+import phoneRed from '../img/phone-red.svg'
 
-const NavFoldedHeight = '80px';
-const NavMaxExpandedHeight = '350px';
 const navbarZIndex = 50;
 
-const NavContainer = styled(BasicContainer)`
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  background: rgb(203, 46, 89);
-`
+const textStyle = css`
+  span, a {
+    color: ${palette.red};
+    font-weight: bold;
 
-const NavPusher = styled.div`
-  height: ${NavFoldedHeight};
-`
-
-const Nav = styled(LimitedContainer)`
-  margin: auto;
-  max-height: ${props => props.isMenuOpen ?
-    NavMaxExpandedHeight : NavFoldedHeight};
-  transition: max-height 1s ease;
-  overflow: hidden;
-  margin-bottom: ${props => props.isMenuOpen ?
-    "10px" : "0px"};
-`
-
-const TopLevelDiv = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`
-
-const StyledLogo = styled(Logo)`
-  margin-left: -12px;
-
-  path {
-    fill: #fafafa;
+    &:hover {
+      color: ${palette.red};
+      text-decoration: underline;
+    }
   }
 `
 
-const FoldableSubmenuContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-`
-
-const SubmenuContainer = styled.div`
-  display: flex;
-  width: 55%;
-  justify-content: space-between;
-`
-
-const MenuItemBigScreen = styled(Link)`
-  color: #fafafa;
-
-  :hover {
-    text-decoration: underline;
-    color: #fafafa;
-  }
+const MenuItem = styled(Link)`
+  margin: 0 auto 20px;
 `
 
 const linkActiveStyle = {
   textDecoration: 'underline',
   fontWeight: 'bold',
-}
-
-const MenuItemSmallScreen = styled(MenuItemBigScreen)`
-  margin-bottom: 25px;
-`
-
-const submenuItemIds = [
-  'Servicios',
-  'Publicaciones',
-  'Talleres',
-  'Testimonios',
-  'Contacto',
-]
-
-const getSubmenuItems = (isSmallScreen) => {
-  const MenuItem = isSmallScreen ? MenuItemSmallScreen : MenuItemBigScreen;
-  return submenuItemIds.map(id =>
-    <MenuItem
-      key={id}
-      to={`/${id.toLowerCase()}`}
-      activeStyle={linkActiveStyle}
-    >
-      {id}
-    </MenuItem>)
 }
 
 const Hamburguer = styled.button`
@@ -116,41 +51,146 @@ const HamburguerBars = styled.span`
 
 const OpenNavbarBg = styled.div`
   height: ${props => props.isMenuOpen ?
-    '200vmax' : '0'};
-  width: ${props => props.isMenuOpen ?
-    '200vmax' : '0'};
-  top: ${props => props.isMenuOpen ?
-    '-50%' : '0'};
-  right: ${props => props.isMenuOpen ?
-    '-50%' : '0'};
+    '100%' : '0'};
+  width: 100%;
+  top: 0;
+  right: 0;
   transition: all 0.5s ease;
-  border-radius: 100%;
   position: fixed;
+  overflow: hidden;
   z-index: ${navbarZIndex};
   background-color: ${palette.white};
 `
 
+const NavbarLinksContainer = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 52;
+  ${textStyle}
+`
+
+const LogoImgLink = styled(Link)`
+  margin-top: auto;
+  margin-bottom: 70px;
+  text-align: center;
+`
+
+const FirstNavbarLinksBlock = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+`
+
+const SecondNavbarLinksBlock = styled(FirstNavbarLinksBlock)`
+  margin-bottom: auto;
+`
+
+const ContactBlock = styled(FirstNavbarLinksBlock)`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 50%;
+  margin: 0 auto 50px;
+`
+
+const FirstContactLink = styled.a`
+  margin-bottom: 24px;
+`
+
+const ContactItemBlock = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const ContactItemImg = styled.img`
+  margin-right: 14px;
+`
+
+const submenuItemsMap = new Map([
+  ['Biodanza', '/servicios/biodanza'],
+  ['Biodanza Perinatal', '/servicios/biodanza-perinatal'],
+  ['Terapia Bioenergética', '/servicios/terapia-bioenergetica'],
+  ['Parto y Movimiento', '/servicios/parto-y-movimiento'],
+  ['Clases y Talleres', '/clases-y-talleres'],
+  ['Publicaciones', '/publicaciones'],
+  ['Uma', '/uma'],
+])
+
+const getSubmenuItems = () => {
+  const items = [];
+  submenuItemsMap.forEach((path, title) =>
+    items.push(<MenuItem
+      key={title}
+      to={path}
+      activeStyle={linkActiveStyle}
+    >
+      {title}
+    </MenuItem>
+    ))
+  return items
+}
+
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = React.useState(false);
-  const [resizeListener, sizes] = useResizeAware();
 
-  const showSmallScreenMenu = sizes.width < smallScreenLimit;
-
-  if (isMenuOpen && !showSmallScreenMenu) setMenuOpen(false);
+  const submenuItems = getSubmenuItems();
 
   return (
     <>
+      <Hamburguer
+        className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
+        onClick={() => setMenuOpen(!isMenuOpen)}
+        type="button">
+        <span className="hamburger-box">
+          <HamburguerBars isMenuOpen={isMenuOpen} className="hamburger-inner"></HamburguerBars>
+        </span>
+      </Hamburguer>
+
       <OpenNavbarBg isMenuOpen={isMenuOpen}>
-        <Hamburguer
-                className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
-                onClick={() => setMenuOpen(!isMenuOpen)}
-                type="button">
-                <span className="hamburger-box">
-            <HamburguerBars isMenuOpen={isMenuOpen} className="hamburger-inner"></HamburguerBars>
-                </span>
-        </Hamburguer>
+        <NavbarLinksContainer>
+
+          <LogoImgLink to="/">
+            <img src={logoRed} />
+          </LogoImgLink>
+
+          <FirstNavbarLinksBlock>
+            {submenuItems.slice(0, 4)}
+          </FirstNavbarLinksBlock>
+
+          <SecondNavbarLinksBlock>
+            {submenuItems.slice(4)}
+          </SecondNavbarLinksBlock>
+
+          <ContactBlock>
+
+            <FirstContactLink href="mailto:umazuasti@gmail.com">
+              <ContactItemBlock>
+                <ContactItemImg src={mailRed} />
+                <span>umazuasti@gmail.com</span>
+              </ContactItemBlock>
+            </FirstContactLink>
+
+            <a href="tel:636231517">
+              <ContactItemBlock>
+                <ContactItemImg src={phoneRed} />
+                <span>636231517</span>
+              </ContactItemBlock>
+            </a>
+
+          </ContactBlock>
+
+        </NavbarLinksContainer>
       </OpenNavbarBg>
     </>
   )
 }
+
 export default Navbar
