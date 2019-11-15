@@ -4,8 +4,7 @@ import styled, {css} from 'styled-components'
 import {palette} from '../components/constants'
 import {A} from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
-import mailRed from '../img/mail-red.svg'
-import phoneRed from '../img/phone-red.svg'
+import ContactBlock from './ContactBlock'
 
 const navbarZIndex = 50;
 
@@ -74,29 +73,7 @@ const SecondNavbarLinksBlock = styled(FirstNavbarLinksBlock)`
 
 const MenuItem = styled(A)`
   font-weight: bold;
-  margin: ${props => props.marginTop ?
-    '0 auto 20px' : null};
-`
-
-const ContactBlock = styled(FirstNavbarLinksBlock)`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 50%;
-  margin: 0 auto 50px;
-`
-
-const FirstContactLink = styled.a`
-  margin-bottom: 24px;
-`
-
-const ContactItemBlock = styled.div`
-  display: flex;
-  align-items: center;
-`
-
-const ContactItemImg = styled.img`
-  margin-right: 14px;
+  margin: 0 auto 20px;
 `
 
 const submenuItemsMap = new Map([
@@ -116,7 +93,7 @@ const getSubmenuItems = () => {
       key={title}
       to={path}
       activeStyle={{textDecoration: 'underline'}}
-      marginTop={true}
+      color={palette.red}
     >
       {title}
     </MenuItem>
@@ -155,23 +132,7 @@ const Navbar = () => {
             {submenuItems.slice(4)}
           </SecondNavbarLinksBlock>
 
-          <ContactBlock>
-
-            <FirstContactLink href="mailto:umazuasti@gmail.com">
-              <ContactItemBlock>
-                <ContactItemImg src={mailRed} />
-                <MenuItem>umazuasti@gmail.com</MenuItem>
-              </ContactItemBlock>
-            </FirstContactLink>
-
-            <a href="tel:636231517">
-              <ContactItemBlock>
-                <ContactItemImg src={phoneRed} />
-                <MenuItem>636231517</MenuItem>
-              </ContactItemBlock>
-            </a>
-
-          </ContactBlock>
+          <ContactBlock color="red" bold={true} />
 
         </NavbarLinksContainer>
       </OpenNavbarBg>
