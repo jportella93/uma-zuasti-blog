@@ -2,32 +2,12 @@ import {Link} from 'gatsby'
 import React from 'react'
 import styled, {css} from 'styled-components'
 import {palette} from '../components/constants'
+import {A} from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
 import mailRed from '../img/mail-red.svg'
 import phoneRed from '../img/phone-red.svg'
 
 const navbarZIndex = 50;
-
-const textStyle = css`
-  span, a {
-    color: ${palette.red};
-    font-weight: bold;
-
-    &:hover {
-      color: ${palette.red};
-      text-decoration: underline;
-    }
-  }
-`
-
-const MenuItem = styled(Link)`
-  margin: 0 auto 20px;
-`
-
-const linkActiveStyle = {
-  textDecoration: 'underline',
-  fontWeight: 'bold',
-}
 
 const Hamburguer = styled.button`
   position: fixed;
@@ -71,7 +51,6 @@ const NavbarLinksContainer = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 52;
-  ${textStyle}
 `
 
 const LogoImgLink = styled(Link)`
@@ -91,6 +70,12 @@ const FirstNavbarLinksBlock = styled.div`
 
 const SecondNavbarLinksBlock = styled(FirstNavbarLinksBlock)`
   margin-bottom: auto;
+`
+
+const MenuItem = styled(A)`
+  font-weight: bold;
+  margin: ${props => props.marginTop ?
+    '0 auto 20px' : null};
 `
 
 const ContactBlock = styled(FirstNavbarLinksBlock)`
@@ -130,7 +115,8 @@ const getSubmenuItems = () => {
     items.push(<MenuItem
       key={title}
       to={path}
-      activeStyle={linkActiveStyle}
+      activeStyle={{textDecoration: 'underline'}}
+      marginTop={true}
     >
       {title}
     </MenuItem>
@@ -174,14 +160,14 @@ const Navbar = () => {
             <FirstContactLink href="mailto:umazuasti@gmail.com">
               <ContactItemBlock>
                 <ContactItemImg src={mailRed} />
-                <span>umazuasti@gmail.com</span>
+                <MenuItem>umazuasti@gmail.com</MenuItem>
               </ContactItemBlock>
             </FirstContactLink>
 
             <a href="tel:636231517">
               <ContactItemBlock>
                 <ContactItemImg src={phoneRed} />
-                <span>636231517</span>
+                <MenuItem>636231517</MenuItem>
               </ContactItemBlock>
             </a>
 
