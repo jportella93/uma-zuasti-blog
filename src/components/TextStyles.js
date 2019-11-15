@@ -1,46 +1,72 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 import {Link} from 'gatsby';
 import {palette} from './constants'
 
+const BaseText = css`
+  color: ${props => props.color ?
+    props.color : palette.white};
+  max-width: ${props => props.maxWidth ?
+    props.maxWidth : null};
+  margin: ${props => props.margin ?
+    props.margin : null};
+  margin-top: ${props => props.marginTop ?
+    props.marginTop : null};
+  margin-right: ${props => props.marginRight ?
+    props.marginRight : null};
+  margin-bottom: ${props => props.marginBotom ?
+    props.marginBotom : null};
+  margin-left: ${props => props.marginLeft ?
+    props.marginLeft : null};
+
+
+`
+
 export const H1 = styled.h1`
+${BaseText}
 font-size: 2rem;
-margin: .67rem 0;
+margin: .67rem auto;
 `
 
 export const H2 = styled.h2`
+${BaseText}
 font-size: 1.5rem;
-margin: .75rem 0;
+margin: .75rem auto;
 `
 
 export const H3 = styled.h3`
+${BaseText}
 font-size: 1.17rem;
-margin: .83rem 0;
+margin: .83rem auto;
 `
 
 export const H4 = styled.h4`
+${BaseText}
 font-size: 1.12rem;
-margin: 1.12rem 0;
+margin: 1.12rem auto;
 `
 
 export const H5 = styled.h5`
+${BaseText}
 font-size: .83rem;
-margin: 1.5rem 0 ;
+margin: 1.5rem auto;
 `
 
 export const H6 = styled.h6`
+${BaseText}
 font-size: .75rem;
-margin: 1.67rem 0;
+margin: 1.67rem auto;
 `
 
 export const P = styled.p`
-margin: 1.12rem 0;
+${BaseText}
+margin: 1.12rem auto;
 `
 
 export const A = styled(Link)`
-  color: ${palette.red};
+${BaseText}
 
   :hover {
-    color: ${palette.red};
+    ${BaseText}
     text-decoration: underline;
   }
 `
