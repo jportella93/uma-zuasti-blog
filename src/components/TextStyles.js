@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {Link} from 'gatsby';
+import {palette} from './constants'
 
 export const H1 = styled.h1`
 font-size: 2rem;
@@ -36,10 +37,10 @@ margin: 1.12rem 0;
 `
 
 export const A = styled(Link)`
-  color: rgb(203,46,89);
+  color: ${palette.red};
 
   :hover {
-    color: rgb(203,46,89);
+    color: ${palette.red};
     text-decoration: underline;
   }
 `
