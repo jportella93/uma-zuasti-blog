@@ -2,9 +2,14 @@ import styled, {css} from 'styled-components';
 import {Link} from 'gatsby';
 import {palette} from './constants'
 
-const BaseText = css`
+const defaults = css`
   color: ${props => props.color ?
     props.color : palette.white};
+  text-align: ${props => props.textAlign ?
+    props.textAlign : 'center'};
+`
+
+const overrides = css`
   max-width: ${props => props.maxWidth ?
     props.maxWidth : null};
   margin: ${props => props.margin ?
@@ -17,56 +22,63 @@ const BaseText = css`
     props.marginBotom : null};
   margin-left: ${props => props.marginLeft ?
     props.marginLeft : null};
-
-
 `
 
 export const H1 = styled.h1`
-${BaseText}
+${defaults}
 font-size: 2rem;
 margin: .67rem auto;
+${overrides}
 `
 
 export const H2 = styled.h2`
-${BaseText}
+${defaults}
 font-size: 1.5rem;
 margin: .75rem auto;
+${overrides}
 `
 
 export const H3 = styled.h3`
-${BaseText}
+${defaults}
 font-size: 1.17rem;
 margin: .83rem auto;
+${overrides}
 `
 
 export const H4 = styled.h4`
-${BaseText}
+${defaults}
 font-size: 1.12rem;
 margin: 1.12rem auto;
+${overrides}
 `
 
 export const H5 = styled.h5`
-${BaseText}
+${defaults}
 font-size: .83rem;
 margin: 1.5rem auto;
+${overrides}
 `
 
 export const H6 = styled.h6`
-${BaseText}
+${defaults}
 font-size: .75rem;
 margin: 1.67rem auto;
+${overrides}
 `
 
 export const P = styled.p`
-${BaseText}
+${defaults}
 margin: 1.12rem auto;
+${overrides}
 `
 
 export const A = styled(Link)`
-${BaseText}
+${defaults}
+${overrides}
 
   :hover {
-    ${BaseText}
+    ${defaults}
     text-decoration: underline;
+    ${overrides}
   }
 `
