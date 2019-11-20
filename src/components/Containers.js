@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const BasicContainer = styled.div`
- padding: ${props => props.verticalPadding ? '10px' : '0'} 10px;
+ padding: ${props => props.verticalPadding ? '10px' : '0'} 20px;
 `
 
 export const LimitedContainer = styled(BasicContainer)`
