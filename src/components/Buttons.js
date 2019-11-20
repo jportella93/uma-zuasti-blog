@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const UnstyledButton = styled.button`
+  border: 0;
+  padding: 0;
+  background: none;
+`
+
 export const BasicButton = styled.button`
   color: #fafafa;
   background-color: rgb(203,46,89);
