@@ -48,4 +48,20 @@ const IndexPage = () => {
   )
 }
 
+export const query = graphql`
+  query {
+    allFile(filter: {name: {regex: "index/biodanza-\\\\d+/"}}, sort: {fields: relativePath}) {
+      nodes {
+        id,
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+    }
+  }
+`
+
 export default IndexPage

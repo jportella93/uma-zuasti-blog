@@ -6,9 +6,9 @@ import {FlowerButton} from '../components/Buttons';
 import {LimitedContainer} from '../components/Containers';
 import Layout from '../components/Layout';
 import {H1, H2, P} from '../components/TextStyles.js';
-import Biodanza1 from '../img/biodanza1.jpg';
-import Biodanza2 from '../img/biodanza2.jpg';
-import Biodanza3 from '../img/biodanza3.jpg';
+// import Biodanza1 from '../img/biodanza1.jpg';
+// import Biodanza2 from '../img/biodanza2.jpg';
+// import Biodanza3 from '../img/biodanza3.jpg';
 
 const ImgTextWrapper = styled.div`
   position: relative;
@@ -40,15 +40,15 @@ const ServiciosView = () => {
 
         <article>
           <ImgTextWrapper>
-            <FullImg src={Biodanza1} position='right' />
+            {/* <FullImg src={Biodanza1} position='right' /> */}
             <TextOverImg>Biodanza</TextOverImg>
           </ImgTextWrapper>
           <BlockHeading>Qué es?</BlockHeading>
           <P>Quis veniam irure aliquip minim adipisicing labore qui do. Nisi magna anim aliquip excepteur minim.</P>
-          <FullImg src={Biodanza2} />
+          {/* <FullImg src={Biodanza2} /> */}
           <BlockHeading>Como es?</BlockHeading>
           <P>Consectetur ad et aute proident ad. Dolor Lorem aliquip nisi nulla duis elit pariatur consectetur incididunt.</P>
-          <FullImg src={Biodanza3} />
+          {/* <FullImg src={Biodanza3} /> */}
           <BlockHeading>A quien va dirigido?</BlockHeading>
           <P>Eiusmod veniam cillum laboris amet. Labore enim est commodo incididunt dolor.</P>
           <Link to='/servicios/biodanza'><FlowerButton>Probar una clase gratis</FlowerButton></Link>
