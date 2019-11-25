@@ -22,6 +22,16 @@ const overrides = css`
     props.marginBottom : null};
   margin-left: ${props => props.marginLeft ?
     props.marginLeft : null};
+  padding: ${props => props.padding ?
+    props.padding : null};
+  padding-top: ${props => props.paddingTop ?
+    props.paddingTop : null};
+  padding-right: ${props => props.paddingRight ?
+    props.paddingRight : null};
+  padding-bottom: ${props => props.paddingBottom ?
+    props.paddingBottom : null};
+  padding-left: ${props => props.paddingLeft ?
+    props.paddingLeft : null};
 `
 
 export const H1 = styled.h1`
