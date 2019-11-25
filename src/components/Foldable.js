@@ -15,6 +15,7 @@ const TopBar = styled(UnstyledButton)`
 `
 
 const FoldablePart = styled.div`
+  margin-top: 8px;
  overflow: hidden;
  max-height: ${props => props.isFolded ?
     '0' : '10000px'};
