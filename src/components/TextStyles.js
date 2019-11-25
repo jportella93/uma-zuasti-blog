@@ -18,8 +18,8 @@ const overrides = css`
     props.marginTop : null};
   margin-right: ${props => props.marginRight ?
     props.marginRight : null};
-  margin-bottom: ${props => props.marginBotom ?
-    props.marginBotom : null};
+  margin-bottom: ${props => props.marginBottom ?
+    props.marginBottom : null};
   margin-left: ${props => props.marginLeft ?
     props.marginLeft : null};
 `
