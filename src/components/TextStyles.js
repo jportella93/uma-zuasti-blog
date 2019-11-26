@@ -83,6 +83,11 @@ margin: 1.12rem auto;
 ${overrides}
 `
 
+export const Span = styled.span`
+${defaults}
+${overrides}
+`
+
 export const A = styled(Link)`
 ${defaults}
 ${overrides}
