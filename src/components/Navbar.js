@@ -5,6 +5,7 @@ import {palette} from '../components/constants'
 import {A} from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
 import ContactBlock from './ContactBlock'
+import routes from '../components/routes'
 
 const navbarZIndex = 50;
 
@@ -77,21 +78,21 @@ const MenuItem = styled(A)`
 `
 
 const submenuItemsMap = new Map([
-  ['Biodanza', '/servicios/biodanza'],
-  ['Biodanza Perinatal', '/servicios/biodanza-perinatal'],
-  ['Terapia Bioenergética', '/servicios/terapia-bioenergetica'],
-  ['Parto y Movimiento', '/servicios/parto-y-movimiento'],
-  ['Clases y Talleres', '/clases-y-talleres'],
-  ['Publicaciones', '/publicaciones'],
-  ['Uma', '/uma'],
+  ['Biodanza', 'biodanza'],
+  ['Biodanza Perinatal', 'biodanza-perinatal'],
+  ['Terapia Bioenergética', 'terapia-bioenergetica'],
+  ['Parto y Movimiento', 'parto-y-movimiento'],
+  ['Clases y Talleres', 'clases-y-talleres'],
+  ['Publicaciones', 'publicaciones'],
+  ['Uma', 'uma']
 ])
 
 const getSubmenuItems = () => {
   const items = [];
-  submenuItemsMap.forEach((path, title) =>
+  submenuItemsMap.forEach((routeId, title) =>
     items.push(<MenuItem
       key={title}
-      to={path}
+      to={routes.get(routeId)}
       activeStyle={{textDecoration: 'underline'}}
       color={palette.red}
     >
@@ -120,7 +121,7 @@ const Navbar = () => {
       <OpenNavbarBg isMenuOpen={isMenuOpen}>
         <NavbarLinksContainer>
 
-          <LogoImgLink to="/">
+          <LogoImgLink to={routes.get('home')}>
             <img src={logoRed} />
           </LogoImgLink>
 
