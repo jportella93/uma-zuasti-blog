@@ -32,6 +32,7 @@ const overrides = css`
     props.paddingBottom : null};
   padding-left: ${props => props.paddingLeft ?
     props.paddingLeft : null};
+  text-decoration: ${props => props.textDecoration || null};
 `
 
 export const H1 = styled.h1`
