@@ -43,8 +43,7 @@ const ContactItemImg = styled.img`
 `
 
 const MenuItem = styled(A)`
-  font-weight: ${props => props.bold ?
-    'bold' : null};
+  font-weight: ${({ bold }) => bold && 'bold'};
 `
 
 const ContactBlock = ({color, bold}) => (

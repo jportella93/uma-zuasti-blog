@@ -1,38 +1,27 @@
-import styled, {css} from 'styled-components';
-import {Link} from 'gatsby';
-import {palette} from './constants'
+import styled, { css } from 'styled-components';
+import { Link } from 'gatsby';
+import { palette } from './constants'
 
 const defaults = css`
-  color: ${props => props.color ?
-    props.color : palette.white};
-  text-align: ${props => props.textAlign ?
-    props.textAlign : 'center'};
+  color: ${({ color }) => color ?
+    color : palette.white};
+  text-align: ${({ textAlign }) => textAlign ?
+    textAlign : 'center'};
 `
 
 const overrides = css`
-  max-width: ${props => props.maxWidth ?
-    props.maxWidth : null};
-  margin: ${props => props.margin ?
-    props.margin : null};
-  margin-top: ${props => props.marginTop ?
-    props.marginTop : null};
-  margin-right: ${props => props.marginRight ?
-    props.marginRight : null};
-  margin-bottom: ${props => props.marginBottom ?
-    props.marginBottom : null};
-  margin-left: ${props => props.marginLeft ?
-    props.marginLeft : null};
-  padding: ${props => props.padding ?
-    props.padding : null};
-  padding-top: ${props => props.paddingTop ?
-    props.paddingTop : null};
-  padding-right: ${props => props.paddingRight ?
-    props.paddingRight : null};
-  padding-bottom: ${props => props.paddingBottom ?
-    props.paddingBottom : null};
-  padding-left: ${props => props.paddingLeft ?
-    props.paddingLeft : null};
-  text-decoration: ${props => props.textDecoration || null};
+  max-width: ${({ maxWidth }) => maxWidth};
+  margin: ${({ margin }) => margin};
+  margin-top: ${({ marginTop }) => marginTop};
+  margin-right: ${({ marginRight }) => marginRight};
+  margin-bottom: ${({ marginBottom }) => marginBottom};
+  margin-left: ${({ marginLeft }) => marginLeft};
+  padding: ${({ padding }) => padding};
+  padding-top: ${({ paddingTop }) => paddingTop};
+  padding-right: ${({ paddingRight }) => paddingRight};
+  padding-bottom: ${({ paddingBottom }) => paddingBottom};
+  padding-left: ${({ paddingLeft }) => paddingLeft};
+  text-decoration: ${({ textDecoration }) => textDecoration};
 `
 
 export const H1 = styled.h1`
