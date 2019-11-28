@@ -5,11 +5,11 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <>
     <Helmet title="Uma Zuasti" />
     <Navbar />
-    <div>{children}</div>
-  </div>
+    {children}
+  </>
 )
 
 export default TemplateWrapper
