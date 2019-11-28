@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-plugin-react-svg',
+    // 'gatsby-plugin-react-svg',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -20,7 +20,6 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -28,6 +27,7 @@ module.exports = {
         plugins: [],
       },
     },
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
