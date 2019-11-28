@@ -7,18 +7,19 @@ import ChevronDownWhite from '../img/chevron-down-white.svg';
 import {UnstyledButton} from './Buttons';
 
 const transition = css`
- transition: all 0.3s ease;
+ transition: all 1s ease;
 `
 
 const TopBar = styled(UnstyledButton)`
   display: flex;
+  padding: 8px 0;
 `
 
 const FoldablePart = styled.div`
   margin-top: 8px;
  overflow: hidden;
  max-height: ${props => props.isFolded ?
-    '0' : '10000px'};
+    '0' : '5000px'};
   ${transition}
 `
 
