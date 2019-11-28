@@ -1,12 +1,12 @@
-import React from 'react'
 import PropTypes from 'prop-types';
-import styled, {css} from 'styled-components'
-import {A} from '../components/TextStyles'
-import {palette} from '../components/constants'
-import mailRedSrc from '../img/mail-red.svg'
-import mailWhiteSrc from '../img/mail-white.svg'
-import phoneRedSrc from '../img/phone-red.svg'
-import phoneWhiteSrc from '../img/phone-white.svg'
+import React from 'react';
+import styled from 'styled-components';
+import { palette } from '../components/constants';
+import { A } from '../components/TextStyles';
+import mailRedSrc from '../img/mail-red.svg';
+import mailWhiteSrc from '../img/mail-white.svg';
+import phoneRedSrc from '../img/phone-red.svg';
+import phoneWhiteSrc from '../img/phone-white.svg';
 
 const iconSrcs = {
   mail: {

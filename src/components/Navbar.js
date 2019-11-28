@@ -1,11 +1,11 @@
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
-import styled, {css} from 'styled-components'
-import {palette} from '../components/constants'
-import {A} from '../components/TextStyles'
+import styled from 'styled-components'
+import { palette } from '../components/constants'
+import routes from '../components/routes'
+import { A } from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
 import ContactBlock from './ContactBlock'
-import routes from '../components/routes'
 
 const navbarZIndex = 50;
 
@@ -93,7 +93,7 @@ const getSubmenuItems = () => {
     items.push(<MenuItem
       key={title}
       to={routes.get(routeId)}
-      activeStyle={{textDecoration: 'underline'}}
+      activeStyle={{ textDecoration: 'underline' }}
       color={palette.red}
     >
       {title}
@@ -122,7 +122,7 @@ const Navbar = () => {
         <NavbarLinksContainer>
 
           <LogoImgLink to={routes.get('home')}>
-            <img src={logoRed} />
+            <img src={logoRed} alt="Uma Zuasti logo."/>
           </LogoImgLink>
 
           <FirstNavbarLinksBlock>
