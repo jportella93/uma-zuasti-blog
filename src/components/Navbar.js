@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 import { palette } from '../components/constants'
@@ -53,7 +52,7 @@ const NavbarLinksContainer = styled.div`
   z-index: 52;
 `
 
-const LogoImgLink = styled(Link)`
+const LogoImgLink = styled(A)`
   margin-top: auto;
   margin-bottom: 70px;
   text-align: center;
