@@ -1,58 +1,209 @@
-import React from 'react'
-import Layout from '../components/Layout'
-import styled from 'styled-components'
-import jumpImg from '../img/jump.png'
+import { graphql } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import { palette } from "../components/constants";
+import ContactBlock from "../components/ContactBlock";
+import { LimitedContainer } from "../components/Containers";
+import Foldable from "../components/Foldable";
+import ImageTextBlock from '../components/ImageTextBlock';
+import Layout from "../components/Layout";
+import routes from "../components/routes";
+import SearchIconText from '../components/SearchIconText';
+import { H1, H2, H4, P, Span } from "../components/TextStyles";
+import logoWhite from "../img/logo-white.svg";
 
 const Page = styled.div`
   position: relative;
-`
-
-const TextContainer = styled.div`
-  position: absolute;
-  top: 30%;
-  left: 0;
-  right: 0;
-  width: 60%;
+  background-color: ${palette.red};
   text-align: center;
-  margin: auto;
-`
+`;
 
-const Title = styled.h1`
-  color: #fafafa;
-  font-weight: bold;
-  font-size: 1.5rem;
-`
+const Logo = styled.img`
+  margin-top: 150px;
+  margin-bottom: 75px;
+`;
 
-const Quote = styled.h2`
-  color: #fafafa;
-`
+const LogoSubtitle = styled(H4)`
+  max-width: 150px;
+  margin-bottom: 100px;
+`;
 
-const IndexPage = () => {
+const TopicSearchIconText = ({ topic }) => (
+  <SearchIconText link={routes.get(topic.replace('é', 'e').split(' ').join('-').toLowerCase())}>
+    <Span marginBottom="8px" textDecoration="underline">
+      Sesiones de {topic}
+      <br /> cerca de mí
+    </Span>
+  </SearchIconText>
+)
+
+const imageTextBlockMaps = [
+  {
+    title: "¿Qué es?",
+    content:
+      "Es una técnica corporal de desarrollo personal, integración afectiva y reparentalización , catalizadora de cambios.",
+    footerComponent: <TopicSearchIconText topic="Biodanza" />,
+    shadow: 'top'
+  },
+  {
+    title: "¿Cómo se desarrolla?",
+    content:
+      "Biodanza propone una danza orgánica que responde a patrones de movimiento que originan la vida. Estos movimientos, acompañados de la música, la voz y las dinámicas grupales tienen un gran poder transformador en la existencia y producen cambios a nivel orgánico, afectivo-motor y existencial."
+  },
+  {
+    title: "¿A quién va dirigido?",
+    content:
+      "Biodanza puede ayudarte si tienes dificultad para establecer vínculos profundos, inseguridad, estados depresivos, angustia, falta de ímpetu vital, estrés, ausencia de motivación existencial o simplemente quieres realizar un cambio,  desarrollar tus potenciales y mejorar tu estado de salud integral."
+  },
+  {
+    title: "¿Con qué objetivo?",
+    content:
+      "Desarrollar potenciales comunicativos, afectivos y vitales que nos conecten con nosotros mismos, con el otro y con la naturaleza.",
+    footerComponent: <TopicSearchIconText topic="Biodanza" />,
+    shadow: 'bottom'
+  },
+  {
+    title: "¿Qué es?",
+    content:
+      "La Biodanza Perinatal te aporta los mismos beneficios que la práctica de Biodanza y además te da la oportunidad de desenvolverte entre iguales, ya que está formado por madres como tú, que tienen bebés o niños pequeños, y coordinados por una especialista, que os dará el punto de vista profesional, en los temas referentes al puerperio y la crianza.",
+    footerComponent: <TopicSearchIconText topic="Biodanza Perinatal" />,
+    shadow: 'top'
+  },
+  {
+    title: "¿Cómo se desarrolla?",
+    content:
+      'El grupo de Biodanza Perinatal "Mamá y yo" es un espacio donde te sentirás segura y apoyada para expresarte, emocionarte y compartir experiencias sobre esta nueva etapa de crianza de tu bebé.'
+  },
+  {
+    title: "¿A quién va dirigido?",
+    content:
+      "A ti, una vez hayas decidido ser madre, te vendrán a la cabeza mil dudas, miedos o curiosidades sobre lo que supone la maternidad y la crianza de tu bebé. Tanto si quieres conocer nuevas formas de relacionarte con tu bebé y cuidarlo, o si necesitas compartir cómo te sientes respecto a tu entorno (tu familia, tus amigos, pareja) desde la llegada del bebé, seguramente formar parte de algo así puede ser de gran ayuda para ti."
+  },
+  {
+    title: "¿Con qué objetivo?",
+    content:
+      "Sentirte acompañada y apoyada en la crianza de tu bebé, aumentar la seguridad y la confianza en ti misma, a través del desarrollo de potenciales afectivos y de comunicación que te conecten contigo misma, con tu bebé y con los demás.",
+    footerComponent: <TopicSearchIconText topic="Biodanza Perinatal" />,
+    shadow: 'bottom'
+  },
+  {
+    title: "¿Qué es?",
+    content:
+      "La Bioenergética es una Terapia Corporal cuyo objetivo es desbloquear las tensiones crónicas y liberar bloqueos energéticos, ocasionados por la represión de emociones en la infancia, y  tomar de conciencia de patrones limitantes que nos impiden vivir plenamente, creando una conexión profunda con nuestro cuerpo.",
+    footerComponent: <TopicSearchIconText topic="Terapia Bioenergética" />,
+    shadow: 'top'
+  },
+  {
+    title: "¿Cómo se desarrolla?",
+    content:
+      'La bioenergética es un conjunto de ejercicios y movimientos sincronizados con la respiración a través de los cuales se destensiona la estructura muscular formada para contener dichas emociones. Estos bloqueos pueden venir desde la infancia, a través de los ejercicios va emergiendo nuestra energía vital progresivamente y, a medida que esto sucede, nuestra energía vital contenida comienza a desplegarse a través de la expresión física y emocional.'
+  },
+  {
+    title: "¿A quién va dirigido?",
+    content:
+      "La Terapia Bioenergética puede ayudarte si tienes dificultad para establecer vínculos profundos,inseguridad, estados depresivos, angustia, falta de ímpetu vital, estrés, ausencia de motivación existencial o simplemente quieres realizar un cambio,  desarrollar tus potenciales y  mejorar tu estado de salud integral."
+  },
+  {
+    title: "¿Con qué objetivo?",
+    content:
+      "Entre los beneficios de la Bioenergética están una gran relajación y alivio para nuestro cuerpo, aumento de la voluntad de vivir y amar y junto con ello, la claridad de lo que es esencial para nuestra vida. La bioenergética proporciona la mirada y una reconexión cuerpo-mente y abre posibilidades de sanar varios problemas como ansiedades, estrés y baja autoestima, entre otras disfunciones.",
+    footerComponent: <TopicSearchIconText topic="Terapia Bioenergética" />,
+    shadow: 'bottom'
+  },
+  {
+    title: "¿Qué es?",
+    content: 'Preparación corporal y sensorial al parto. Fundamentado en conocimientos anatómicos y sensoriales que posibilitan a la mujer embarazada aumentar la confianza y la seguridad para el parto.',
+    footerComponent: <TopicSearchIconText topic="Parto y Movimiento" />,
+    shadow: 'top'
+  },
+  {
+    title: "¿Cómo se desarrolla?",
+    content: "Te proponemos una gran variedad de movimientos, ejercicios y pautas para poder adaptar el cuerpo a los cambios constantes de la gestación, ampliar la confianza en la capacidad respiratoria y de relajación, prevenir molestias y cuidarse en la vida cotidiana. La metodología es muy vivencial, lo que te facilita la adquisición de conocimientos y ayuda a conectarte con la fuerza y seguridad interna. Las sesiones se realizan de forma grupal o individual, con o sin acompañante.",
+  },
+  {
+    title: "¿A quién va dirigido?",
+    content:
+      'Para ti, que estás nueve meses en contacto íntimo con tu hijo o hija y posiblemente deseas comprender y sentir los cambios en tu cuerpo, ir identificando lo que necesitas y poder parir de una forma respetuosa y consciente.'
+  },
+  {
+    title: "¿Con qué objetivo?",
+    content:
+      "Descubrir cómo la movilidad de la pelvis y la fluidez de la respiración pueden ser grandes aliadas durante el parto. Obtener herramientas y estrategias para acompañar las contracciones, contactar con el bebé y acompañarlo a nacer. Experimentar una gran variedad de posiciones y movimientos que podrán facilitar a la pelvis adaptarse, acomodarse y “mecer” al bebé durante la dilatación y el expulsivo, con o sin epidural, individualmente o con acompañante. Aumentar la confianza en el proceso fisiológico de parir.",
+    footerComponent: <TopicSearchIconText topic="Parto y Movimiento" />,
+    shadow: 'bottom'
+  },
+];
+
+let imageTextDataBlockMaps;
+
+const renderBlocks = (dataArr, startIndex, endIndex) =>
+  dataArr.slice(startIndex, endIndex)
+    .map(({ id, fluidSrc, title, content, footerComponent, shadow }) => (
+      <ImageTextBlock
+        key={id}
+        fluidSrc={fluidSrc}
+        shadow={shadow}
+        titleSlot={
+          <H2 textAlign="left" marginTop="0" paddingTop="24px">
+            {title}
+          </H2>
+        }
+        contentSlot={
+          <P textAlign="left" marginBottom="0" paddingBottom="24px">
+            {content}
+          </P>
+        }
+        footerSlot={footerComponent}
+      />
+    ))
+
+const IndexPage = ({ data }) => {
+  const imageTextDataBlockMaps = data.allFile.nodes.map((node, i) =>
+    ({
+      ...imageTextBlockMaps[i],
+      key: node.id,
+      fluidSrc: node.childImageSharp.fluid
+    })
+  )
+
   return (
     <Layout>
       <Page>
-        <section>
-          <img src={jumpImg} alt="Gente saltando." />
-          <TextContainer>
-            <Title>PSICOPEDAGOGÍA CORPORAL</Title>
-            <br />
-            <Quote>
-              La Psique de una persona y su musculatura voluntaria son funcionalmente equivalentes
-            <br />
-              Whilhem Reich
-            </Quote>
-          </TextContainer>
-        </section>
+        <LimitedContainer>
+          <Logo src={logoWhite} />
+          <LogoSubtitle>Psicopedagogía corporal</LogoSubtitle>
+          <ContactBlock bold={true} />
+          <H1 marginTop="170px">Servicios</H1>
+          <P textAlign="left" marginTop="50px">
+            Acompañamiento en momentos de transformación y cambios vitales,
+            creando espacios donde la persona se sienta, escuchada, atendida y
+            comprendida, promoviendo el auto-conocimiento y el desarrollo de
+            capacidades y recursos personales, a través de técnicas
+            psico-corporales.
+          </P>
+        </LimitedContainer>
+        <Foldable title="Biodanza" folded >
+          {renderBlocks(imageTextDataBlockMaps, 0, 4)}
+        </Foldable>
+        <Foldable title="Biodanza Perinatal" folded >
+          {renderBlocks(imageTextDataBlockMaps, 4, 8)}
+        </Foldable>
+        <Foldable title="Terapia Bioenergética" folded >
+          {renderBlocks(imageTextDataBlockMaps, 8, 12)}
+        </Foldable>
+        <Foldable title="Parto y Movimiento" folded >
+          {renderBlocks(imageTextDataBlockMaps, 12, 16)}
+        </Foldable>
       </Page>
     </Layout>
   )
-}
+};
 
-export const query = graphql`
+export const queryHello = graphql`
   query {
-    allFile(filter: {name: {regex: "index/biodanza-\\\\d+/"}}, sort: {fields: relativePath}) {
+      allFile(filter: {relativeDirectory: {eq: "index"}}, sort: {fields: name}) {
       nodes {
-        id,
+        id
         childImageSharp {
           fluid(maxWidth: 1200) {
             # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
@@ -62,6 +213,6 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
-export default IndexPage
+export default IndexPage;
