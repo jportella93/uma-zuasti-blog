@@ -9,7 +9,7 @@ const Separator = styled.div`
 
 const SearchIconText = ({ link, children }) => (
   <Link to={link}>
-    <img src={SearchIcon} />
+    <img alt="search" src={SearchIcon} />
     <br />
     {children}
     <Separator />
