@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 import { palette } from '../components/constants';
-import { A } from '../components/TextStyles';
+import { Span } from '../components/TextStyles';
 import mailRedSrc from '../img/mail-red.svg';
 import mailWhiteSrc from '../img/mail-white.svg';
 import phoneRedSrc from '../img/phone-red.svg';
@@ -42,7 +42,7 @@ const ContactItemImg = styled.img`
   margin-right: 14px;
 `
 
-const MenuItem = styled(A)`
+const MenuItem = styled(Span)`
   font-weight: ${({ bold }) => bold && 'bold'};
 `
 
