@@ -10,6 +10,7 @@ import routes from "../components/routes";
 import SearchIconText from '../components/SearchIconText';
 import { H1, H2, H4, P, Span } from "../components/TextStyles";
 import logoWhite from "../img/logo-white.svg";
+import titleToSnakeCase from "../components/titleToSnakeCase";
 
 const Logo = styled.img`
   margin-top: 150px;
@@ -22,7 +23,7 @@ const LogoSubtitle = styled(H4)`
 `;
 
 const TopicSearchIconText = ({ topic }) => (
-  <SearchIconText link={routes.get(topic.replace('é', 'e').split(' ').join('-').toLowerCase())}>
+  <SearchIconText link={routes.get(titleToSnakeCase(topic))}>
     <Span marginBottom="8px" textDecoration="underline">
       Sesiones de {topic}
       <br /> cerca de mí
