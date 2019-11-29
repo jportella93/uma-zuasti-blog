@@ -1,7 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { palette } from "../components/constants";
 import ContactBlock from "../components/ContactBlock";
 import { LimitedContainer } from "../components/Containers";
 import Foldable from "../components/Foldable";
@@ -11,12 +10,6 @@ import routes from "../components/routes";
 import SearchIconText from '../components/SearchIconText';
 import { H1, H2, H4, P, Span } from "../components/TextStyles";
 import logoWhite from "../img/logo-white.svg";
-
-const Page = styled.div`
-  position: relative;
-  background-color: ${palette.red};
-  text-align: center;
-`;
 
 const Logo = styled.img`
   margin-top: 150px;
@@ -134,8 +127,6 @@ const imageTextBlockMaps = [
   },
 ];
 
-let imageTextDataBlockMaps;
-
 const renderBlocks = (dataArr, startIndex, endIndex) =>
   dataArr.slice(startIndex, endIndex)
     .map(({ id, fluidSrc, title, content, footerComponent, shadow }) => (
@@ -168,33 +159,31 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <Page>
-        <LimitedContainer>
-          <Logo src={logoWhite} />
-          <LogoSubtitle>Psicopedagogía corporal</LogoSubtitle>
-          <ContactBlock bold={true} />
-          <H1 marginTop="170px">Servicios</H1>
-          <P textAlign="left" marginTop="50px">
-            Acompañamiento en momentos de transformación y cambios vitales,
-            creando espacios donde la persona se sienta, escuchada, atendida y
-            comprendida, promoviendo el auto-conocimiento y el desarrollo de
-            capacidades y recursos personales, a través de técnicas
-            psico-corporales.
+      <LimitedContainer>
+        <Logo src={logoWhite} />
+        <LogoSubtitle>Psicopedagogía corporal</LogoSubtitle>
+        <ContactBlock bold={true} />
+        <H1 marginTop="170px">Servicios</H1>
+        <P textAlign="left" marginTop="50px">
+          Acompañamiento en momentos de transformación y cambios vitales,
+          creando espacios donde la persona se sienta, escuchada, atendida y
+          comprendida, promoviendo el auto-conocimiento y el desarrollo de
+          capacidades y recursos personales, a través de técnicas
+          psico-corporales.
           </P>
-        </LimitedContainer>
-        <Foldable title="Biodanza" folded >
-          {renderBlocks(imageTextDataBlockMaps, 0, 4)}
-        </Foldable>
-        <Foldable title="Biodanza Perinatal" folded >
-          {renderBlocks(imageTextDataBlockMaps, 4, 8)}
-        </Foldable>
-        <Foldable title="Terapia Bioenergética" folded >
-          {renderBlocks(imageTextDataBlockMaps, 8, 12)}
-        </Foldable>
-        <Foldable title="Parto y Movimiento" folded >
-          {renderBlocks(imageTextDataBlockMaps, 12, 16)}
-        </Foldable>
-      </Page>
+      </LimitedContainer>
+      <Foldable title="Biodanza" folded >
+        {renderBlocks(imageTextDataBlockMaps, 0, 4)}
+      </Foldable>
+      <Foldable title="Biodanza Perinatal" folded >
+        {renderBlocks(imageTextDataBlockMaps, 4, 8)}
+      </Foldable>
+      <Foldable title="Terapia Bioenergética" folded >
+        {renderBlocks(imageTextDataBlockMaps, 8, 12)}
+      </Foldable>
+      <Foldable title="Parto y Movimiento" folded >
+        {renderBlocks(imageTextDataBlockMaps, 12, 16)}
+      </Foldable>
     </Layout>
   )
 };
