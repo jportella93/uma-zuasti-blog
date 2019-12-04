@@ -6,15 +6,161 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: publicaciones
+    label: Publicaciones
+    folder: src/pages/publicaciones
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: blog-post
+
+      - label: Título
+        name: title
+        widget: string
+        hint: Titulo del artículo
+
+      - label: Fecha de publicación
+        name: date
+        widget: datetime
+        hint: Cuando se publicará en la web
+
+      - label: Imagen
+        name: featuredImage
+        widget: image
+        allow_multiple: false
+        hint: Imagen que se muestra en la miniatura
+
+      - label: Tema
+        name: productType
+        widget: "select"
+        options:
+          - label: "Biodanza"
+            value: "bioanza"
+
+          - label: "Biodanza Perinatal"
+            value: "bioanza-perinatal"
+
+          - label: "Terapia Bioenergética"
+            value: "bioeneregetica"
+
+          - label: "Parto y Movimiento"
+            value: "parto-y-movimiento"
+
+          - label: "Otro"
+            value: "other"
+
+        hint: Tema del artículo
+
+      - label: Descripción
+        name: description
+        widget: text
+        hint: Descripcion que se muestra bajo la imagen en la miniatura.
+
+      - label: Contenido
+        name: body
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-one
+          - heading-two
+          - heading-three
+          - heading-four
+          - heading-five
+          - heading-six
+          - quote
+          - bulleted-list
+          - numbered-list
+        hint: Contenido del artículo mostrado en la vista expandida
+
+
+  - name: 'clases-y-talleres'
+    label: Clases y talleres
+    folder: src/pages/clases-y-talleres
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: workshop
+
+      - label: Título
+        name: title
+        widget: string
+        hint: Titulo de la clase o taller
+
+      - label: Fecha de publicación
+        name: date
+        widget: datetime
+        hint: Cuando se publicará en la web
+
+      - label: Imagen
+        name: featuredImage
+        widget: image
+        allow_multiple: false
+        hint: Imagen que se muestra en la miniatura
+
+      - label: Fechas
+        name: eventDates
+        widget: string
+        hint: Fecha/s de la clase o taller
+
+      - label: Lugar
+        name: eventPlace
+        widget: string
+        hint: Lugar/es donde se desarrolla la clase o taller
+
+      - label: Tema
+        name: productType
+        widget: "select"
+        options:
+          - label: "Biodanza"
+            value: "bioanza"
+
+          - label: "Biodanza Perinatal"
+            value: "bioanza-perinatal"
+
+          - label: "Terapia Bioenergética"
+            value: "bioeneregetica"
+
+          - label: "Parto y Movimiento"
+            value: "parto-y-movimiento"
+
+          - label: "Otro"
+            value: "other"
+
+        hint: Tema de la clase o taller
+
+      - label: Descripción
+        name: description
+        widget: text
+        required: false
+        hint: (Opcional) Descripcion que se muestra bajo la imagen en la miniatura.
+
+      - label: Contenido
+        name: body
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-one
+          - heading-two
+          - heading-three
+          - heading-four
+          - heading-five
+          - heading-six
+          - quote
+          - bulleted-list
+          - numbered-list
+        hint: Contenido de la clase o taller mostrado en la vista expandida
+
+      - label: Fecha de caducidad
+        name: expirationDate
+        widget: datetime
+        hint: Cuando se moverá a "clases y talleres pasados"
