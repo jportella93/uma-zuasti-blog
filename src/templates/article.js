@@ -1,11 +1,12 @@
-import { graphql } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
+import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import Content, { HTMLContent } from '../components/Content'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Content, { HTMLContent } from '../components/Content'
 
-export const ClasesYTalleresPostTemplate = ({
+export const ArticleTemplate = ({
   content,
   contentComponent,
   description,
@@ -26,6 +27,18 @@ export const ClasesYTalleresPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            {tags && tags.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>Tags</h4>
+                <ul className="taglist">
+                  {tags.map(tag => (
+                    <li key={tag + `tag`}>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
@@ -33,7 +46,7 @@ export const ClasesYTalleresPostTemplate = ({
   )
 }
 
-ClasesYTalleresPostTemplate.propTypes = {
+ArticleTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -41,16 +54,16 @@ ClasesYTalleresPostTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 }
 
-const ClasesYTalleres = ({ data }) => {
+const Article = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ClasesYTalleresPostTemplate
+      <ArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={<Helmet title={`${post.frontmatter.title} | Clases y talleres`} />}
+        helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -58,16 +71,16 @@ const ClasesYTalleres = ({ data }) => {
   )
 }
 
-ClasesYTalleres.propTypes = {
+Article.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default ClasesYTalleres
+export default Article
 
 export const pageQuery = graphql`
-  query ClasesYTalleres($id: String!) {
+  query ArticleByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -75,6 +88,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        tags
       }
     }
   }
