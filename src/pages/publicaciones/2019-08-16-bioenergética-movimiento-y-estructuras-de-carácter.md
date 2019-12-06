@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: 'Bioenergética, Movimiento y Estructuras de Carácter'
 date: 2019-08-16T14:19:59.055Z
 description: Ciclo de Talleres Psicocorporales 2019/20

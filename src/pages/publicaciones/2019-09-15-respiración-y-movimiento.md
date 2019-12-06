@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Respiración y Movimiento
 date: 2019-09-15T17:19:42.001Z
 description: >-
@@ -31,7 +31,7 @@ La respiración se ubica como cauce natural que alimenta nuestro cuerpo, dándol
 
 Hay momentos en los que podemos encontrarla sensible al contagio,
 
- ¿Qué sucede cuando estoy cerca de otra persona y sin darnos cuenta acabamos respirando en un ritmo compartido? 
+ ¿Qué sucede cuando estoy cerca de otra persona y sin darnos cuenta acabamos respirando en un ritmo compartido?
 
 Podríamos pensar que también en la respiración hay comunicación. Cómo la frecuencia, profundidad y ritmo se acompasan cuando entro en sintonía con otro,cuando me sensibilizo en un presente compartido. Al sentir la respiración del otro en tanto siento la propia, se crea algo íntimo. Es esa situación singular compartida, la que nos une en una misma sintonía. Allí podemos celebrar el sentirnos modificadas por nuestra respiración y la de otro, creando algo nuevo donde ya no existe lo propio o lo ajeno, sino una nueva construcción.
 

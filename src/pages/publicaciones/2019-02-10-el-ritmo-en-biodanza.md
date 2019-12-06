@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: El ritmo en Biodanza
 date: 2019-02-10T14:44:56.764Z
 description: >-

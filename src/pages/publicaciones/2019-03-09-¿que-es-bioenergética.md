@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: ¿Que es Bioenergética?
 date: 2019-03-09T13:47:21.155Z
 description: >-

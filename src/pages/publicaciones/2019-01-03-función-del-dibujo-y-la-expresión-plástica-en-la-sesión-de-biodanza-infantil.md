@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: 'Función del dibujo y la expresión plástica en la sesión de Biodanza Infantil '
 date: 2019-01-03T12:52:42.729Z
 description: >-

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Biodanza para parejas gestantes
 date: 2018-12-30T16:14:16.684Z
 description: >-

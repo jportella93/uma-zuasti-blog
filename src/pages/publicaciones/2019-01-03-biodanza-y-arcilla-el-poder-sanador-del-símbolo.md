@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Biodanza y Arcilla;El poder sanador del Símbolo.
 date: 2019-01-03T12:01:19.126Z
 description: Elaboración del símobolo de reconciliación.

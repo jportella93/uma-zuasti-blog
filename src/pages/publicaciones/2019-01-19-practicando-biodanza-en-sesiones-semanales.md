@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Practicando Biodanza en sesiones semanales
 date: 2019-01-19T21:47:52.027Z
 description: >-

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: EDUCACIÓN BIOCÉNTRICA
 date: 2019-01-03T13:59:18.677Z
 description: >-

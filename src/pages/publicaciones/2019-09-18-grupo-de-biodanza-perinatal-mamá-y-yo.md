@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: ' Grupo de Biodanza Perinatal "Mamá y yo"'
 date: 2019-09-18T18:45:07.664Z
 description: >-
