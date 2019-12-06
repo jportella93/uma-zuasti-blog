@@ -3,7 +3,7 @@ templateKey: article
 title: Ejemplo de artículo
 date: 2019-12-06T15:48:46.021Z
 featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
-productType: bioanza
+productType: biodanza
 description: Esto es un ejemplo de artículo y esta es la descripción.
 ---
 Acerca del Movimiento No hay vida sin movimiento. El no movimiento implica lo inorgánico o la muerte. Somos seres auto-movientes. Nos movemos desde una fuerza interior que nos impulsa. En este sentido somos autónomos. También nos pueden mover como a cualquier otro tipo de cuerpo. Llegamos a decidir algunos de nuestros movimientos a la vez que somos movidos, por las fuerzas del “ello”.
