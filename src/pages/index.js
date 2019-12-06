@@ -150,7 +150,7 @@ const renderBlocks = (dataArr, startIndex, endIndex) =>
     ))
 
 const IndexPage = ({ data }) => {
-  const imageTextDataBlockMaps = data.allFile.nodes.map((node, i) =>
+  const imageTextDataBlockMaps = data.images.nodes.map((node, i) =>
     ({
       ...imageTextBlockMaps[i],
       key: node.id,
@@ -189,12 +189,12 @@ const IndexPage = ({ data }) => {
   )
 };
 
-export const queryHello = graphql`
+export const query = graphql`
   query {
-      allFile(filter: {relativeDirectory: {eq: "index"}}, sort: {fields: name}) {
-      nodes {
-        ...Fluid1200
-      }
+      images: allFile(filter: {relativeDirectory: {eq: "index"}}, sort: {fields: name}) {
+        nodes {
+          ...Fluid1200
+        }
     }
   }
 `;
