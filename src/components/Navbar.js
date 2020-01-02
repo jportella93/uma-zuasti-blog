@@ -23,8 +23,10 @@ const Hamburguer = styled.button`
 const HamburguerBars = styled.span`
 &, :before, :after {
   transition: background-color 1s ease;
-  background-color: ${props => props.isMenuOpen ?
-    palette.red : palette.white} !important;
+  background-color: ${({isMenuOpen, navbarColor}) => {
+    if (navbarColor) return navbarColor;
+    return isMenuOpen ? palette.red : palette.white
+  }} !important;
 }
 `
 
@@ -101,7 +103,7 @@ const getSubmenuItems = () => {
   return items
 }
 
-const Navbar = () => {
+const Navbar = ({navbarColor}) => {
   const [isMenuOpen, setMenuOpen] = React.useState(false);
 
   const submenuItems = getSubmenuItems();
@@ -113,7 +115,10 @@ const Navbar = () => {
         onClick={() => setMenuOpen(!isMenuOpen)}
         type="button">
         <span className="hamburger-box">
-          <HamburguerBars isMenuOpen={isMenuOpen} className="hamburger-inner"></HamburguerBars>
+          <HamburguerBars
+          navbarColor={navbarColor}
+          isMenuOpen={isMenuOpen}
+          className="hamburger-inner"></HamburguerBars>
         </span>
       </Hamburguer>
 

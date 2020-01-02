@@ -4,14 +4,14 @@ import Navbar from '../components/Navbar'
 import Page from '../components/Page'
 import './all.sass'
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children, bgColor, navbarColor }) => (
   <>
     <Helmet title="Uma Zuasti" />
-    <Navbar />
-    <Page>
+    <Navbar navbarColor={navbarColor} />
+    <Page bgColor={bgColor}>
       {children}
     </Page>
   </>
 )
 
-export default TemplateWrapper
+export default Layout
