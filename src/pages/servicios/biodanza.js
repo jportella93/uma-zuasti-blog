@@ -1,74 +1,110 @@
-import {graphql} from 'gatsby'
-import React from 'react'
-import Helmet from 'react-helmet'
-import BlogPostCard from '../../components/BlogPostCard'
-import {LimitedContainer} from '../../components/Containers'
-import Layout from '../../components/Layout'
-import {A, H1, H2, P} from '../../components/TextStyles.js'
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import React from 'react';
+import Helmet from 'react-helmet';
+import styled from 'styled-components';
+import { LimitedContainer } from '../../components/Containers';
+import Foldable from '../../components/Foldable';
+import ImageTextBlock from '../../components/ImageTextBlock';
+import Layout from '../../components/Layout';
+import { A, H1, H2 } from '../../components/TextStyles.js';
 
-const BiodanzaView = ({data}) => {
-  const title = data.site.siteMetadata.title
-  const {edges: posts} = data.allMarkdownRemark
-  let talleres = [], blogPosts = [];
-  posts.forEach(post => {
-    post.node.frontmatter.tags.includes('Taller') ||
-      post.node.frontmatter.tags.includes('Talleres') ?
-      talleres.push(post) : blogPosts.push(post);
-  })
+const Title = styled(H1)`
+  margin: 0 auto;
+  padding: 32px 0 16px;
+`
+
+const FeaturedImage = styled(Img)`
+  margin-bottom: 80px;
+`
+
+const MoreInfoLink = styled(A)`
+  text-decoration: underline;
+`
+
+const BiodanzaView = ({ data }) => {
+  console.log('---->: BiodanzaView -> data', data)
+  const { workshopsQ, articlesQ, featuredImageQ } = data;
+  const { edges: workshops } = workshopsQ;
+  const { edges: articles } = articlesQ;
+  const { fluid } = featuredImageQ.childImageSharp
 
   return (
     <Layout>
-      <Helmet title={`Biodanza | ${title}`} />
-      <LimitedContainer verticalPadding={true}>
-        <H1>Biodanza</H1>
-        <H2>Próximos talleres:</H2>
-        {talleres
-          .map(({node: post}) => (
-            <P key={post.id}>
-              <A
-                to={post.fields.slug}>
-                {post.frontmatter.title}
-              </A>
-            </P>
-          ))}
-        <H2>Artículos sobre Biodanza:</H2>
-        {
-          posts
-            .map(({node: post}) => (
-              <BlogPostCard key={post.id} post={post} />
-            ))
-        }
+      <Helmet title='Biodanza' />
+      <LimitedContainer>
+        <Title>Biodanza</Title>
       </LimitedContainer>
+      <FeaturedImage fluid={fluid} />
+      <Foldable title="Próximos talleres" >
+        {workshops
+          .map(({ node: post }, i, workshops) => (
+            // <>
+            <ImageTextBlock
+              key={post.id}
+              imgSrc={post.frontmatter.featuredImage}
+              imgLink={post.fields.slug}
+              shadow={'top'}
+              contentSlot={
+                <H2 textAlign="left" marginTop="0" paddingTop="24px">
+                  <b>{post.frontmatter.title}</b><br />
+                  {post.frontmatter.eventPlace && <>{post.frontmatter.eventPlace}<br /></>}
+                  {post.frontmatter.eventDates && <>{post.frontmatter.eventDates}<br /></>}
+                </H2>
+              }
+              footerSlot={(
+                <MoreInfoLink to={post.fields.slug}>
+                  <H2 textAlign="left">Más info -></H2>
+                </MoreInfoLink>
+              )}
+            />
+          ))}
+      </Foldable>
+      <Foldable title="Publicaciones">
+        {articles
+          .map(({ node: post }, i, articles) => (
+            // <>
+            <ImageTextBlock
+              key={post.id}
+              imgSrc={post.frontmatter.featuredImage}
+              imgLink={post.fields.slug}
+              shadow={'top'}
+              contentSlot={
+                <H2 textAlign="left" marginTop="0" paddingTop="24px">
+                  <b>{post.frontmatter.title}</b><br />
+                  {post.frontmatter.description && <>{post.frontmatter.description}<br /></>}
+                </H2>
+              }
+              footerSlot={(
+                <MoreInfoLink to={post.fields.slug}>
+                  <H2 textAlign="left">Leer más -></H2>
+                </MoreInfoLink>
+              )}
+            />
+          ))}
+      </Foldable>
     </Layout>
   )
 }
 
 export const pageQuery = graphql`
-  query BiodanzaView {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" }, tags: {in: "Biodanza"} }}
-    ) {
+  query {
+    workshopsQ: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: { templateKey: {eq: "workshop"} productType: {eq: "biodanza"}}}) {
       edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            tags
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
+        node{
+          ...Article
         }
       }
+    }
+    articlesQ: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {templateKey: {eq: "article"} productType: {eq: "biodanza"}}}) {
+      edges {
+        node{
+          ...Article
+        }
+      }
+    }
+    featuredImageQ: file(name: {eq: "1-biodanza-1"}) {
+      ...Fluid1200
     }
 }
 `
