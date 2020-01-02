@@ -12,7 +12,7 @@ Acerca del Movimiento No hay vida sin movimiento. El no movimiento implica lo in
 
 ![](/img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg)
 
-Acerca de los supuestos básicos que sustentan Biodanza como práctica.
+##Acerca de los supuestos básicos que sustentan Biodanza como práctica.
 
 1. el movimiento es vida
 2. la Danza es comunicación.

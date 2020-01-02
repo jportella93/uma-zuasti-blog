@@ -1,13 +1,13 @@
 ---
-templateKey: article
+templateKey: workshop
 title: 'Taller Intensivo Biodanza, "Crear , Crearte"'
+productType: biodanza
 date: 2019-01-03T11:46:03.105Z
 description: Laboratorio de Creatividad.
-tags:
-  - Talleres
-  - Creatividad
-  - Tarragona
-  - Biodanza
+featuredImage: /img/taller-intensivo-biodanza.jpg
+eventDates: Sábado 26 de Enero 17:00 a 20:30h
+eventPlace: 'Shangri-la Salud, Carrer dels Banys, 17 Reus'
+expirationDate: 2020-01-26T07:36:03.763Z
 ---
 La curiosidad es tal vez la llave maestra del proceso creativo, animarse a probar diferentes propuestas como un niñ@ a quien no le preocupa el resultado final, si no simplemente el disfrutar del juego, y poco a poco a través del trabajo creativo vamos a ir abriendo el camino hacia la expresión de nuestro mundo interior.
 
