@@ -11,3 +11,37 @@ export const Fluid1200 = graphql`
     }
   }
 `
+
+export const Article = graphql`
+  fragment Article on MarkdownRemark {
+    id
+    fields {
+      slug
+    }
+    frontmatter {
+      title
+      description
+      productType
+      featuredImage
+      date(formatString: "MMMM DD, YYYY")
+    }
+  }
+`
+
+export const Workshop = graphql`
+  fragment Workshop on MarkdownRemark {
+    id
+    fields {
+      slug
+    }
+    frontmatter {
+      title
+      description
+      featuredImage
+      eventDates
+      eventPlace
+      expirationDate
+      date(formatString: "MMMM DD, YYYY")
+    }
+  }
+`
