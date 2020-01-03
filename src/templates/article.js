@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
-import { LimitedContainer } from '../components/Containers';
+import { palette } from '../components/constants';
+import { BlogLimitedContainer } from '../components/Containers';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
-import { palette } from '../components/constants';
 
 export const ArticleTemplate = ({
   content,
@@ -38,12 +38,15 @@ ArticleTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 }
 
-const ArticleContainer = styled(LimitedContainer)`
-  padding-top: 40px;
-  padding-bottom: 40px;
+const BordersContainer = styled.div`
   border-top: 10px solid ${palette.red};
   border-bottom: 10px solid ${palette.red};
-  text-align: unset;
+`
+
+const ArticleContainer = styled(BlogLimitedContainer)`
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: left;
 `
 
 const Article = ({ data }) => {
@@ -54,16 +57,18 @@ const Article = ({ data }) => {
       bgColor={palette.white}
       navbarColor={palette.red}
     >
-      <ArticleContainer>
-        <ArticleTemplate
-          content={post.html}
-          contentComponent={HTMLContent}
-          description={post.frontmatter.description}
-          helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
-          tags={post.frontmatter.tags}
-          title={post.frontmatter.title}
-        />
-      </ArticleContainer>
+      <BordersContainer>
+        <ArticleContainer>
+          <ArticleTemplate
+            content={post.html}
+            contentComponent={HTMLContent}
+            description={post.frontmatter.description}
+            helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+            tags={post.frontmatter.tags}
+            title={post.frontmatter.title}
+          />
+        </ArticleContainer>
+      </BordersContainer>
     </Layout>
   )
 }
