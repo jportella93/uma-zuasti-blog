@@ -7,6 +7,8 @@ export const BasicContainer = styled.div`
 export const LimitedContainer = styled(BasicContainer)`
   @media (min-width: 768px) {
     max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
   }
 `
 
