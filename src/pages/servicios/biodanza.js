@@ -24,8 +24,15 @@ const MoreInfoText = styled(H2)`
   text-align: left;
 `
 
+function getShadowPosition(length, i) {
+  const isFirst = i === 0;
+  const isLast = i + 1 === length;
+  if (isFirst && isLast) return 'both';
+  if (isFirst) return 'top';
+  if (isLast) return 'bottom';
+}
+
 const BiodanzaView = ({ data }) => {
-  console.log('---->: BiodanzaView -> data', data)
   const { workshopsQ, articlesQ, featuredImageQ } = data;
   const { edges: workshops } = workshopsQ;
   const { edges: articles } = articlesQ;
@@ -41,12 +48,11 @@ const BiodanzaView = ({ data }) => {
       <Foldable title="Próximos talleres" >
         {workshops
           .map(({ node: post }, i, workshops) => (
-            // <>
             <ImageTextBlock
               key={post.id}
               imgSrc={post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
-              shadow={'top'}
+              shadow={getShadowPosition(workshops.length, i)}
               shorter
               contentSlot={
                 <H2 textAlign="left" marginTop="0" paddingTop="24px">
@@ -71,7 +77,7 @@ const BiodanzaView = ({ data }) => {
               key={post.id}
               imgSrc={post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
-              shadow={'top'}
+              shadow={getShadowPosition(articles.length, i)}
               shorter
               contentSlot={
                 <H2 textAlign="left" marginTop="0" paddingTop="24px">

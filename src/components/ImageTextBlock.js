@@ -37,19 +37,21 @@ const ImageTextBlock = ({
   shadow,
   shorter
 }) => {
+  const hasTopShadow = shadow === 'top' || shadow === 'both';
+  const hasBottomShadow = shadow === 'bottom' || shadow === 'both';
 
   let imgComponent;
   if (fluidSrc) {
     imgComponent = (
       <FluidImgContainer
         fluid={fluidSrc}
-        shadow={shadow === 'top'} />
+        shadow={hasTopShadow} />
     )
   } else if (imgSrc) {
     imgComponent = (
       <ImgContainer
         src={imgSrc}
-        shadow={shadow === 'top'} />
+        shadow={hasTopShadow} />
     )
   }
 
@@ -63,7 +65,7 @@ const ImageTextBlock = ({
     <React.Fragment>
       {imageBlock}
       <BackgroundContainer
-        shadow={shadow === 'bottom'}
+        shadow={hasBottomShadow}
         shorter={shorter}
       >
         {titleSlot}
