@@ -8,6 +8,7 @@ import { A } from "./TextStyles";
 const BackgroundContainer = styled(LimitedContainer)`
   background-color: ${palette.darkRed};
   box-shadow: ${({ shadow }) => shadow && 'inset 0px -6px 10px rgba(0, 0, 0, 0.3);'};
+  ${({shorter}) => shorter && 'margin: -12px auto'}
 `;
 
 const imgContainerStyle = css`
@@ -33,7 +34,8 @@ const ImageTextBlock = ({
   titleSlot,
   contentSlot,
   footerSlot,
-  shadow
+  shadow,
+  shorter
 }) => {
 
   let imgComponent;
@@ -61,7 +63,9 @@ const ImageTextBlock = ({
     <React.Fragment>
       {imageBlock}
       <BackgroundContainer
-        shadow={shadow === 'bottom'}>
+        shadow={shadow === 'bottom'}
+        shorter={shorter}
+      >
         {titleSlot}
         {contentSlot}
         {footerSlot}

@@ -18,8 +18,10 @@ const FeaturedImage = styled(Img)`
   margin-bottom: 80px;
 `
 
-const MoreInfoLink = styled(A)`
+const MoreInfoText = styled(H2)`
   text-decoration: underline;
+  padding-bottom: 32px;
+  text-align: left;
 `
 
 const BiodanzaView = ({ data }) => {
@@ -45,6 +47,7 @@ const BiodanzaView = ({ data }) => {
               imgSrc={post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
               shadow={'top'}
+              shorter
               contentSlot={
                 <H2 textAlign="left" marginTop="0" paddingTop="24px">
                   <b>{post.frontmatter.title}</b><br />
@@ -53,9 +56,9 @@ const BiodanzaView = ({ data }) => {
                 </H2>
               }
               footerSlot={(
-                <MoreInfoLink to={post.fields.slug}>
-                  <H2 textAlign="left">Más info -></H2>
-                </MoreInfoLink>
+                <A to={post.fields.slug}>
+                  <MoreInfoText>Más info -></MoreInfoText>
+                </A>
               )}
             />
           ))}
@@ -69,6 +72,7 @@ const BiodanzaView = ({ data }) => {
               imgSrc={post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
               shadow={'top'}
+              shorter
               contentSlot={
                 <H2 textAlign="left" marginTop="0" paddingTop="24px">
                   <b>{post.frontmatter.title}</b><br />
@@ -76,9 +80,9 @@ const BiodanzaView = ({ data }) => {
                 </H2>
               }
               footerSlot={(
-                <MoreInfoLink to={post.fields.slug}>
-                  <H2 textAlign="left">Leer más -></H2>
-                </MoreInfoLink>
+                <A to={post.fields.slug}>
+                  <MoreInfoText>Leer más -></MoreInfoText>
+                </A>
               )}
             />
           ))}
