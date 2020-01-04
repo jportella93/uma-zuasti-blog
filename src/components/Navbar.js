@@ -11,9 +11,9 @@ const navbarZIndex = 50;
 
 const Hamburguer = styled.button`
   position: fixed;
-  /* TODO: Fix this transition */
-  transition: all 1s ease;
+  transition: all 0.3s ease;
   top: ${({ isHidden }) => isHidden ? '-60px' : '0px'};
+  opacity: ${({ isHidden }) => isHidden ? '0' : '1'};
   right: 0;
   z-index: ${navbarZIndex + 1};
   outline: none !important;
