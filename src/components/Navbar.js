@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { palette } from '../components/constants'
 import routes from '../components/routes'
 import { A } from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
 import ContactBlock from './ContactBlock'
+import _throttle from 'lodash/throttle'
 
 const navbarZIndex = 50;
 
 const Hamburguer = styled.button`
   position: fixed;
-  top: 0;
+  /* TODO: Fix this transition */
+  transition: all 1s ease;
+  top: ${({ isHidden }) => isHidden ? '-60px' : '0px'};
   right: 0;
   z-index: ${navbarZIndex + 1};
   outline: none !important;
@@ -23,7 +26,7 @@ const Hamburguer = styled.button`
 const HamburguerBars = styled.span`
 &, :before, :after {
   transition: background-color 1s ease;
-  background-color: ${({isMenuOpen, navbarColor}) => {
+  background-color: ${({ isMenuOpen, navbarColor }) => {
     if (navbarColor) return navbarColor;
     return isMenuOpen ? palette.red : palette.white
   }} !important;
@@ -103,22 +106,63 @@ const getSubmenuItems = () => {
   return items
 }
 
-const Navbar = ({navbarColor}) => {
+const getCurrentScrollPosition = () => window.scrollY;
+
+function getScrollDirection(lastPosition) {
+  const newScrollPosition = getCurrentScrollPosition();
+  return lastPosition > newScrollPosition
+    ? 'up'
+    : 'down'
+}
+
+function hideNavbarIfNeeded(direction, hiddingFn, isMenuOpen, isNavbarHidden) {
+  if (isMenuOpen) return;
+  if (direction === 'up' && isNavbarHidden) {
+    hiddingFn(false);
+    return;
+  }
+  if (direction === 'down' && !isNavbarHidden) {
+    hiddingFn(true);
+    return;
+  }
+}
+
+const Navbar = ({ navbarColor }) => {
   const [isMenuOpen, setMenuOpen] = React.useState(false);
+  const [isNavbarHidden, setNavbarHidden] = React.useState(false);
 
   const submenuItems = getSubmenuItems();
+
+  useEffect(() => {
+    let lastScrollPosition = getCurrentScrollPosition();
+
+    function handleScroll() {
+      const scrollDirection = getScrollDirection(lastScrollPosition)
+      hideNavbarIfNeeded(scrollDirection, setNavbarHidden, isMenuOpen, isNavbarHidden)
+      lastScrollPosition = getCurrentScrollPosition();
+    }
+
+    const throttledHandleScroll = _throttle(handleScroll, 250)
+
+    document.addEventListener('scroll', throttledHandleScroll);
+
+    return () => {
+      document.removeEventListener('scroll', throttledHandleScroll);
+    };
+  });
 
   return (
     <>
       <Hamburguer
+        isHidden={isNavbarHidden}
         className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
         onClick={() => setMenuOpen(!isMenuOpen)}
         type="button">
         <span className="hamburger-box">
           <HamburguerBars
-          navbarColor={navbarColor}
-          isMenuOpen={isMenuOpen}
-          className="hamburger-inner"></HamburguerBars>
+            navbarColor={navbarColor}
+            isMenuOpen={isMenuOpen}
+            className="hamburger-inner"></HamburguerBars>
         </span>
       </Hamburguer>
 
@@ -126,7 +170,7 @@ const Navbar = ({navbarColor}) => {
         <NavbarLinksContainer>
 
           <LogoImgLink to={routes.get('home')}>
-            <img src={logoRed} alt="Uma Zuasti logo."/>
+            <img src={logoRed} alt="Uma Zuasti logo." />
           </LogoImgLink>
 
           <FirstNavbarLinksBlock>
