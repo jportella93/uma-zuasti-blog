@@ -1,11 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
-import styled from "styled-components";
 import SearchIcon from "../img/search-white.svg";
-
-const Separator = styled.div`
-  padding-bottom: 24px;
-`
+import Separator from "./Separator";
 
 const SearchIconText = ({ link, children }) => (
   <>
@@ -14,7 +10,7 @@ const SearchIconText = ({ link, children }) => (
       <br />
       {children}
     </Link>
-    <Separator />
+    <Separator height="24px" />
   </>
 );
 
