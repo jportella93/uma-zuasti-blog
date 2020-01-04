@@ -13,6 +13,10 @@ const transition = css`
 const TopBar = styled(UnstyledButton)`
   display: flex;
   padding: 8px 0;
+
+  &:focus {
+    outline: none;
+  }
 `
 
 const FoldablePart = styled.div`
