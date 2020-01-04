@@ -8,12 +8,14 @@ const Separator = styled.div`
 `
 
 const SearchIconText = ({ link, children }) => (
-  <Link to={link}>
-    <img alt="search" src={SearchIcon} />
-    <br />
-    {children}
+  <>
+    <Link to={link}>
+      <img alt="search" src={SearchIcon} />
+      <br />
+      {children}
+    </Link>
     <Separator />
-  </Link>
+  </>
 );
 
 export default SearchIconText;
