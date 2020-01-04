@@ -43,6 +43,7 @@
     "clean": "rimraf .cache public",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
+    "dev": "npm run develop",
     "deploy:github": "npm run build && node ./scripts/deployGithub",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
