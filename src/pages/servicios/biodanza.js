@@ -8,6 +8,7 @@ import Foldable from '../../components/Foldable';
 import ImageTextBlock from '../../components/ImageTextBlock';
 import Layout from '../../components/Layout';
 import { A, H1, H2 } from '../../components/TextStyles.js';
+import Separator from '../../components/Separator';
 
 const Title = styled(H1)`
   margin: 0 auto;
@@ -69,6 +70,7 @@ const BiodanzaView = ({ data }) => {
             />
           ))}
       </Foldable>
+      <Separator height="24px" />
       <Foldable title="Publicaciones">
         {articles
           .map(({ node: post }, i, articles) => (
