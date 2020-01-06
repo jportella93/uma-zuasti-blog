@@ -1,8 +1,7 @@
 import { graphql } from "gatsby";
 import React from "react";
-import styled from 'styled-components';
-import { palette } from "../components/constants";
-import ImageWithDropShadow from "../components/ImageWithDropShadow";
+import HoritzontalLineSeparator from "../components/HoritzontalLineSeparator";
+import ImageTextBlock from "../components/ImageTextBlock";
 import Layout from "../components/Layout";
 import Separator from "../components/Separator";
 import { H1, P } from "../components/TextStyles";
@@ -19,32 +18,46 @@ const textBlocks = [
   `Profesora Autorizada en la metodología Parto y Movimiento, de Nuria Vives.`
 ]
 
-const Line = styled.div`
-  height: 1px;
-  width: ${({ width }) => width || '100%'};
-  background-color: ${({ color }) => color || palette.white};
-  margin-left: auto;
-  margin-right: auto;
-`
-
-const HoritzontalSeparator = ({ width, color }) =>
-  <Line width={width} color={color} />
+const getContentsForTextBlocks = (startIndex, finishIndex) => (
+  <>
+    <Separator height="24px" />
+    {textBlocks
+      .slice(startIndex, finishIndex)
+      .map((textBlock, i, { length }) => (
+        <>
+          <P key={textBlock}>{textBlock}</P>
+          {i + 1 !== length && <HoritzontalLineSeparator width="70%" />}
+        </>
+      ))
+    }
+    <Separator height="24px" />
+  </>
+)
 
 const UmaPage = ({ data }) => {
   const fluidSrcs = data.images.nodes.map(node => node.childImageSharp.fluid)
+
+  const imageTextBlocks = [
+    {
+      fluidSrc: fluidSrcs[0],
+      contentSlot: getContentsForTextBlocks(0, 3)
+    },
+    {
+      fluidSrc: fluidSrcs[1],
+      contentSlot: getContentsForTextBlocks(3, 6)
+    },
+    {
+      fluidSrc: fluidSrcs[2],
+      contentSlot: getContentsForTextBlocks(6)
+    },
+  ]
 
   return (
     <Layout>
       <Separator height="24px" />
       <H1>Acerca de Uma</H1>
       <Separator height="24px" />
-      <ImageWithDropShadow fluidSrc={fluidSrcs[0]} />
-      {textBlocks.map((textBlock, i, {length}) => (
-        <>
-          <P key={textBlock}>{textBlock}</P>
-          {i + 1 !== length && <HoritzontalSeparator width="70%" />}
-        </>
-      ))}
+      {imageTextBlocks.map((props) => <ImageTextBlock shorter {...props} />)}
     </Layout>
   )
 };
