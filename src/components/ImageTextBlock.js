@@ -28,15 +28,15 @@ const ImageTextBlock = ({
 
   return (
     <React.Fragment>
+      <ImageWithDropShadow
+        fluidSrc={fluidSrc}
+        imgSrc={imgSrc}
+        imgLink={imgLink}
+      />
       <BackgroundContainer
         shadow={hasBottomShadow}
         shorter={shorter}
       >
-        <ImageWithDropShadow
-          fluidSrc={fluidSrc}
-          imgSrc={imgSrc}
-          imgLink={imgLink}
-        />
         {titleSlot}
         {contentSlot}
         {footerSlot}
