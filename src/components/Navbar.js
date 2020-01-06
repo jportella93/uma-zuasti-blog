@@ -34,7 +34,7 @@ const HamburguerBars = styled.span`
 `
 
 const OpenNavbarBg = styled.div`
-  height: ${props => props.isMenuOpen ?
+  min-height: ${props => props.isMenuOpen ?
     '100%' : '0'};
   width: 100%;
   top: 0;
