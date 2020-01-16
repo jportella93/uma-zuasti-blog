@@ -44,7 +44,7 @@ collections:
             value: "biodanza-perinatal"
 
           - label: "Terapia Bioenergética"
-            value: "bioeneregetica"
+            value: "bioenergetica"
 
           - label: "Parto y Movimiento"
             value: "parto-y-movimiento"
@@ -126,7 +126,7 @@ collections:
             value: "biodanza-perinatal"
 
           - label: "Terapia Bioenergética"
-            value: "bioeneregetica"
+            value: "bioenergetica"
 
           - label: "Parto y Movimiento"
             value: "parto-y-movimiento"
