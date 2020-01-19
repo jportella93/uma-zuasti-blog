@@ -117,6 +117,10 @@ function getScrollDirection(lastPosition) {
 
 function hideNavbarIfNeeded(direction, hiddingFn, isMenuOpen, isNavbarHidden) {
   if (isMenuOpen) return;
+  if (window.scrollX === 0 && isNavbarHidden) {
+    hiddingFn(false);
+    return;
+  }
   if (direction === 'up' && isNavbarHidden) {
     hiddingFn(false);
     return;
