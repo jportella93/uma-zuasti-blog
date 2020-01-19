@@ -1,6 +1,12 @@
-import styled, { css } from 'styled-components';
 import { Link } from 'gatsby';
-import { palette } from './constants'
+import styled, { createGlobalStyle, css } from 'styled-components';
+import { palette } from './constants';
+
+export const GlobalStyles = createGlobalStyle`
+  body {
+    font-family: Montserrat, sans-serif !important;
+  }
+`
 
 const defaults = css`
   color: ${({ color }) => color ?
