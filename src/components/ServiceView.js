@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import { LimitedContainer } from './Containers';
 import Foldable from './Foldable';
-import ImageTextBlock from './ImageTextBlock';
+import ImageTextBlock, {getShadowPosition} from './ImageTextBlock';
 import Layout from './Layout';
 import Separator from './Separator';
 import { A, H1, H2 } from './TextStyles.js';
@@ -23,14 +23,6 @@ const MoreInfoText = styled(H2)`
   padding-bottom: 32px;
   text-align: left;
 `
-
-function getShadowPosition(length, i) {
-  const isFirst = i === 0;
-  const isLast = i + 1 === length;
-  if (isFirst && isLast) return 'both';
-  if (isFirst) return 'top';
-  if (isLast) return 'bottom';
-}
 
 const ServiceView = ({
   title,

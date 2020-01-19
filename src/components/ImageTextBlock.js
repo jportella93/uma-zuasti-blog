@@ -4,6 +4,14 @@ import { palette, styles } from "../components/constants";
 import { LimitedContainer } from "../components/Containers";
 import ImageWithDropShadow from "./ImageWithDropShadow";
 
+export function getShadowPosition(length, i) {
+  const isFirst = i === 0;
+  const isLast = i + 1 === length;
+  if (isFirst && isLast) return 'both';
+  if (isFirst) return 'top';
+  if (isLast) return 'bottom';
+}
+
 const BackgroundContainer = styled(LimitedContainer)`
   background-color: ${palette.darkRed};
   box-shadow: ${({ shadow }) => shadow && styles.shadows.inset};
