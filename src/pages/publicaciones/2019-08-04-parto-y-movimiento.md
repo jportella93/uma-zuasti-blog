@@ -2,13 +2,9 @@
 templateKey: article
 title: Parto y Movimiento®
 date: 2019-08-04T12:43:32.323Z
+featuredImage: /img/logo-parto-y-movimiento.jpg
+productType: parto-y-movimiento
 description: Preparación corporal y sensorial al parto.
-tags:
-  - Parto
-  - Movimiento
-  - Talleres
-  - Tarragona
-  - Perinatal
 ---
 ![null](/img/logo-parto-y-movimiento.jpg)
 
