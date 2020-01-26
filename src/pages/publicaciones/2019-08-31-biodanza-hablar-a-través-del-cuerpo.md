@@ -2,16 +2,14 @@
 templateKey: article
 title: 'Biodanza: hablar a través del cuerpo'
 date: 2019-08-31T15:54:42.580Z
+featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
+productType: biodanza
 description: >-
   La danza ha pasado a formar parte del grupo de las artes creativas en
   psicoterapia. Se aprovecha de nuestra disposición para el movimiento,
   facilitando de esta forma una vía para la expresión de emociones y sensaciones
   que por otros senderos no son capaces de materializarse -en el mundo
   consciente, de una forma que las podamos comprender-.
-tags:
-  - Biodanza
-  - Tarragona
-  - Artículos
 ---
 La vida es movimiento, desde el ciclo vital de la naturaleza hasta las mareas del mar. Movernos conecta nuestra relación con la vida. Cuando nos movemos, creamos un puente entre lo que pasa por dentro y lo que mostramos al mundo, dando forma a una danza que revela más sobre nosotros mismos de lo que creemos.
 
