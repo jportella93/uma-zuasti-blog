@@ -2,17 +2,14 @@
 templateKey: article
 title: ¿Cómo puede ayudarnos Parto y Movimiento® en el embarazo y el parto?
 date: 2019-10-08T10:19:27.562Z
+featuredImage: /img/p1090279_resultado-2-.jpg
+productType: parto-y-movimiento
 description: >-
   Parto y Movimiento® es una metodología de trabajo corporal y sensorial para
   embarazadas en la que a través de ejercicios y movimientos descubres, exploras
   y sientes tu pelvis, tu periné, la respiración, diferentes posiciones y
   movimientos para el parto... todo desde la escucha, descubriendo en ti la
   cantidad de recursos que tienes para acompañar a tu bebé desde el movimiento.
-tags:
-  - Artículos
-  - Perinatal
-  - Tarragona
-  - Parto
 ---
 ![](/img/p1090279_resultado-2-.jpg)
 
