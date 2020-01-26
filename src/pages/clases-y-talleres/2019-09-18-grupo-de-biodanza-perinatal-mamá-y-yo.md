@@ -2,11 +2,14 @@
 templateKey: workshop
 title: ' Grupo de Biodanza Perinatal "Mamá y yo"'
 date: 2019-09-18T18:45:07.664Z
+featuredImage: /img/cimg2469-4-.jpg
+eventDates: A determinar
+eventPlace: A determinar
+productType: biodanza-perinatal
 description: >-
   Una vez hayas decidido ser madre, te vendrán a la cabeza mil dudas, miedos o
   curiosidades sobre lo que supone la maternidad y la crianza de tu bebé.
-productType: biodanza
-featuredImage: /img/cimg2469-4-.jpg
+expirationDate: 2026-01-26T23:00:00.000Z
 ---
 Es importante que te sientas acompañada y comprendida en este proceso, para enfrentar el gran reto que tienes delante.
 
@@ -33,8 +36,6 @@ Psicopedagogía Corporal
 Educadora y Terapeuta, Postgrado en Psicología Perinatal.
 
 Profesora de Biodanza nº de reg. PV 1621
-
-
 
 ![]()
 
