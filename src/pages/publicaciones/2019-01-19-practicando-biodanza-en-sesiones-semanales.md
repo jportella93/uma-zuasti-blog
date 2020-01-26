@@ -2,14 +2,12 @@
 templateKey: article
 title: Practicando Biodanza en sesiones semanales
 date: 2019-01-19T21:47:52.027Z
+featuredImage: /img/biodanza-srt-1-.png
+productType: biodanza
 description: >-
   Si alguna vez te has preguntado qué aspectos trabaja un grupo semanal de
   Biodanza, aqui os dejo la propuesta que estamos desarrollando éste año en el
   grupo de los jueves.
-tags:
-  - Biodanza
-  - Clases
-  - Tarragona
 ---
 El Sistema Biodanza pertenece a las ciencias humanas. Tiene una sólida base teórica y un modelo operacional. Se estructura en fundamentos científicos basados en la Biología,  la Psicología, la Etología , amplios estudios de antropología y danza.
 
