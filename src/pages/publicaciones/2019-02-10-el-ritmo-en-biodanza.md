@@ -2,15 +2,12 @@
 templateKey: article
 title: El ritmo en Biodanza
 date: 2019-02-10T14:44:56.764Z
+featuredImage: /img/cristina-gottardi-314274-unsplash.jpg
+productType: biodanza
 description: >-
   "Aprendiendo a percibir la voz profunda del instinto, expresión clara de las
   necesidades de nuestra naturaleza primal,sintonizándonos con los ritmos de la
   naturaleza"
-tags:
-  - Biodanza
-  - Movimiento
-  - Tarragona
-  - Artículos
 ---
 El ritmo es un patrón de regularidades cósmicas que se manifiesta en los sistemas vivientes.
 
