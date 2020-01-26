@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: 'Biodanza: hablar a través del cuerpo'
 date: 2019-08-31T15:54:42.580Z
 description: >-

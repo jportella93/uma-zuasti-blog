@@ -15,7 +15,7 @@ collections:
       - label: Template Key
         name: templateKey
         widget: hidden
-        default: blog-post
+        default: article
 
       - label: Título
         name: title
@@ -38,13 +38,13 @@ collections:
         widget: "select"
         options:
           - label: "Biodanza"
-            value: "bioanza"
+            value: "biodanza"
 
           - label: "Biodanza Perinatal"
-            value: "bioanza-perinatal"
+            value: "biodanza-perinatal"
 
           - label: "Terapia Bioenergética"
-            value: "bioeneregetica"
+            value: "bioenergetica"
 
           - label: "Parto y Movimiento"
             value: "parto-y-movimiento"
@@ -120,13 +120,13 @@ collections:
         widget: "select"
         options:
           - label: "Biodanza"
-            value: "bioanza"
+            value: "biodanza"
 
           - label: "Biodanza Perinatal"
-            value: "bioanza-perinatal"
+            value: "biodanza-perinatal"
 
           - label: "Terapia Bioenergética"
-            value: "bioeneregetica"
+            value: "bioenergetica"
 
           - label: "Parto y Movimiento"
             value: "parto-y-movimiento"

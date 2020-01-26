@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Parto y Movimiento®
 date: 2019-08-04T12:43:32.323Z
 description: Preparación corporal y sensorial al parto.
@@ -34,7 +34,7 @@ Las sesiones se realizan de forma grupal o individual, con o sin acompañante.
 
 Para ampliar información puedes dirigirte al Teléfono 636 23 15 17 ó umazuasti@gmail.com
 
-\    
+\
 
 ![null](/img/p1110153-2-.jpg)
 

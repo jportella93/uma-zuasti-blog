@@ -1,15 +1,19 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 import Navbar from '../components/Navbar'
+import Page from '../components/Page'
 import './all.sass'
+import { GlobalStyles } from './TextStyles'
 
-const TemplateWrapper = ({ children }) => (
-  <div>
+const Layout = ({ children, bgColor, navbarColor }) => (
+  <>
     <Helmet title="Uma Zuasti" />
-    <Navbar />
-    <div>{children}</div>
-  </div>
+    <GlobalStyles />
+    <Navbar navbarColor={navbarColor} />
+    <Page bgColor={bgColor}>
+      {children}
+    </Page>
+  </>
 )
 
-export default TemplateWrapper
+export default Layout

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: ¿Cómo puede ayudarnos Parto y Movimiento® en el embarazo y el parto?
 date: 2019-10-08T10:19:27.562Z
 description: >-
