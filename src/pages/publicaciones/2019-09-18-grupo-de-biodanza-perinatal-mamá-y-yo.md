@@ -1,5 +1,5 @@
 ---
-templateKey: workshop
+templateKey: article
 title: ' Grupo de Biodanza Perinatal "Mamá y yo"'
 date: 2019-09-18T18:45:07.664Z
 featuredImage: /img/cimg2469-4-.jpg
