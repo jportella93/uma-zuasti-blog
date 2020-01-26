@@ -2,13 +2,11 @@
 templateKey: article
 title: Biodanza para parejas gestantes
 date: 2018-12-30T16:14:16.684Z
+featuredImage: /img/taller-de-biodanza-para-parejas-gestantantes.jpg
+productType: biodanza-perinatal
 description: >-
   Una metodología de acompañamiento para la gestación y para la preparación al
   parto.
-tags:
-  - Talleres
-  - Biodanza
-  - Tarragona
 ---
 El embarazo es un evento de gran significación en la vida de una mujer, en el que ocurren cambios fisiológicos, psicológicos, en las relaciones familiares y sociales.Por todo ésto es adecuado no solo un acompañamiento clínico, sino también psicológico de la embarazada, proporcionando que su ciclo gravídico-puerperal sea armonioso, para su mayor bien estar , el de el bebé y el de la familia.
 
@@ -37,7 +35,5 @@ Esta nueva actitud del padre permite disminuir el sentimiento de exclusión que 
 La Biodanza para gestantes está direccionada para que la mujer pueda vivenciar la conexión con el acto sagrado de la creación de la vida, facilita a las mujeres gestantes la conexión con los procesos que está viviendo, les proporciona seguridad, confianza en si mismas, autoestima y alegría. Aumenta el vínculo madre-hijo, prepara a la mujer para el parto ya que la metodología específica de Biodanza para gestantes activa y prepara la parte más profunda y primitiva del cerebro de la mujer que es la que funciona más intensamente en el trabajo de parto,facilitando este proceso fisiológico natural y promueve la participación del padre en el proceso de embarazo , parto y post-parto.
 
 AUTORA:Uma Zuasti, Facilitadora de Biodanza, especialista en Biodanza para Gestantes.
-
-
 
 ![null](/img/taller-de-biodanza-para-parejas-gestantantes.jpg)
