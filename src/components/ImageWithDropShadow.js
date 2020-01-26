@@ -6,6 +6,7 @@ import { A } from "./TextStyles";
 
 const imgContainerStyle = css`
   box-shadow: ${styles.shadows.drop};
+  ${({style}) => style}
 `
 
 const FluidImgContainer = styled(Img)`
@@ -19,13 +20,13 @@ const ImgContainer = styled.img`
 /**
  * A fluid or normal image with drop shadow and optional link.
  */
-const ImageWithDropShadow = ({fluidSrc, imgSrc, imgLink}) => {
+const ImageWithDropShadow = ({fluidSrc, imgSrc, imgLink, ...restProps}) => {
 
   let imgComponent;
   if (fluidSrc) {
-    imgComponent = <FluidImgContainer fluid={fluidSrc} />
+    imgComponent = <FluidImgContainer fluid={fluidSrc} {...restProps} />
   } else if (imgSrc) {
-    imgComponent = <ImgContainer src={imgSrc} />
+    imgComponent = <ImgContainer src={imgSrc} {...restProps} />
   }
 
   const imageBlock = imgLink

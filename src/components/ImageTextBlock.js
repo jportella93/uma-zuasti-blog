@@ -25,6 +25,7 @@ const BackgroundContainer = styled(LimitedContainer)`
 const ImageTextBlock = ({
   fluidSrc,
   imgSrc,
+  imgProps,
   imgLink,
   titleSlot,
   contentSlot,
@@ -40,6 +41,7 @@ const ImageTextBlock = ({
         fluidSrc={fluidSrc}
         imgSrc={imgSrc}
         imgLink={imgLink}
+        {...imgProps}
       />
       <BackgroundContainer
         shadow={hasBottomShadow}

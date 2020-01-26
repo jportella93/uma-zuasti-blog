@@ -40,7 +40,14 @@ const UmaPage = ({ data }) => {
   const imageTextBlocks = [
     {
       fluidSrc: fluidSrcs[0],
-      contentSlot: getContentsForTextBlocks(0, 3)
+      contentSlot: getContentsForTextBlocks(0, 3),
+      imgProps: {
+        style: {
+          maxWidth: '300px',
+          borderRadius: '50%',
+          margin: '0 auto'
+        }
+      }
     },
     {
       fluidSrc: fluidSrcs[1],
