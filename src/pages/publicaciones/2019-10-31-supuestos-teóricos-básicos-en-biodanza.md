@@ -2,13 +2,11 @@
 templateKey: article
 title: Supuestos teóricos básicos en Biodanza
 date: 2019-10-31T16:08:19.658Z
+featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
+productType: biodanza
 description: |-
   Acerca del Movimiento
    No hay vida sin movimiento. El no movimiento implica lo inorgánico o la muerte. Somos seres auto-movientes. Nos movemos desde una fuerza interior que nos impulsa. En este sentido somos autónomos. También nos pueden mover como a cualquier otro tipo de cuerpo. Llegamos a decidir algunos de nuestros movimientos a la vez que somos movidos, por las fuerzas del “ello”.
-tags:
-  - Articulos
-  - Biodanza
-  - Movimiento
 ---
 ![null](/img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg)
 
