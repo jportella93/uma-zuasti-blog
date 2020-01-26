@@ -1,5 +1,5 @@
 ---
-templateKey: article
+templateKey: workshop
 title: Taller Biodanza "Danzar desde el Instinto"
 date: 2019-01-06T15:34:27.239Z
 description: >-
