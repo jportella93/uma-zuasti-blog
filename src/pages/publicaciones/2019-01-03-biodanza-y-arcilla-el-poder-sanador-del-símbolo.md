@@ -2,12 +2,10 @@
 templateKey: article
 title: Biodanza y Arcilla;El poder sanador del Símbolo.
 date: 2019-01-03T12:01:19.126Z
+featuredImage: >-
+  /img/http-_2.bp.blogspot.com_-aalzs68oq9o_u3qpdtkbmui_aaaaaaaaanq_i-9kjdw7paa_s1600_01-coyolxauhqui-templo-mayor.jpg
+productType: biodanza
 description: Elaboración del símobolo de reconciliación.
-tags:
-  - Biodanza
-  - Arcilla
-  - Tarragona
-  - Talleres
 ---
 Uno de los ejercicios de la Biodanza en arcilla que más nos conecta a nuestro inconsciente es la elaboración de un símbolo con arcilla. El barro es moldeado sin que exista ninguna intención estética, simplemente nos dejamos llevar, en ocasiones con los ojos cerrados,   el contacto con la tierra y la música nos conecta a partes muy profundas  de nuestro inconsciente , y de ésta manera surge un símbolo que nos trae alguna información  necesaria al consciente para el momento presente , previamente se prepara a los alumnos con una vivencia que sirve de disparador para este fin.
 
@@ -34,12 +32,6 @@ En primer lugar debemos de atraerlo a la conciencia y dejar que su energía de c
 La analista Junquiana Esther Harding responde a la pregunta sobre cómo activar el poder sanador del símbolo de ésta manera:
 
 “Pareciera que para que un símbolo de reconciliación o rendición, sea realmente efectivo,deben darse cuatro condiciones:Primero el individuo debe ser plenamente consciente sobre su necesidad; en segundo lugar debe de haber considerado todas las maneras posibles una salida consciente a su problema; tercero el símbolo en si mismo debe expresar el proceso viviente del inconsciente, activo en éste individuo en particular, y finalmente debe de incorporar el sentido del símbolo que se le presenta,no solo con su mente sino también con su corazón, actuando en consecuencia” (Harding, 1961, Pag 17).
-
-
-
-
-
-
 
 Bibliografía; Susan Bach. Acta Psicosomática, Spontaneous Paintings of Severely III Patiens (1969)
 
