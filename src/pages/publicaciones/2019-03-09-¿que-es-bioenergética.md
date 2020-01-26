@@ -2,6 +2,8 @@
 templateKey: article
 title: ¿Que es Bioenergética?
 date: 2019-03-09T13:47:21.155Z
+featuredImage: /img/bioenrgética-orange.png
+productType: bioenergetica
 description: >-
 
   Bioenergética significa energía de la vida. Simplemente, Bio = vida; energía =
@@ -10,10 +12,6 @@ description: >-
   La Bioenergética es una Terapia Corporal y el objetivo de toda terapia es
   ayudar a la persona a aumentar su capacidad de dar y recibir amor, de
   desarrollar el corazón, no sólo su mente.
-tags:
-  - Bioenergetica
-  - Talleres
-  - Tarragona
 ---
 La bioenergética fue creada por Alexander Lowen a partir del trabajo de Wilhelm Reich, que fue un psicoanalista, alumno de Freud, y que después desarrolló los principios de la terapia corporal, desde la década de 1930, y constató que las emociones reprimidas y no expresadas crean  tensiones  crónicas en la musculatura del cuerpo, impidiendo el flujo de energía.
 
