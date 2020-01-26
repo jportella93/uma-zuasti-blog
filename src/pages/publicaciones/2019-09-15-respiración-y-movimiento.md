@@ -2,16 +2,13 @@
 templateKey: article
 title: Respiración y Movimiento
 date: 2019-09-15T17:19:42.001Z
+featuredImage: /img/pablo-orcaray-awivttqwqoc-unsplash.jpg
+productType: biodanza
 description: >-
   ¿Podemos concebir la vida sin movimiento? Aún antes de nacer respiramos y nos
   movemos; sin respiración no hay vida, por lo tanto movimiento y respiración
   están íntimamente vinculados. Aún en la quietud más profunda, la vida está
   allí presente.
-tags:
-  - Articulos
-  - Biodanza
-  - Bioenergetica
-  - Movimiento
 ---
 El aire entra y sale, en susurros, entrecortado, libremente.
 
