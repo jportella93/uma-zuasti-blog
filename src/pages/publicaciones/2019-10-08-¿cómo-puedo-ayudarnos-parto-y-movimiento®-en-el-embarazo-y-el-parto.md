@@ -2,7 +2,7 @@
 templateKey: article
 title: ¿Cómo puede ayudarnos Parto y Movimiento® en el embarazo y el parto?
 date: 2019-10-08T10:19:27.562Z
-featuredImage: /img/p1090279_resultado-2-.jpg
+featuredImage: /img/parto-y-movimiento®-preparación-corporal-y-sensorial-para-el-parto..png
 productType: parto-y-movimiento
 description: >-
   Parto y Movimiento® es una metodología de trabajo corporal y sensorial para
