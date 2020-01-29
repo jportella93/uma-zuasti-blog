@@ -11,7 +11,7 @@ description: >-
   Movimiento®.
 expirationDate: 2020-02-28T16:12:18.264Z
 ---
-Charla introductoria al ciclo Parto y Movimiento®, si estás embarazada o deseas estarlo próximamente, puedes venir a conocer esta metodología de preparación corporal y sensorial al parto.
+Charla introductoria al ciclo Parto y Movimiento®, si estás embarazada o deseas estarlo próximamente, puedes venir a conocer esta metodología de preparación corporal y sensorial para el  parto.
 
 Imprensindible reservar plaza umazuasti@gmail.com ó al teléfono 636 23 15 17.
 
