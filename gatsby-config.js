@@ -35,6 +35,25 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-120945642-4`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`*`],
+      }
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1684022,
+        sv: 6
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
