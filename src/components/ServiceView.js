@@ -4,10 +4,10 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import { LimitedContainer } from './Containers';
 import Foldable from './Foldable';
-import ImageTextBlock, {getShadowPosition} from './ImageTextBlock';
+import ImageTextBlock, { getShadowPosition } from './ImageTextBlock';
 import Layout from './Layout';
 import Separator from './Separator';
-import { A, H1, H2 } from './TextStyles.js';
+import { A, H1, H2, P } from './TextStyles.js';
 
 const Title = styled(H1)`
   margin: 0 auto;
@@ -46,11 +46,11 @@ const ServiceView = ({
               shadow={getShadowPosition(workshops.length, i)}
               shorter
               contentSlot={
-                <H2 textAlign="left" marginTop="0" paddingTop="24px">
+                <P textAlign="left" marginTop="0" paddingTop="24px">
                   <b>{post.frontmatter.title}</b><br />
                   {post.frontmatter.eventPlace && <>{post.frontmatter.eventPlace}<br /></>}
                   {post.frontmatter.eventDates && <>{post.frontmatter.eventDates}<br /></>}
-                </H2>
+                </P>
               }
               footerSlot={(
                 <A to={post.fields.slug}>
@@ -72,10 +72,10 @@ const ServiceView = ({
               shadow={getShadowPosition(articles.length, i)}
               shorter
               contentSlot={
-                <H2 textAlign="left" marginTop="0" paddingTop="24px">
+                <P textAlign="left" marginTop="0" paddingTop="24px">
                   <b>{post.frontmatter.title}</b><br />
                   {post.frontmatter.description && <>{post.frontmatter.description}<br /></>}
-                </H2>
+                </P>
               }
               footerSlot={(
                 <A to={post.fields.slug}>
