@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { LimitedContainer } from '../components/Containers';
 import ImageTextBlock, { getShadowPosition } from '../components/ImageTextBlock';
 import Layout from '../components/Layout';
-import { A, H1, H2 } from '../components/TextStyles.js';
+import { A, H1, H2, P } from '../components/TextStyles.js';
 
 const Title = styled(H1)`
   margin: 0 auto;
@@ -22,22 +22,23 @@ const PublicationListView = ({ publications, title, readMoreText }) => (
       <Title>{title}</Title>
     </LimitedContainer>
     {publications
-      .map(({ node: post }, i, publications) => (
+      .map(({ node: {id, fields, frontmatter: {featuredImage, description, eventDates, eventPlace}} }, i, publications) => (
         <ImageTextBlock
-          key={post.id}
-          imgSrc={post.frontmatter.featuredImage}
-          imgLink={post.fields.slug}
+          key={id}
+          imgSrc={featuredImage}
+          imgLink={fields.slug}
           shadow={getShadowPosition(publications.length, i)}
           shorter
           contentSlot={
-            <H2 textAlign="left" marginTop="0" paddingTop="24px">
-              <b>{post.frontmatter.title}</b><br />
-              {post.frontmatter.eventPlace && <>{post.frontmatter.eventPlace}<br /></>}
-              {post.frontmatter.eventDates && <>{post.frontmatter.eventDates}<br /></>}
-            </H2>
+            <P textAlign="left" marginTop="0" paddingTop="24px">
+              <b>{title}</b><br />
+              {description && <>{description}<br /></>}
+              {eventPlace && <>{eventPlace}<br /></>}
+              {eventDates && <>{eventDates}<br /></>}
+            </P>
           }
           footerSlot={(
-            <A to={post.fields.slug}>
+            <A to={fields.slug}>
               <MoreInfoText>{readMoreText}</MoreInfoText>
             </A>
           )}
