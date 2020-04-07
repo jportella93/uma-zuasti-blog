@@ -2,13 +2,11 @@
 templateKey: article
 title: EDUCACIÓN BIOCÉNTRICA
 date: 2019-01-03T13:59:18.677Z
+featuredImage: /img/yousef-espanioly-l6g30jaq5tc-unsplash.jpg
+productType: biodanza
 description: >-
   Esta visión tiene como paradigma básico el Principio Biocéntrico el cual
   plantea que toda actividad humana está en función de la vida;
-tags:
-  - EducaciónBiocentrica
-  - Tarragona
-  - Artículos
 ---
 Esta visión tiene como paradigma básico el Principio Biocéntrico el cual plantea que toda actividad humana está en función de la vida; sigue un modelo interactivo de red, de encuentro y de conectividad; sitúa el respeto a la vida, no sólo del ser humano sino de todos los seres vivos, como centro y punto de partida de todas las disciplinas y comportamientos humanos. Ve al educando como sujeto de derechos y con capacidad de construir un conocimiento crítico.
 
