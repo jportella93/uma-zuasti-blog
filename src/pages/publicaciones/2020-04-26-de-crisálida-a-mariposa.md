@@ -12,7 +12,7 @@ description: >-
   cambiar, nos desesperamos aun más cuando empieza a producirse una
   transformación?¿Por qué perdemos nuestra fe infantil en el crecimiento?
 ---
-A veces nos aferramos a nuestros antiguos lazos en lugar de abrirnos a nuevas posibilidades, al mundo desconcido de nuestro cuerpo, nuestra mente y nuestra alma.
+A veces nos aferramos a nuestros antiguos lazos en lugar de abrirnos a nuevas posibilidades, al mundo desconocido de nuestro cuerpo, nuestra mente y nuestra alma.
 
 La mariposa es un símbolo del alma humana, que ilustra esta metáfora. Las crisálidas parecen estar muertas, pero dentro de ellas se van produciendo cambios extraordinarios.La vida de una oruga es muy distinta de la de una mariposa.Una oruga sólo mastica hojas, una mariposa bebe néctar.La oruga es asexuada, casi ciega y tiene que arrastrarse por la tierra; la mariposa pone huevos y puede ver y volar. La mayoría de los órganos de la oruga se disuelven y el líquido que queda ayuda a que crezcan las alas, los ojos, el cerebro y los músculos diminutos de la mariposa que se va desarrollando.Pero todo el proceso es muy difícil , tan dificil que la criatura no puede hacer nada más en ésta etapa.Tiene que quedarse dentro de su capullo protector. Apenas sale del capullo, la mariposa deja caer una gota de excremento que ha ido acumulando.Generalmente es una gota roja, y a veces, la mariposa la deja caer en su vuelo.Es así cómo un conjunto de mariposas puede producir una verdadera lluvia de sangre, éste fenómeno despertaba terror y recelo en las culturas antiguas , y en algunos casos daba lugar a verdaderas masacres.
 
