@@ -22,16 +22,14 @@ export const ArticleTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <>
-      <section className="content">
-        {helmet || ''}
-        <h1>
-          {title}
-        </h1>
-        <p>{description}</p>
-        <PostContent content={content} />
-      </section>
-    </>
+    <section className="content">
+      {helmet || ''}
+      <h1>
+        {title}
+      </h1>
+      <p>{description}</p>
+      <PostContent content={content} />
+    </section>
   )
 }
 
