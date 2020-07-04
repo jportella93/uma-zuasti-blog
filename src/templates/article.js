@@ -7,6 +7,9 @@ import { palette } from '../components/constants';
 import { BlogLimitedContainer } from '../components/Containers';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
+import SubscriptionForm from '../components/SubscriptionForm';
+import Disqus from '../components/Disqus';
+import Separator from "../components/Separator";
 
 export const ArticleTemplate = ({
   content,
@@ -67,6 +70,10 @@ const Article = ({ data }) => {
             tags={post.frontmatter.tags}
             title={post.frontmatter.title}
           />
+          <Separator height="36px" />
+          <SubscriptionForm />
+          <Separator height="48px" />
+          <Disqus identifier={post.id} title={post.frontmatter.title} />
         </ArticleContainer>
       </BordersContainer>
     </Layout>
