@@ -8,6 +8,8 @@ import { BlogLimitedContainer } from '../components/Containers';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
 import SubscriptionForm from '../components/SubscriptionForm';
+import Disqus from '../components/Disqus';
+import Separator from "../components/Separator";
 
 export const ArticleTemplate = ({
   content,
@@ -29,7 +31,6 @@ export const ArticleTemplate = ({
         <p>{description}</p>
         <PostContent content={content} />
       </section>
-      <SubscriptionForm />
     </>
   )
 }
@@ -71,6 +72,10 @@ const Article = ({ data }) => {
             tags={post.frontmatter.tags}
             title={post.frontmatter.title}
           />
+          <Separator height="36px" />
+          <SubscriptionForm />
+          <Separator height="48px" />
+          <Disqus identifier={post.id} title={post.frontmatter.title} />
         </ArticleContainer>
       </BordersContainer>
     </Layout>
