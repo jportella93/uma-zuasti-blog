@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Cursos semanales Biodanza 2020/21
 date: 2020-06-27T11:28:33.565Z
-featuredImage: /img/biodanza-original-srt.png
+featuredImage: /img/biodanza-original-srt-1-.png
 eventDates: Cursos anuales Biodanza Septiembre/Junio.
 eventPlace: Tarragona /Reus
 productType: biodanza
