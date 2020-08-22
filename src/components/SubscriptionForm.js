@@ -16,9 +16,9 @@ const SubscriptionForm = ({height}) =>
     method="post"
     target="popupwindow"
     onsubmit="window.open('https://buttondown.email/jportella93', 'popupwindow')"
-    class="embeddable-buttondown-form"
+    className="embeddable-buttondown-form"
   >
-    <label for="bd-email">
+    <label htmlFor="bd-email">
       Te ha resultado interesante?<br/>
       Deja tu e-mail para recibir los siguientes articulos<br/>
     </label>
