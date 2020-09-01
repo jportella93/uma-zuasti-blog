@@ -12,10 +12,10 @@ const Form = styled.form`
 
 const SubscriptionForm = ({height}) =>
   <Form
-    action="https://buttondown.email/api/emails/embed-subscribe/jportella93"
+    action="https://buttondown.email/api/emails/embed-subscribe/umazuasti"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/jportella93', 'popupwindow')"
+    onsubmit="window.open('https://buttondown.email/umazuasti', 'popupwindow')"
     className="embeddable-buttondown-form"
   >
     <label htmlFor="bd-email">
