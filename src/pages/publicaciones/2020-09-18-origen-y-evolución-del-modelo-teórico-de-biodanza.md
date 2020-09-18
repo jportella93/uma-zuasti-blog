@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: ORIGEN Y EVOLUCIÓN DEL MODELO TEÓRICO DE BIODANZA
+title: Orígenes y evolución del Modelo Teórico de Biodanza
 date: 2020-09-18T11:12:57.067Z
 featuredImage: /img/theroreticalmodelenglish.jpg
 productType: biodanza
