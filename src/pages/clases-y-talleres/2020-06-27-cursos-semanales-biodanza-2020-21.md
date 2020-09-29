@@ -13,10 +13,10 @@ expirationDate: 2021-07-03T11:28:00.000Z
 ---
 A continuación te detallo los horarios de las clases y los lugares donde puedes practicar Biodanza durante el curso 2020/21.
 
-**Martes grupo de iniciación Biodanza en Tarragona** **en horario de 19:30 a 21:30**, es apropiado si nunca han practicado antes y quieres ir descubriendo cómo te puede ayudar Biodanza en tu día a día.
+**Lunes grupo de iniciación Biodanza en Tarragona** **en horario de 18:00 a 20.00h**, es apropiado si nunca han practicado antes y quieres ir descubriendo cómo te puede ayudar Biodanza en tu día a día.
 
-**Miércoles  grupo de iniciación Biodanza en Reus en horario 18:45 a 20:45h.**
+**Miércoles  grupo de iniciación Biodanza en Reus en horario 17:30 a 19:00h.**
 
-**Jueves grupo de profundización en Biodanza Tarragona en horario de 19:30 a 21:30h.** "El viaje del héroe" Para alumn@s de Biodanza experimentados.
+**Jueves grupo de profundización en Biodanza Tarragona en horario de 19:00 a 21:00h.** "El viaje del héroe" Para alumn@s de Biodanza experimentados.
 
-Grupos reducidos max. 10 personas , espacios amplios adaptados a la nueva normativa sanitaria.
+Grupos reducidos max. 10 personas , medidas de Seguridad sanitarias, Protocolo COVID 19.
