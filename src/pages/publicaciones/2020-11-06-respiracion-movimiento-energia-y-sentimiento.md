@@ -5,7 +5,7 @@ date: 2020-11-06T14:30:17.045Z
 featuredImage: /img/darius-bashar-dm43uewenra-unsplash.jpg
 productType: bioenergetica
 description: >-
-  Un sentimiento es la percepción de un movimiento dentro del cuerpo, del mismos
+  Un sentimiento es la percepción de un movimiento dentro del cuerpo, del mismo
   modo, el desplazamiento del cuerpo en el espacio no crea ningún sentimiento a
   menos que provoque algún movimiento interno.
 ---
