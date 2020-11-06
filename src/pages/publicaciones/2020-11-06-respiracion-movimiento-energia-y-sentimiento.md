@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: 'RESPIRACION, MOVIMIENTO,ENERGIA Y SENTIMIENTO'
+title: 'RESPIRACIÓN, MOVIMIENTO,ENERGÍA Y SENTIMIENTO'
 date: 2020-11-06T14:30:17.045Z
 featuredImage: /img/darius-bashar-dm43uewenra-unsplash.jpg
 productType: bioenergetica
