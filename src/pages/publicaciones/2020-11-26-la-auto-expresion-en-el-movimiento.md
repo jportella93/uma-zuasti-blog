@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: LA AUTO-EXPRESION EN EL MOVIMIENTO
+title: LA AUTO-EXPRESIÓN EN EL MOVIMIENTO
 date: 2020-11-26T11:17:40.098Z
 featuredImage: /img/romina-farias-umc-osauq8a-unsplash.jpg
 productType: bioenergetica
