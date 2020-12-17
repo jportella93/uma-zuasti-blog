@@ -24,3 +24,5 @@ En este  taller exploraremos nuestra capacidad de conectar con nuestro niñ@ int
 La reprogresión uno de los conceptos estructurales del Sistema Biodanza, es la capacidad de evolucionar, después de una regresión a etapas fetales o perinatales y luego se retorna al presente con mayor conciencia de identidad. Durante el estado de regresión se produce una reactivación de patrones primitivos del desarrollo y una reorganización de los impulsos vitales obstruidos o reprimidos por factores epigenéticos. 
 
 Uma Zuasti.
+
+DEBIDO A LAS RESTRICCIONES A LA MOVILIDAD POR LA ALERTA SANITARIA COVID19 QUEDA APLAZADO HASTA PROXIMO AVISO.
