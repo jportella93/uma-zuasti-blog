@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: 'BIODANZA: "no se trata de escuchar musica y bailar"'
+title: 'BIODANZA: "No se trata de escuchar musica y bailar"'
 date: 2021-06-06T09:38:43.212Z
 featuredImage: /img/bruce-mars-dbgwy7s3qy0-unsplash.jpg
 productType: biodanza
