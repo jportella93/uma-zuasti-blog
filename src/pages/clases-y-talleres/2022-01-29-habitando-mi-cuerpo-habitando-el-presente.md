@@ -2,7 +2,7 @@
 templateKey: workshop
 title: 'HABITANDO MI CUERPO, HABITANDO EL PRESENTE'
 date: 2022-01-29T11:25:00.138Z
-featuredImage: /img/biodanza.png
+featuredImage: /img/biodanza-srt.png
 eventDates: SABADO 5 DE MARZO 2022
 eventPlace: TARRAGONA
 productType: biodanza
