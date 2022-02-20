@@ -2,7 +2,7 @@
 templateKey: workshop
 title: ' Sesiones de Biodanza Clínica 2021/22'
 date: 2021-08-10T08:51:36.679Z
-featuredImage: /img/biodanza.png
+featuredImage: /img/bio-clinic.png
 eventDates: Octubre/Junio 2021-21
 eventPlace: Tarragona
 productType: biodanza
