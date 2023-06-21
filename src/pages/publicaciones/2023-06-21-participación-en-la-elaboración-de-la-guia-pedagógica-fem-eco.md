@@ -8,7 +8,7 @@ description: >-
   El proyecto de educación FEM ECO es un proyecto de educación para la justicia
   global que conecta género y medio ambiente a escuela y al mundo.
 ---
-Durante el pasado año tuve la suerte de colaborar con la fundación Akwaba en la elaboración de la guía de la segunda parte del proyecto FEM ECO.
+Durante el pasado año tuve la suerte de colaborar con la fundación Akwaba en la elaboración de la guía de la segunda parte del proyecto FEM ECO, haciendo el aporte de la parte corporal y de movimiento de la guía.
 
 Esta guía aporta material didáctico para educadores y educadoras , maestros y maestras de jóvenes de 10 a 17 años, con tal de incluir contenidos y prácticas propias de la educación para la justicia global, con perspectiva de género en su programación.
 
