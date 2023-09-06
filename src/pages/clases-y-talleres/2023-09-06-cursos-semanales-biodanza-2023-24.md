@@ -10,7 +10,7 @@ description: >-
   Cursos semanales Biodanza 2023/24 , este año celebro 10 años facilitando
   Biodanza en Tarragona.
 
-  un cursos de Biodanza es una oportunidad de autoconocimiento y transformación.
+  Un curso de Biodanza es una oportunidad de autoconocimiento y transformación.
   A lo largo de esta aventura exploraremos el poder de la danza como herramienta
   para expresar nuestras emociones y liberar tensiones acumuladas.
 expirationDate: 2024-06-30T08:43:33.899Z
