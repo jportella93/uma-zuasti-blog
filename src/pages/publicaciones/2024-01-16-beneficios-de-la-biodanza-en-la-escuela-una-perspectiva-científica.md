@@ -2,7 +2,7 @@
 templateKey: article
 title: 'Beneficios de la Biodanza en la escuela: Una perspectiva científica.'
 date: 2024-01-16T11:34:28.385Z
-featuredImage: /img/dibujo-niño.jpg
+featuredImage: /img/sam-balye-w1fwdvirezu-unsplash.jpg
 productType: biodanza
 description: >-
   En este artículo exploraremos los beneficios de la aplicación de Biodanza en
