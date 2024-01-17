@@ -6,11 +6,11 @@ featuredImage: /img/sam-balye-w1fwdvirezu-unsplash.jpg
 productType: biodanza
 description: >-
   En este artículo exploraremos los beneficios de la aplicación de Biodanza en
-  la escuela, respaldados  por aportes  recogidos de varias revisiones de 
-  algunos artículos científicos, demostrando que ésta práctica puede tener un
-  impacto positivo en el desarrollo de los estudiantes.
+  la escuela, respaldados  por aportes   científicos recogidos de varias
+  investigaciones, demostrando que ésta práctica puede tener un impacto positivo
+  en el desarrollo de los estudiantes.
 ---
-Desde hace un par de años imparto un curso de sensibilización para Docentes en el CRP del Tarragonés. Para preparar éste curso recogí mucha bibliografía  científica al respecto, yo cómo docente y profesional de Biodanza he impartido este sistema en mis clases y con algún equipo educativo con los que he trabajado a lo largo de los años , pudiendo comprobar los beneficios, pero siempre es importante contrastar la información con otros profesionales.
+Desde hace un par de años imparto un curso de sensibilización para Docentes en el CRP (Centro de Recursos Pedagógicos) del Tarragonés, como educadora y profesional de Biodanza, con éste artículo quiero exponer por qué seria altamente beneficioso y positivo incluir Biodanza en el currículo de educación.
 
 La Biodanza es un sistema de desarrollo humano, que utiliza la música , el movimiento , la expresión y el encuentro grupal, como herramientas principales para promover el desarrollo humano y el bienestar integral.
 
