@@ -2,7 +2,7 @@
 templateKey: article
 title: 'Biodanza Clínica: Fundamentos y Aplicaciones'
 date: 2024-03-03T11:33:05.717Z
-featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
+featuredImage: /img/fear-6562668_1280.png
 productType: biodanza
 description: >-
   La Biodanza Clínica se basa en la premisa de que la integración de la música,
