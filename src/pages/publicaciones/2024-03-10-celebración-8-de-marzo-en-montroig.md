@@ -2,7 +2,7 @@
 templateKey: article
 title: Celebración 8 de Marzo en Montroig
 date: 2024-03-10T18:41:52.669Z
-featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
+featuredImage: /img/img_20240309_155829_765.jpg
 productType: biodanza
 description: >-
   ¡Celebramos juntas el día de la Mujer con una increible sesión de Biodanza en
