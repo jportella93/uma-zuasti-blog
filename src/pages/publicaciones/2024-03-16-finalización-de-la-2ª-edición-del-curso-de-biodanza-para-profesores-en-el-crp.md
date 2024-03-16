@@ -2,7 +2,7 @@
 templateKey: article
 title: Finalización de la 2ª edición del curso de Biodanza para profesores en el CRP
 date: 2024-03-16T17:45:37.416Z
-featuredImage: /img/20230214_182905.jpg
+featuredImage: /img/antenna-cw-cj_nfa14-unsplash.jpg
 productType: biodanza
 description: >-
   Celebramos el éxito de la segunda edición del curso de Biodanza para
