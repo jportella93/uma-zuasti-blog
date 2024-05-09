@@ -2,7 +2,7 @@
 templateKey: article
 title: Proyecto "Rehabilitación emocional de mujeres víctimas de violencia de género"
 date: 2024-05-09T07:25:07.580Z
-featuredImage: /img/abrazos2.jpg
+featuredImage: /img/jason-leung-fw6-_qokoyq-unsplash.jpg
 productType: biodanza
 description: >-
   El pasado mes de abril comencé el proyecto de intervención terapéutica con
