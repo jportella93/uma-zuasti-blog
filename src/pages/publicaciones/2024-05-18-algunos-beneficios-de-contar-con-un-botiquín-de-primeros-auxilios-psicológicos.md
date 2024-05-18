@@ -2,7 +2,7 @@
 templateKey: article
 title: Algunos beneficios de contar con un botiquín de Primeros Auxilios Psicológicos
 date: 2024-05-18T12:29:15.304Z
-featuredImage: /img/2019-03-11_asamblea_biodanzaya_bea-2-.jpg
+featuredImage: /img/anton-shuvalov-iujttz6_gem-unsplash.jpeg
 productType: biodanza
 description: >-
   A lo largo de éste curso, en el grupo semanal de los lunes por la mañana en
