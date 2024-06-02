@@ -10,6 +10,7 @@ const textBlocks = [
   `Terapeuta, educadora infantil e investigadora.`,
   `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
   `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621  Milán.`,
+  "Educación Biocentrica por Ruth Cavalcante y Biodanza Clínica y social.",
   `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
   `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" formada por Nadia Costa y  "Biodanza para gestantes" por Claudette Sant´Anna, Scuolatoro UNIPIB Milán (Italia). También en las extensiones "Biodanza y arcilla” y  "El camino del Heroe", trabajo corporal sobre algunos de los arquetipos post-junguianos.`,
   `Arte-teraputa de orientación Junguiana.`,
