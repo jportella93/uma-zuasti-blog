@@ -4,7 +4,7 @@ title: >-
   Celebrando el Día Internacional de acción para la salud de la mujer en 
   Vilaseca
 date: 2024-06-02T14:49:04.826Z
-featuredImage: /img/ahmad-odeh-khipnbn7sdy-unsplash.jpg
+featuredImage: /img/img-20240528-wa0104.jpg
 productType: biodanza
 description: >-
   El pasado martes 28 de Mayo se celebró en Vilaseca el Día Internacional de
