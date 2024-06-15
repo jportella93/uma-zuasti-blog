@@ -40,11 +40,11 @@ _El Esfuerzo revela la intención emocional y psicológica detrás del movimient
 
 **3. Espacio**
 
-El análisis del espacio estudia cómo la persona utiliza su entorno. Esto incluye la dirección del movimiento (hacia adelante, atrás, arriba, abajo..etc) y el plano en el que se mueve (horizontal, vertical, sagital), y las trayectorias espaciales (lineas, curvas, zigzags). este componente es crucial para entender cómo el movimiento se relaciona con el entorno y cómo una persona ocupa y navega sus espacio.
+El análisis del espacio estudia cómo la persona utiliza su entorno. Esto incluye la dirección del movimiento (hacia adelante, atrás, arriba, abajo..etc) y el plano en el que se mueve (horizontal, vertical, sagital), y las trayectorias espaciales (lineas, curvas, zigzags). Este componente es crucial para entender cómo el movimiento se relaciona con el entorno y cómo una persona ocupa y navega su espacio.
 
 **4. Forma**
 
-La Forma se refiere a los cambios en la configuración del cuerpo a lo largo del tiempo. Incluye patrones de crecimiento y disminución, así como las relaciones espaciales internas dentro del cuerpo. LA forma puede ser analizada a través de los cambios en la silueta y postura, así como en la forma en que el cuerpo se adapta y responde a estímulos externos.
+La Forma se refiere a los cambios en la configuración del cuerpo a lo largo del tiempo. Incluye patrones de crecimiento y disminución, así como las relaciones espaciales internas dentro del cuerpo. La forma puede ser analizada a través de los cambios en la silueta y postura, así como en la forma en que el cuerpo se adapta y responde a estímulos externos.
 
 **Aplicaciones del Análisis Laban del Movimiento**
 
@@ -60,12 +60,12 @@ Para los actores el LAM es una herramienta invaluable para desarrollar personaje
 
 Antropología y estudios culturales
 
-En la antropología, el LAM se utiliza para estudiar las danza tradicionales y otros movimientos culturales, ofreciendo una visión profunda de cómo diferentes culturas expresan su identidad a través del movimiento.
+En la antropología, el LAM se utiliza para estudiar las danzas tradicionales y otros movimientos culturales, ofreciendo una visión profunda de cómo diferentes culturas expresan su identidad a través del movimiento.
 
 Terapia Corporal
 
-Loa Terapeutas Corporales utilizamos el LAM para evaluar y mejorar los patrones de movimiento de nuestros clientes, al identificar ineficiencias o desalineaciones, se pueden diseñar sesiones más efectivas.
+Los Terapeutas Corporales utilizamos el LAM para evaluar y mejorar los patrones de movimiento de nuestros clientes, al identificar ineficiencias o desalineaciones, se pueden diseñar sesiones más efectivas.
 
-En conclusión el Análisis Laban es una herramienta poderosa que permite una comprensión profunda y matizada del movimiento humano, proporcionando una base sólida para su análisis en una gran variedad de contextos.Sigue siendo  una metodología fundamental ya sea en el arte, la terapia o la investigación fundamental para el estudio del movimiento.
+En conclusión el Análisis Laban es una herramienta poderosa que permite una comprensión profunda y matizada del movimiento humano, proporcionando una base sólida para su análisis en una gran variedad de contextos.Sigue siendo  una metodología fundamental ya sea en el arte, la terapia o la investigación fundamental para el estudio del movimiento humano.
 
 Uma Zuasti
