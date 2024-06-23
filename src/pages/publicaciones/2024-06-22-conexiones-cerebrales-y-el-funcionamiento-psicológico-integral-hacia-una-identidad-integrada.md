@@ -16,7 +16,7 @@ description: >-
 ---
 El cerebro humano es una red compleja de estructuras interconectadas, cada una desempeñando un papel crucial en la regulación de las emociones, los pensamientos y los comportamientos. La identidad integrada y el funcionamiento psicológico integral son producto de esta red interactiva. Comprender cómo estas conexiones trabajan juntas es fundamental para la psicología, la psiquiatría y la neurociencia.
 
-**_Corteza Prefrontal: el Centro de Control Ejecutivo_**
+_**Corteza Prefrontal: el Centro de Control Ejecutivo**_
 
 La corteza prefrontal (CPF) es esencial para las funciones ejecutivas, que incluyen la toma de decisiones, la planificación, el control de impulsos. Subregiones como la corteza dorsolateral prefrontal (DLPFC) y la corteza ventromedial prefrontal (VMPFC) juegan roles específicos en la regulación del comportamiento y las emociones.
 
@@ -24,7 +24,7 @@ _.Corteza Dorsolateral Prefrontal (DLPFC)_:Implicada en la planificación, la me
 
 _.Corteza Ventromedial Prefrontal (VMPFC):_ Crucial para la toma de decisiones basadas en emociones y evaluación de recompensas y riesgos.
 
-**_Sistema Límbico : El Nucleo Emocional_**
+_**Sistema Límbico : El Nucleo Emocional**_
 
 _El sistema límbico:_ compuesto por estructural como la amígdala, el hipocampo y el cíngulo anterior, es central en la regulación de las emociones y la memoria.
 
@@ -36,11 +36,11 @@ _.Hipocampo:_ Fundamental para la formación de nuevas memorias y su integració
 
 **Conectividad entre la Corteza Prefrontal y el Sistema Límbico**
 
-Para un funcionamiento  psicológico integral, es vital la comunicación efectiva entre la CPF y el sistema Límbico. La CPF regula y modula las respuestas emocionales generadas en el sistema límbico , permitiendo respuestas adaptativas y controladas.
+Para un funcionamiento  psicológico integral, es vital la comunicación efectiva entre la CPF y el sistema límbico. La CPF regula y modula las respuestas emocionales generadas en el sistema límbico , permitiendo respuestas adaptativas y controladas.
 
 **Otras Conexiones Cruciales**
 
-Además de la interación CPF-sistema límbico, otras estructuras y sus conexiones también son importantes:
+Además de la interacción CPF-sistema límbico, otras estructuras y sus conexiones también son importantes:
 
 **.Corteza Parietal:** Involucrada en la integración sensorial y la conciencia espacial, apoyando la autopercepción y la identidad corporal.
 
@@ -48,11 +48,11 @@ Además de la interación CPF-sistema límbico, otras estructuras y sus conexion
 
 **.Red de Modo Predeterminado (DMN):** Esta red, que incluye el precúneo, la corteza cingulada posterior y la corteza prefrontal medial, está activa durante el pensamiento introspectivo y la autoreflexión, procesos fundamentales para una identidad integrada.
 
-**_Integración de la Identidad y Bienestar Psicológico_**
+_**Integración de la Identidad y Bienestar Psicológico**_
 
-La integración _\*\*\*\*_de la identidad y el bienestar psicológico dependen de la armoniosa interacción de éstas estructuras y sus conexiones. Disfunciones en estas conexiones pueden resultar en trastornos psicológicos como la depresión , la ansiedad y otros trastornos de identidad disociativa.
+La integración de la identidad y el bienestar psicológico dependen de la armoniosa interacción de éstas estructuras y sus conexiones. Disfunciones en estas conexiones pueden resultar en trastornos psicológicos como la depresión , la ansiedad y otros trastornos de identidad disociativa.
 
-**_Conclusiones_**
+_**Conclusiones**_
 
 El funcionamiento psicológico integral y una identidad integrada son productos de la compleja y coordinada interacción  entre la CPF, el sistema límbico y otras áreas cerebrales. La investigación futura debe enfocarse en comprender mejor estas conexiones y desarrollar intervenciones que puedan fortalecerlas para mejorar el bienestar psicológico y la cohesión de la identidad.
 
@@ -60,14 +60,12 @@ Este artículo simplemente ofrece una visión general de las estructuras y conex
 
 **Referencias**
 
-_1. Pessoa, L.(2013) The cognitive-Emotional Brain: FromInteractions to Integration. MIT Press._
+_1. Pessoa, L.(2013) The cognitive-Emotional Brain: From Interactions to Integration. MIT Press._
 
 _2. Rolls,E.T.(2019). The Brain, Emotion, and Depression. Oxford University Press._
 
-_3.Northoff,G. (2014). Unlocking the Brain :Volume 2: Consciousness. Oxford University Press_
+_3.Northoff,G. (2014). Unlocking the Brain :Volume 2: Consciousness. Oxford University Press._
 
 _4. LeDoux, J(2015).Anxious: Using the Brain to understand and Treat Fear and Anxiety._ 
-
-
 
  Uma Zuasti
