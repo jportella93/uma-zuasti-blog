@@ -16,7 +16,7 @@ description: >-
 ---
 El cerebro humano es una red compleja de estructuras interconectadas, cada una desempeñando un papel crucial en la regulación de las emociones, los pensamientos y los comportamientos. La identidad integrada y el funcionamiento psicológico integral son producto de esta red interactiva. Comprender cómo estas conexiones trabajan juntas es fundamental para la psicología, la psiquiatría y la neurociencia.
 
-_**Corteza Prefrontal: el Centro de Control Ejecutivo**_
+**_Corteza Prefrontal: el Centro de Control Ejecutivo_**
 
 La corteza prefrontal (CPF) es esencial para las funciones ejecutivas, que incluyen la toma de decisiones, la planificación, el control de impulsos. Subregiones como la corteza dorsolateral prefrontal (DLPFC) y la corteza ventromedial prefrontal (VMPFC) juegan roles específicos en la regulación del comportamiento y las emociones.
 
@@ -24,7 +24,7 @@ _.Corteza Dorsolateral Prefrontal (DLPFC)_:Implicada en la planificación, la me
 
 _.Corteza Ventromedial Prefrontal (VMPFC):_ Crucial para la toma de decisiones basadas en emociones y evaluación de recompensas y riesgos.
 
-_**Sistema Límbico : El Nucleo Emocional**_
+**_Sistema Límbico : El Nucleo Emocional_**
 
 _El sistema límbico:_ compuesto por estructural como la amígdala, el hipocampo y el cíngulo anterior, es central en la regulación de las emociones y la memoria.
 
@@ -48,11 +48,11 @@ Además de la interación CPF-sistema límbico, otras estructuras y sus conexion
 
 **.Red de Modo Predeterminado (DMN):** Esta red, que incluye el precúneo, la corteza cingulada posterior y la corteza prefrontal medial, está activa durante el pensamiento introspectivo y la autoreflexión, procesos fundamentales para una identidad integrada.
 
-_**Integración de la Identidad y Bienestar Psicológico**_
+**_Integración de la Identidad y Bienestar Psicológico_**
 
-La integración _****_de la identidad y el bienestar psicológico dependen de la armoniosa interacción de éstas estructuras y sus conexiones. Disfunciones en estas conexiones pueden resultar en trastornos psicológicos como la depresión , la ansiedad y otros trastornos de identidad disociativa.
+La integración _\*\*\*\*_de la identidad y el bienestar psicológico dependen de la armoniosa interacción de éstas estructuras y sus conexiones. Disfunciones en estas conexiones pueden resultar en trastornos psicológicos como la depresión , la ansiedad y otros trastornos de identidad disociativa.
 
-_**Conclusiones**_
+**_Conclusiones_**
 
 El funcionamiento psicológico integral y una identidad integrada son productos de la compleja y coordinada interacción  entre la CPF, el sistema límbico y otras áreas cerebrales. La investigación futura debe enfocarse en comprender mejor estas conexiones y desarrollar intervenciones que puedan fortalecerlas para mejorar el bienestar psicológico y la cohesión de la identidad.
 
@@ -68,4 +68,6 @@ _3.Northoff,G. (2014). Unlocking the Brain :Volume 2: Consciousness. Oxford Univ
 
 _4. LeDoux, J(2015).Anxious: Using the Brain to understand and Treat Fear and Anxiety._ 
 
-__
+
+
+ Uma Zuasti
