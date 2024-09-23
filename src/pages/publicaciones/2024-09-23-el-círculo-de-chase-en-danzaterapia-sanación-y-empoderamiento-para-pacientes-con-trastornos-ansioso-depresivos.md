@@ -6,13 +6,13 @@ title: >-
 date: 2024-09-23T08:48:26.045Z
 featuredImage: /img/julia-taubitz-zn5pxaogm3e-unsplash.jpg
 productType: other
-description: >+
+description: >
   La danzaterapia es una disciplina terapéutica que utiliza el movimiento para
   facilitar la expresión emocional, mejorar el bienestar y promover la
   autorregulación en personas con diversas condiciones psicológicas. Entre las
   pioneras más influyentes de esta disciplina se encuentra Marian Chace, cuyo
   enfoque innovador hacia el movimiento terapéutico sigue siendo una base
-  fundamental en el tratamiento de personas con trastornos mentales. Uno de los
+  fundamental en el tratamiento de personas con psicopatologías. Uno de los
   métodos más conocidos que desarrolló es la técnica del Círculo de Chase, una
   dinámica grupal diseñada para fomentar la expresión, el liderazgo y el
   bienestar emocional.
