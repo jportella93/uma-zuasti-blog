@@ -4,7 +4,7 @@ title: >-
   La sobreestimulación de la vía dopaminérgica mesolímbica y su relación con el
   delirio de grandeza
 date: 2024-10-29T10:27:46.735Z
-featuredImage: /img/harrison-leece-owr6k86f7uk-unsplash.jpg
+featuredImage: /img/hal-gatewood-ogvqxgl7xo4-unsplash.jpg
 productType: biodanza
 description: |2
 
