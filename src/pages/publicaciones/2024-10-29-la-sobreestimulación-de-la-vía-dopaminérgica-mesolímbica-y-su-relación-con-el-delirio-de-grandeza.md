@@ -6,7 +6,7 @@ title: >-
 date: 2024-10-29T10:27:46.735Z
 featuredImage: /img/harrison-leece-owr6k86f7uk-unsplash.jpg
 productType: biodanza
-description: |2+
+description: |2
 
 
    El delirio de grandeza es un síntoma característico de ciertos trastornos psiquiátricos, asociado con una percepción exagerada e irrealista de la propia importancia o habilidades. Este síntoma ha sido relacionado con la actividad excesiva en la vía dopaminérgica mesolímbica, un circuito crucial en el sistema de recompensa cerebral. Este artículo revisa los efectos de la sobreestimulación de esta vía  a traves del consumo de sustancias o prácticas New Age y su implicación en la aparición de síntomas psicóticos como el delirio de grandeza, analizando los mecanismos neurobiológicos subyacentes y los efectos de esta disfunción en la percepción de la realidad.
