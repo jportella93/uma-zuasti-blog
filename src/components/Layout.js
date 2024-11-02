@@ -2,7 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import Page from '../components/Page'
-import './all.sass'
+import "./bulma.min.css";
+import "./hamburgers.min.css";
 import { GlobalStyles } from './TextStyles'
 
 const Layout = ({ children, bgColor, navbarColor }) => (
