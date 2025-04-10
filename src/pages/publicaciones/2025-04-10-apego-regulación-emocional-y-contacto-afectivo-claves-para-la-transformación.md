@@ -16,15 +16,15 @@ Este eje es responsable de regular la liberación de cortisol y otras hormonas r
 
 Esta relación ha sido formulada y desarrollada por autores como Allan Schore (2001, 2003), Daniel Siegel (1999, 2012) y Ruth Feldman (2007, 2015), quienes han mostrado, desde la neurobiología del desarrollo, cómo los vínculos afectivos modelan literalmente la estructura y funcionalidad del cerebro.
 
-**_¿Podemos cambiar nuestro estilo de apego en la vida adulta?_**
+_**¿Podemos cambiar nuestro estilo de apego en la vida adulta?**_
 
 La respuesta es compleja. Si bien el apego se forma en los primeros años de vida, múltiples estudios (y la práctica clínica) han demostrado que es posible desarrollar formas más seguras de vincularnos a través de experiencias relacionales correctivas, especialmente en contextos de confianza, contención emocional y contacto afectivo.
 
 _Aquí surge una pregunta delicada: ¿es suficiente con que las personas se abracen, se acaricien o se besen en un entorno terapéutico grupal para reestructurar su estilo de apego? ¿O simplemente se genera una forma de dependencia grupal?_
 
-Desde una perspectiva terapéutica, el contacto físico —cuando es voluntario, cuidado y contextualizado— puede tener un efecto regulador profundo. Estudios de la Universidad de Zurich y del Instituto Max Planck han mostrado que el contacto afectivo (abrazo, mirada, caricia) estimula la liberación de oxitocina, reduce los niveles de cortisol y favorece el sentimiento de conexión y seguridad. En contextos grupales terapéuticos (como la danza terapia, el trabajo corporal o ciertas dinámicas de Biodanza), el contacto puede facilitar experiencias emocionales correctivas.
+Desde una perspectiva terapéutica, el contacto físico —cuando es voluntario, cuidado y contextualizado— puede tener un efecto regulador profundo. Estudios de la Universidad de Zurich y del Instituto Max Planck han mostrado que el contacto afectivo (abrazo, mirada, caricia) estimula la liberación de oxitocina, reduce los niveles de cortisol y favorece el sentimiento de conexión y seguridad. En contextos grupales terapéuticos (como en ciertas dinámicas de Biodanza), el contacto puede facilitar experiencias emocionales correctivas.
 
-**_El riesgo de forzar el contacto: cuando no es deseado_**
+_**El riesgo de forzar el contacto: cuando no es deseado**_
 
 Sin embargo, es fundamental subrayar que el contacto físico nunca debe ser propuesto de forma coercitiva ni como una obligación implícita para “sanar” o “pertenecer al grupo”. Cuando un abrazo, una caricia o un gesto afectivo no es genuinamente deseado por la persona —aunque sea sutilmente forzado, mal encuadrado o emocionalmente ambiguo— el efecto puede ser el contrario al buscado:
 
@@ -40,7 +40,7 @@ Además, en muchas personas, puede despertar una necesidad de cuidado infantil n
 
 Esta reactivación puede intensificar la búsqueda compulsiva de afecto, generar dependencia emocional hacia figuras de autoridad o al propio grupo, o activar emociones regresivas sin posibilidad de metabolización psíquica. Por eso, es crucial que cualquier propuesta de contacto en espacios terapéuticos o grupales esté mediada por el consentimiento explícito, la capacidad de decir “no” sin consecuencias emocionales, y la presencia de un encuadre que priorice la soberanía corporal.
 
-**_Lo verdaderamente transformador_**
+_**Lo verdaderamente transformador**_
 
 Para que el contacto afectivo tenga un valor terapéutico real, es necesario que la experiencia relacional sea:
 
@@ -56,9 +56,7 @@ Y acompañada de un proceso de mentalización y simbolización (es decir, que la
 
 Cuando se cumplen estas condiciones, el contacto puede actuar como un "puente neurobiológico" hacia formas más seguras de vincularse. De lo contrario, puede generar confusión o dependencia sin un verdadero cambio de base.
 
-
-
-_**Referencias bibliográficas**_
+**_Referencias bibliográficas_**
 
 Feldman, R. (2007). Parent-infant synchrony and the construction of shared timing; physiological precursors, developmental outcomes, and risk conditions. Journal of Child Psychology and Psychiatry, 48(3-4), 329-354.
 
@@ -69,3 +67,5 @@ Schore, A. N. (2003). Affect Dysregulation and Disorders of the Self. W. W. Nort
 Siegel, D. J. (1999). The Developing Mind: Toward a Neurobiology of Interpersonal Experience. Guilford Press.
 
 Siegel, D. J. (2012). Pocket Guide to Interpersonal Neurobiology. W. W. Norton & Company.
+
+Uma Zuasti
