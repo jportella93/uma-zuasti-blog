@@ -16,15 +16,17 @@ Este eje es responsable de regular la liberación de cortisol y otras hormonas r
 
 Esta relación ha sido formulada y desarrollada por autores como Allan Schore (2001, 2003), Daniel Siegel (1999, 2012) y Ruth Feldman (2007, 2015), quienes han mostrado, desde la neurobiología del desarrollo, cómo los vínculos afectivos modelan literalmente la estructura y funcionalidad del cerebro.
 
-_**¿Podemos cambiar nuestro estilo de apego en la vida adulta?**_
+**_¿Podemos cambiar nuestro estilo de apego en la vida adulta?_**
 
 La respuesta es compleja. Si bien el apego se forma en los primeros años de vida, múltiples estudios (y la práctica clínica) han demostrado que es posible desarrollar formas más seguras de vincularnos a través de experiencias relacionales correctivas, especialmente en contextos de confianza, contención emocional y contacto afectivo.
 
-_Aquí surge una pregunta delicada: ¿es suficiente con que las personas se abracen, se acaricien o se besen en un entorno terapéutico grupal para reestructurar su estilo de apego? ¿O simplemente se genera una forma de dependencia grupal?_
+Ahora bien, una relación correctiva no se reduce a darse abrazos o a mirarse a los ojos en un espacio grupal. Aunque prácticas como la Biodanza pueden facilitar momentos de conexión emocional, el cambio profundo en los modelos internos de apego implica procesos más complejos y sostenidos. Se trata de establecer vínculos donde se experimente coherencia emocional, fiabilidad en el otro, validación afectiva y una capacidad real de sostener la experiencia del otro sin disociarla ni invadirla. La transformación del apego requiere tiempo, repetición, mentalización y una integración simbólica de lo vivido.
 
-Desde una perspectiva terapéutica, el contacto físico —cuando es voluntario, cuidado y contextualizado— puede tener un efecto regulador profundo. Estudios de la Universidad de Zurich y del Instituto Max Planck han mostrado que el contacto afectivo (abrazo, mirada, caricia) estimula la liberación de oxitocina, reduce los niveles de cortisol y favorece el sentimiento de conexión y seguridad. En contextos grupales terapéuticos (como en ciertas dinámicas de Biodanza), el contacto puede facilitar experiencias emocionales correctivas.
+En mi experiencia, he visto cómo muchas personas se quedan en esa capa superficial del contacto afectivo, buscando una especie de alivio momentáneo al dolor emocional sin llegar a tocar el fondo de lo que realmente necesitan. El grupo, en estos casos, puede convertirse en una fuente de pseudosatisfacción afectiva, donde se repite el patrón de buscar atención o consuelo inmediato sin un verdadero proceso de transformación interna.
 
-_**El riesgo de forzar el contacto: cuando no es deseado**_
+El contacto físico puede ser hermoso y profundamente sanador, pero solo cuando va acompañado de una relación coherente, sostenida, validante y verdaderamente segura. Lo contrario puede perpetuar dinámicas de dependencia emocional o incluso reforzar heridas no elaboradas. Cambiar el modelo interno de apego no se logra únicamente a través de gestos de afecto: implica un trabajo profundo, sostenido en el tiempo, donde la persona pueda sentirse vista, comprendida y sostenida en su proceso, sin prisa ni presión, y con espacio para dar sentido a lo vivido.
+
+**_El riesgo de forzar el contacto: cuando no es deseado_**
 
 Sin embargo, es fundamental subrayar que el contacto físico nunca debe ser propuesto de forma coercitiva ni como una obligación implícita para “sanar” o “pertenecer al grupo”. Cuando un abrazo, una caricia o un gesto afectivo no es genuinamente deseado por la persona —aunque sea sutilmente forzado, mal encuadrado o emocionalmente ambiguo— el efecto puede ser el contrario al buscado:
 
@@ -40,7 +42,7 @@ Además, en muchas personas, puede despertar una necesidad de cuidado infantil n
 
 Esta reactivación puede intensificar la búsqueda compulsiva de afecto, generar dependencia emocional hacia figuras de autoridad o al propio grupo, o activar emociones regresivas sin posibilidad de metabolización psíquica. Por eso, es crucial que cualquier propuesta de contacto en espacios terapéuticos o grupales esté mediada por el consentimiento explícito, la capacidad de decir “no” sin consecuencias emocionales, y la presencia de un encuadre que priorice la soberanía corporal.
 
-_**Lo verdaderamente transformador**_
+**_Lo verdaderamente transformador_**
 
 Para que el contacto afectivo tenga un valor terapéutico real, es necesario que la experiencia relacional sea:
 
@@ -56,7 +58,7 @@ Y acompañada de un proceso de mentalización y simbolización (es decir, que la
 
 Cuando se cumplen estas condiciones, el contacto puede actuar como un "puente neurobiológico" hacia formas más seguras de vincularse. De lo contrario, puede generar confusión o dependencia sin un verdadero cambio de base.
 
-**_Referencias bibliográficas_**
+_**Referencias bibliográficas**_
 
 Feldman, R. (2007). Parent-infant synchrony and the construction of shared timing; physiological precursors, developmental outcomes, and risk conditions. Journal of Child Psychology and Psychiatry, 48(3-4), 329-354.
 
