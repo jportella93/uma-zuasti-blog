@@ -42,21 +42,7 @@ Además, en muchas personas, puede despertar una necesidad de cuidado infantil n
 
 Esta reactivación puede intensificar la búsqueda compulsiva de afecto, generar dependencia emocional hacia figuras de autoridad o al propio grupo, o activar emociones regresivas sin posibilidad de metabolización psíquica. Por eso, es crucial que cualquier propuesta de contacto en espacios terapéuticos o grupales esté mediada por el consentimiento explícito, la capacidad de decir “no” sin consecuencias emocionales, y la presencia de un encuadre que priorice la soberanía corporal.
 
-**_Lo verdaderamente transformador_**
-
-Para que el contacto afectivo tenga un valor terapéutico real, es necesario que la experiencia relacional sea:
-
-\-Segura (no invasiva ni demandante),
-
-\-Coherente (predecible, sin ambivalencias emocionales),
-
-\-Respetuosa del ritmo del otro,
-
-\-Sostenida en el tiempo,
-
-Y acompañada de un proceso de mentalización y simbolización (es decir, que la persona pueda dar sentido a lo que siente).
-
-Cuando se cumplen estas condiciones, el contacto puede actuar como un "puente neurobiológico" hacia formas más seguras de vincularse. De lo contrario, puede generar confusión o dependencia sin un verdadero cambio de base.
+**_Uma Zuasti_**
 
 _**Referencias bibliográficas**_
 
