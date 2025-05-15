@@ -10,7 +10,7 @@ collections:
     label: Publicaciones
     folder: src/pages/publicaciones
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -39,6 +39,9 @@ collections:
         options:
           - label: "Biodanza"
             value: "biodanza"
+
+          - label: "Danza Emoción"
+            value: "danza-emocion"
 
           - label: "Biodanza Perinatal"
             value: "biodanza-perinatal"
@@ -77,12 +80,11 @@ collections:
           - numbered-list
         hint: Contenido del artículo mostrado en la vista expandida
 
-
-  - name: 'clases-y-talleres'
+  - name: "clases-y-talleres"
     label: Clases y talleres
     folder: src/pages/clases-y-talleres
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -121,6 +123,9 @@ collections:
         options:
           - label: "Biodanza"
             value: "biodanza"
+
+          - label: "Danza Emoción"
+            value: "danza-emocion"
 
           - label: "Biodanza Perinatal"
             value: "biodanza-perinatal"
