@@ -22,7 +22,7 @@ const PublicationListView = ({ publications, title, readMoreText }) => (
       <Title>{title}</Title>
     </LimitedContainer>
     {publications
-      .map(({ node: {id, fields, frontmatter: {featuredImage, description, eventDates, eventPlace}} }, i, publications) => (
+      .map(({ node: {id, fields, frontmatter: {featuredImage, description, eventDates, eventPlace, title: postTitle}} }, i, publications) => (
         <ImageTextBlock
           key={id}
           imgSrc={featuredImage}
@@ -31,7 +31,7 @@ const PublicationListView = ({ publications, title, readMoreText }) => (
           shorter
           contentSlot={
             <P textAlign="left" marginTop="0" paddingTop="24px">
-              <b>{title}</b><br />
+              <b>{postTitle}</b><br />
               {description && <>{description}<br /></>}
               {eventPlace && <>{eventPlace}<br /></>}
               {eventDates && <>{eventDates}<br /></>}
