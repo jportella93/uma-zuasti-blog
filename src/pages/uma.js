@@ -7,7 +7,7 @@ import Separator from "../components/Separator";
 import { H1, P } from "../components/TextStyles";
 
 const textBlocks = [
-  `Profesional interdisciplinar que fusiona la psicología, la danza y técnicas psicocorporales, integrando los conocimientos de ambas disciplinas. Investigadora en la aplicación de la danza en diferentes ámbitos y colectivos.`,
+  `Profesional interdisciplinar que fusiona la psicología, la danza y técnicas psicocorporales, integrando los conocimientos de ambas disciplinas. Investigadora en la aplicación de la danza en diferentes ámbitos y colectivos. Creadora del método Danza Emoción.`,
   `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
   `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621  Milán.`,
   `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
