@@ -3,8 +3,8 @@ templateKey: article
 title: DanzaEmocion  Que es?
 date: 2025-04-11T09:19:10.783Z
 featuredImage: /img/img-20250316-wa0013.jpg
-productType: other
-description: >+
+productType: danza-emocion
+description: >
   Un método de transformación emocional a través del cuerpo y el movimiento.
 
   Danza Emoción es una propuesta terapéutica y creativa que integra la
