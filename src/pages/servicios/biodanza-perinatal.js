@@ -24,7 +24,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    featuredImageQ: file(name: {eq: "2-perinatal-1"}) {
+    featuredImageQ: file(name: {eq: "3-perinatal-1"}) {
       ...Fluid1200
     }
   }

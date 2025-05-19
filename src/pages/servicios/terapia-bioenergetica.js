@@ -24,7 +24,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    featuredImageQ: file(name: {eq: "3-bioenergetica-1"}) {
+    featuredImageQ: file(name: {eq: "4-bioenergetica-1"}) {
       ...Fluid1200
     }
   }

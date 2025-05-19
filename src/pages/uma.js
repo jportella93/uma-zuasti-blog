@@ -11,7 +11,7 @@ const textBlocks = [
   `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
   `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621  Milán.`,
   `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
-  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" formada por Nadia Costa y  "Biodanza para gestantes" por Claudette Sant´Anna, Scuolatoro UNIPIB Milán (Italia). Educación Biocentrica por Ruth Cavalcante y Biodanza Clínica y social. También en las extensiones "Biodanza y arcilla” y  "El camino del Heroe", trabajo corporal sobre algunos de los arquetipos post-junguianos. Formada en LABAN MOVEMENT ANALYSIS para distintos tipos de intervención en Danzaterapia.`,
+  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" formada por Nadia Costa y "Biodanza para gestantes" por Claudette Sant´Anna, Scuolatoro UNIPIB Milán (Italia). Educación Biocentrica por Ruth Cavalcante y Biodanza Clínica y social. También en las extensiones "Biodanza y arcilla" y "El camino del Heroe", trabajo corporal sobre algunos de los arquetipos post-junguianos. Formada en LABAN MOVEMENT ANALYSIS para distintos tipos de intervención en Danzaterapia.`,
   `Formación básica en DMT`,
   `Arte-teraputa de orientación Junguiana.`,
   `Terapeuta en PHMA, (Phyco Motor Healing Activitis) y SEL (Somatic emocional liberation), herramientas post trauma utilizadas con niños en los campos de refugiados de Turquía y Lebanon.`,
@@ -38,7 +38,7 @@ const getContentsForTextBlocks = (startIndex, finishIndex) => (
 )
 
 const UmaPage = ({ data }) => {
-  const fluidSrcs = data.images.nodes.map(node => node.childImageSharp.fluid)
+  const fluidSrcs = data.images.nodes.map(node => node.childImageSharp?.fluid)
 
   const imageTextBlocks = [
     {

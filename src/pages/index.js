@@ -9,8 +9,8 @@ import Layout from "../components/Layout";
 import routes from "../components/routes";
 import SearchIconText from '../components/SearchIconText';
 import { H1, H2, H4, P, Span } from "../components/TextStyles";
-import logoWhite from "../img/logo-white.svg";
 import titleToSnakeCase from "../components/titleToSnakeCase";
+import logoWhite from "../img/logo-white.svg";
 
 const Logo = styled.img`
   margin-top: 150px;
@@ -54,6 +54,29 @@ const imageTextBlockMaps = [
     content:
       "Desarrollar potenciales comunicativos, afectivos y vitales que nos conecten con nosotros mismos, con el otro y con la naturaleza.",
     footerComponent: <TopicSearchIconText topic="Biodanza" />,
+    shadow: 'bottom'
+  },
+  {
+    title: "¿Qué es Danza Emoción?",
+    content:
+      "En Danza Emoción, el cuerpo es la voz del alma y el movimiento es el lenguaje con el que narramos nuestras historias más profundas. Aquí, la danza no es una técnica, es una experiencia transformadora, un viaje hacia el reencuentro con nuestra esencia más auténtica.",
+    footerComponent: <TopicSearchIconText topic="Danza Emoción" />, 
+    shadow: 'top'
+  },
+  {
+    title: "¿Cómo se desarrolla?",
+    content:
+      "Danza Emoción nace como un método integrador, donde el movimiento consciente, la expresión simbólica y la conexión emocional convergen para liberar el potencial innato del ser humano. Cada sesión es un espacio donde el cuerpo habla, la mente escucha y el corazón despierta."
+  },
+  {
+    title: "¿A quién va dirigido?",
+    content:
+      "Para quienes buscan reconectar con su cuerpo, atravesar bloqueos y encontrar un camino creativo hacia el bienestar emocional. En un mundo donde el ruido exterior nos desconecta de nuestra verdad interna, Danza Emoción nos invita a detenernos, a respirar profundamente y a danzar nuestra propia historia."
+  },
+  {
+    title: "¿Con qué objetivo?",
+    content:
+      "Nuestros pilares fundamentales son:\n1. LIBERACIÓN: Soltar los patrones limitantes a través del movimiento espontáneo.\n2. CONEXIÓN: Reconocer nuestras emociones y transformarlas en impulso creativo.\n3. EMPODERAMIENTO: Recuperar nuestro poder personal a través de la expresión corporal.\n4. PRESENCIA: Aprender a habitar el momento presente.\n5. CREATIVIDAD: Explorar el simbolismo del movimiento para expresar lo inefable.",
     shadow: 'bottom'
   },
   {
@@ -122,7 +145,7 @@ const imageTextBlockMaps = [
   {
     title: "¿Con qué objetivo?",
     content:
-      "Descubrir cómo la movilidad de la pelvis y la fluidez de la respiración pueden ser grandes aliadas durante el parto. Obtener herramientas y estrategias para acompañar las contracciones, contactar con el bebé y acompañarlo a nacer. Experimentar una gran variedad de posiciones y movimientos que podrán facilitar a la pelvis adaptarse, acomodarse y “mecer” al bebé durante la dilatación y el expulsivo, con o sin epidural, individualmente o con acompañante. Aumentar la confianza en el proceso fisiológico de parir.",
+      "Descubrir cómo la movilidad de la pelvis y la fluidez de la respiración pueden ser grandes aliadas durante el parto. Obtener herramientas y estrategias para acompañar las contracciones, contactar con el bebé y acompañarlo a nacer. Experimentar una gran variedad de posiciones y movimientos que podrán facilitar a la pelvis adaptarse, acomodarse y \"mecer\" al bebé durante la dilatación y el expulsivo, con o sin epidural, individualmente o con acompañante. Aumentar la confianza en el proceso fisiológico de parir.",
     footerComponent: <TopicSearchIconText topic="Parto y Movimiento" />,
     shadow: 'bottom'
   },
@@ -154,7 +177,7 @@ const IndexPage = ({ data }) => {
     ({
       ...imageTextBlockMaps[i],
       key: node.id,
-      fluidSrc: node.childImageSharp.fluid
+      fluidSrc: node.childImageSharp?.fluid
     })
   )
 
@@ -176,14 +199,17 @@ const IndexPage = ({ data }) => {
       <Foldable title="Biodanza" folded >
         {renderBlocks(imageTextDataBlockMaps, 0, 4)}
       </Foldable>
-      <Foldable title="Biodanza Perinatal" folded >
+      <Foldable title="Danza Emoción" folded >
         {renderBlocks(imageTextDataBlockMaps, 4, 8)}
       </Foldable>
-      <Foldable title="Terapia Bioenergética" folded >
+      <Foldable title="Biodanza Perinatal" folded >
         {renderBlocks(imageTextDataBlockMaps, 8, 12)}
       </Foldable>
-      <Foldable title="Parto y Movimiento" folded >
+      <Foldable title="Terapia Bioenergética" folded >
         {renderBlocks(imageTextDataBlockMaps, 12, 16)}
+      </Foldable>
+      <Foldable title="Parto y Movimiento" folded >
+        {renderBlocks(imageTextDataBlockMaps, 16, 20)}
       </Foldable>
     </Layout>
   )

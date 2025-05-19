@@ -42,7 +42,7 @@
   "scripts": {
     "start": "npm run develop",
     "clean": "rimraf .cache public",
-    "build": "npm run clean && gatsby build",
+    "build": "npm run clean && NODE_OPTIONS=--openssl-legacy-provider gatsby build",
     "develop": "npm run clean && NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "dev": "npm run develop",
     "deploy:github": "npm run build && node ./scripts/deployGithub",

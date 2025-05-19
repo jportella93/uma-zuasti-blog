@@ -28,14 +28,16 @@ const ServiceView = ({
   title,
   workshopsQ: { edges: workshops },
   articlesQ: { edges: articles },
-  featuredImageQ: { childImageSharp: { fluid } }
-}) => (
+  featuredImageQ
+}) => {
+  const fluid = featuredImageQ?.childImageSharp?.fluid;
+  return (
     <Layout>
       <Helmet title={title} />
       <LimitedContainer>
         <Title>{title}</Title>
       </LimitedContainer>
-      <FeaturedImage fluid={fluid} />
+      {fluid && <FeaturedImage fluid={fluid} />}
       <Foldable title="Próximos talleres" >
         {workshops
           .map(({ node: post }, i, workshops) => (
@@ -54,7 +56,7 @@ const ServiceView = ({
               }
               footerSlot={(
                 <A to={post.fields.slug}>
-                  <MoreInfoText>Más info -></MoreInfoText>
+                  <MoreInfoText>Más info -{'>'}</MoreInfoText>
                 </A>
               )}
             />
@@ -79,7 +81,7 @@ const ServiceView = ({
               }
               footerSlot={(
                 <A to={post.fields.slug}>
-                  <MoreInfoText>Leer más -></MoreInfoText>
+                  <MoreInfoText>Leer más -{'>'}</MoreInfoText>
                 </A>
               )}
             />
@@ -87,5 +89,6 @@ const ServiceView = ({
       </Foldable>
     </Layout>
   )
+}
 
 export default ServiceView;

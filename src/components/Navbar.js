@@ -1,3 +1,4 @@
+import _throttle from 'lodash/throttle'
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { palette } from '../components/constants'
@@ -5,7 +6,6 @@ import routes from '../components/routes'
 import { A } from '../components/TextStyles'
 import logoRed from '../img/logo-red.svg'
 import ContactBlock from './ContactBlock'
-import _throttle from 'lodash/throttle'
 
 const navbarZIndex = 50;
 
@@ -83,6 +83,7 @@ const MenuItem = styled(A)`
 
 const submenuItemsMap = new Map([
   ['Biodanza', 'biodanza'],
+  ['Danza Emoción', 'danza-emocion'],
   ['Biodanza Perinatal', 'biodanza-perinatal'],
   ['Terapia Bioenergética', 'terapia-bioenergetica'],
   ['Parto y Movimiento', 'parto-y-movimiento'],
