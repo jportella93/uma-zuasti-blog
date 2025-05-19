@@ -3,7 +3,7 @@ templateKey: article
 title: ' Exploración Corporal e Integración del Flujo libre y Contenido en DanzaEmoción'
 date: 2025-05-19T13:48:41.723Z
 featuredImage: /img/3dfb69557b9525892c2076b9520a983d.jpg
-productType: other
+productType: danza-emocion
 description: >-
   En el marco de Danza Emoción, la exploración del flujo libre y del flujo
   contenido no solo facilita la expresión emocional y el desarrollo identitario,
