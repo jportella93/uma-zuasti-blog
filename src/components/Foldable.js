@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import styled, {css} from 'styled-components';
-import {LimitedContainer} from '../components/Containers';
-import {H2} from '../components/TextStyles';
+import styled, { css } from 'styled-components';
+import { LimitedContainer } from '../components/Containers';
+import { H2 } from '../components/TextStyles';
 import ChevronDownWhite from '../img/chevron-down-white.svg';
-import {UnstyledButton} from './Buttons';
+import { UnstyledButton } from './Buttons';
 
 const transition = css`
   transition: all 1s ease;
@@ -22,8 +22,7 @@ const TopBar = styled(UnstyledButton)`
 const FoldablePart = styled.div`
   margin-top: 8px;
   overflow: hidden;
-  max-height: ${props => props.isFolded ?
-    '0' : '5000px'};
+  max-height: ${({ maxHeight }) => maxHeight};
   ${transition}
 `
 
@@ -33,8 +32,18 @@ const Chevron = styled.img`
   ${transition}
 `
 
-const Foldable = ({title, folded, children}) => {
+const Foldable = ({ title, folded, children }) => {
   const [isFolded, setFolded] = React.useState(folded);
+  const [maxHeight, setMaxHeight] = React.useState('0px');
+  const contentRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (isFolded) {
+      setMaxHeight('0px');
+    } else if (contentRef.current) {
+      setMaxHeight(`${contentRef.current.scrollHeight}px`);
+    }
+  }, [isFolded, children]);
 
   return (
     <>
@@ -44,11 +53,13 @@ const Foldable = ({title, folded, children}) => {
           <Chevron src={ChevronDownWhite} isFolded={isFolded} />
         </TopBar>
       </LimitedContainer>
-      <FoldablePart isFolded={isFolded}>
-        {children}
+      <FoldablePart maxHeight={maxHeight}>
+        <div ref={contentRef}>
+          {children}
+        </div>
       </FoldablePart>
     </>
-  )
+  );
 }
 
 Foldable.propTypes = {
