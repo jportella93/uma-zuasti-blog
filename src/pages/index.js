@@ -59,24 +59,24 @@ const imageTextBlockMaps = [
   {
     title: "¿Qué es Danza Emoción?",
     content:
-      "En Danza Emoción, el cuerpo es la voz del alma y el movimiento es el lenguaje con el que narramos nuestras historias más profundas. Aquí, la danza no es una técnica, es una experiencia transformadora, un viaje hacia el reencuentro con nuestra esencia más auténtica.",
+      "Danza Emoción es un método de danzaterapia creado por Uma Zuasti, enfocado en el bienestar emocional, el desarrollo de la creatividad, las habilidades sociales, la propiocepción y la interocepción. A través de la expresión corporal, la improvisación, el simbolismo y la respiración consciente, se facilita la conexión con las emociones, permitiendo su exploración, expresión e integración de manera segura y contenida.",
     footerComponent: <TopicSearchIconText topic="Danza Emoción" />, 
     shadow: 'top'
   },
   {
     title: "¿Cómo se desarrolla?",
     content:
-      "Danza Emoción nace como un método integrador, donde el movimiento consciente, la expresión simbólica y la conexión emocional convergen para liberar el potencial innato del ser humano. Cada sesión es un espacio donde el cuerpo habla, la mente escucha y el corazón despierta."
+      "El método se estructura en sesiones que combinan movimiento libre, ejercicios guiados, uso de metáforas y una parte dialogada para integrar la experiencia corporal. Esta última se inspira en el enfoque de Diálogos Abiertos en Salud Mental, fomentando la reflexión sobre lo vivido a través del cuerpo y su conexión con el mundo emocional. Las sesiones pueden adaptarse a distintos colectivos y objetivos, utilizando músicas evocadoras, elementos simbólicos y dinámicas grupales."
   },
   {
     title: "¿A quién va dirigido?",
     content:
-      "Para quienes buscan reconectar con su cuerpo, atravesar bloqueos y encontrar un camino creativo hacia el bienestar emocional. En un mundo donde el ruido exterior nos desconecta de nuestra verdad interna, Danza Emoción nos invita a detenernos, a respirar profundamente y a danzar nuestra propia historia."
+      "Danza Emoción está dirigido a personas de todas las edades interesadas en el autoconocimiento y el bienestar emocional, incluyendo: Adultos en procesos de desarrollo personal, Mayores que buscan mantener sus capacidades psicomotoras y emocionales, Mujeres víctimas de violencia de género, Niños y adolescentes en entornos educativos."
   },
   {
     title: "¿Con qué objetivo?",
     content:
-      "Nuestros pilares fundamentales son:\n1. LIBERACIÓN: Soltar los patrones limitantes a través del movimiento espontáneo.\n2. CONEXIÓN: Reconocer nuestras emociones y transformarlas en impulso creativo.\n3. EMPODERAMIENTO: Recuperar nuestro poder personal a través de la expresión corporal.\n4. PRESENCIA: Aprender a habitar el momento presente.\n5. CREATIVIDAD: Explorar el simbolismo del movimiento para expresar lo inefable.",
+      "El objetivo principal de Danza Emoción es promover el bienestar integral, facilitando un espacio para: La exploración y expresión emocional a través del cuerpo. El fortalecimiento de la autoestima y la autopercepción. El desarrollo de la creatividad y la espontaneidad. La integración de vivencias a nivel corporal, emocional y cognitivo. La mejora de las relaciones interpersonales y la comunicación asertiva.",
     shadow: 'bottom'
   },
   {
