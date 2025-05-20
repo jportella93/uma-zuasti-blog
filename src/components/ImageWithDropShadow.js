@@ -11,10 +11,23 @@ const imgContainerStyle = css`
 
 const FluidImgContainer = styled(Img)`
   ${imgContainerStyle}
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 `
 
 const ImgContainer = styled.img`
   ${imgContainerStyle}
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 `
 
 /**
