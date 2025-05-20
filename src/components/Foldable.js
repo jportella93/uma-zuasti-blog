@@ -40,8 +40,18 @@ const Foldable = ({ title, folded, children }) => {
   React.useEffect(() => {
     if (isFolded) {
       setMaxHeight('0px');
-    } else if (contentRef.current) {
-      setMaxHeight(`${contentRef.current.scrollHeight}px`);
+      return;
+    }
+    const updateHeight = () => {
+      if (contentRef.current) {
+        setMaxHeight(`${contentRef.current.scrollHeight}px`);
+      }
+    };
+    updateHeight();
+    if (window.ResizeObserver && contentRef.current) {
+      const resizeObserver = new ResizeObserver(updateHeight);
+      resizeObserver.observe(contentRef.current);
+      return () => resizeObserver.disconnect();
     }
   }, [isFolded, children]);
 
