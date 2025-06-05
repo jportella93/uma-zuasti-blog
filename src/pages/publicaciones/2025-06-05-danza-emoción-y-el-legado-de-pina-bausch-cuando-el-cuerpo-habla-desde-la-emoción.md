@@ -18,25 +18,13 @@ description: >-
   Danza Emoción nace de esa misma necesidad: dar espacio a lo auténtico, a lo
   que sentimos en lo más profundo y muchas veces no sabemos cómo nombrar.
 ---
-_**El cuerpo como archivo emocional**_
+**_El cuerpo como archivo emocional_**
 
-Pina Bausch intuía, y mostraba en escena, que el cuerpo guarda la historia emocional de cada individuo. Su forma de crear partía de preguntas aparentemente sencillas, pero que desnudaban al intérprete: "¿Qué haces cuando estás solo?", "¿Cómo es tu miedo?", "¿Cómo amas?". Así, sus bailarines no interpretaban una coreografía prefijada, sino que ofrecían fragmentos auténticos de sí mismos.
+Pina Bausch intuía, y mostraba en escena, que el cuerpo guarda la historia emocional de cada individuo. Su forma de crear partía de preguntas aparentemente sencillas, pero que desnudaban al intérprete: "¿Qué haces cuando estás solo?", "¿Cómo es tu miedo?", "¿Cómo amas?". Así, sus bailarines no interpretaban una coreografía prefijada, sino que ofrecían fragmentos auténticos de sí mismos.En Danza Emoción, esta idea se retoma desde una mirada terapéutica y participativa. Los cuerpos no ejecutan, se escuchan, se exploran, se expresan. La emoción no se representa: se encarna, se atraviesa y se transforma. No se busca una estética determinada, sino la verdad subjetiva del movimiento, su raíz interna, aquello que nace de una imagen, una metáfora o una vivencia.
 
-En Danza Emoción, esta idea se retoma desde una mirada terapéutica y participativa. Los cuerpos no ejecutan, se escuchan, se exploran, se expresan. La emoción no se representa: se encarna, se atraviesa y se transforma. No se busca una estética determinada, sino la verdad subjetiva del movimiento, su raíz interna, aquello que nace de una imagen, una metáfora o una vivencia.
+_**La emoción como fuente de creatividad**_
 
-**_La emoción como fuente de creatividad_**
-
-Bausch nunca pretendió embellecer el dolor ni ocultar el conflicto humano. Lo mostraba con crudeza, humor o ternura, creando escenas cargadas de simbolismo, a veces surrealistas, a veces cotidianas, pero siempre profundamente emocionales. Su obra nos confronta con la fragilidad humana, con nuestras contradicciones, anhelos, miedos y memorias.
-
-Danza Emoción bebe de este espíritu al poner la emoción como origen del movimiento creativo. En lugar de imponer formas, se trabaja desde la improvisación guiada, el trabajo con imágenes simbólicas, la respiración y la relación con el espacio y los otros. La facilitación invita a explorar lo no dicho, lo retenido, lo que pulsa por expresarse, y se abre una vía de transformación donde lo emocional no se reprime ni se analiza, sino que se danza.
-
-**_La emoción como fuente de creatividad_**
-
-Bausch nunca pretendió embellecer el dolor ni ocultar el conflicto humano. Lo mostraba con crudeza, humor o ternura, creando escenas cargadas de simbolismo, a veces surrealistas, a veces cotidianas, pero siempre profundamente emocionales. Su obra nos confronta con la fragilidad humana, con nuestras contradicciones, anhelos, miedos y memorias.
-
-Danza Emoción bebe de este espíritu al poner la emoción como origen del movimiento creativo. En lugar de imponer formas, se trabaja desde la improvisación guiada, el trabajo con imágenes simbólicas, la respiración y la relación con el espacio y los otros. La facilitación invita a explorar lo no dicho, lo retenido, lo que pulsa por expresarse, y se abre una vía de transformación donde lo emocional no se reprime ni se analiza, sino que se danza.
-
-En Danza Emoción trabajamos con imágenes, metáforas, respiración y exploración libre. A veces basta una música, una palabra o un silencio para que emerja algo que ha estado contenido durante mucho tiempo. En ese instante, el cuerpo habla. Y cuando lo hace, suele decir la verdad.
+Bausch nunca pretendió embellecer el dolor ni ocultar el conflicto humano. Lo mostraba con crudeza, humor o ternura, creando escenas cargadas de simbolismo, a veces surrealistas, a veces cotidianas, pero siempre profundamente emocionales. Su obra nos confronta con la fragilidad humana, con nuestras contradicciones, anhelos, miedos y memorias.Danza Emoción bebe de este espíritu al poner la emoción como origen del movimiento creativo. En lugar de imponer formas, se trabaja desde la improvisación guiada, el trabajo con imágenes simbólicas, la respiración y la relación con el espacio y los otros. La facilitación invita a explorar lo no dicho, lo retenido, lo que pulsa por expresarse, y se abre una vía de transformación donde lo emocional no se reprime ni se analiza, sino que se danza.En Danza Emoción trabajamos con imágenes, metáforas, respiración y exploración libre. A veces basta una música, una palabra o un silencio para que emerja algo que ha estado contenido durante mucho tiempo. En ese instante, el cuerpo habla. Y cuando lo hace, suele decir la verdad.
 
 Así como en las obras de Pina Bausch los bailarines mostraban su humanidad sin filtros —con sus miedos, su deseo de amar, sus contradicciones—, en Danza Emoción creamos un espacio cuidado donde la vulnerabilidad se convierte en fuerza. Donde no se trata de gustar, sino de habitarse. Donde cada cuerpo encuentra su lenguaje, su ritmo, su poética personal.
 
