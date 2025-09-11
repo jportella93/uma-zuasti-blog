@@ -1,15 +1,14 @@
 ---
 templateKey: article
-title: 'Función del dibujo y la expresión plástica en la sesión de Biodanza Infantil '
+title: 'Función del dibujo y la expresión plástica en la sesión  Infantil '
 date: 2019-01-03T12:52:42.729Z
 featuredImage: /img/dibujo-niño.jpg
 productType: biodanza
 description: >-
-  Lo importante del dibujo en una sesión de biodanza es el proceso que utiliza
-  el niño y la niña, para comunicar su interioridad y ésto trasciende lo
-  puramente estético.
+  Lo importante del dibujo en una sesión  es el proceso que utiliza el niño y la
+  niña, para comunicar su interioridad y ésto trasciende lo puramente estético.
 ---
-Los dibujos y la pintura,en las sesiones de biodanza, son expresiones espontáneas, que llevan a los niños y niñas a expresar sin trabas, sus pensamientos, emociones y sentimientos, acerca de sus vivencias.
+Los dibujos y la pintura,en las sesiones , son expresiones espontáneas, que llevan a los niños y niñas a expresar sin trabas, sus pensamientos, emociones y sentimientos, acerca de sus vivencias.
 
 La palabras imponen límites, pero las imágenes poseen un nivel de penetración en la mente que supera el pensamiento discursivo.
 
@@ -23,8 +22,8 @@ Exteriorizar un conflicto interno, aunque sea de forma inconsciente, hace sentir
 
 Lo importante del dibujo en una sesión de biodanza es el proceso que utiliza el niño para comunicar su interioridad y ésto trasciende lo puramente estético.
 
-Otra de las funciones del dibujo en la sesión de biodanza es que potencia la autoexpresión, permite desarrollar el concepto del yo, así como una profunda autoconsciencia.Es importante para el niño que pueda identificarse con lo que hace, conocerse, saber como piensa, expresar lo que siente y ser partícipe del mundo que le rodea , ésto les aporta seguridad y confianza en ellos mismos , y esto es de gran importancia, porque son muchos los desequilibrios afectivos, o mentales que están asociados de alguna manera, a una falta de seguridad en uno mismo.
+Otra de las funciones del dibujo en la sesión de  es que potencia la autoexpresión, permite desarrollar el concepto del yo, así como una profunda autoconsciencia.Es importante para el niño que pueda identificarse con lo que hace, conocerse, saber como piensa, expresar lo que siente y ser partícipe del mundo que le rodea , ésto les aporta seguridad y confianza en ellos mismos , y esto es de gran importancia, porque son muchos los desequilibrios afectivos, o mentales que están asociados de alguna manera, a una falta de seguridad en uno mismo.
 
-En definitiva la actividad artística en la sesión de Biodanza, nos aporta una información muy valiosa acerca del mundo interior de los niños al no estar censurada por la mente consciente, y contribuye al proceso de detección y sanación de los conflictos inconscientes.
+En definitiva la actividad artística en la sesión , nos aporta una información muy valiosa acerca del mundo interior de los niños al no estar censurada por la mente consciente, y contribuye al proceso de detección y sanación de los conflictos inconscientes.
 
 ![](/img/dibujo-niño.jpg)
