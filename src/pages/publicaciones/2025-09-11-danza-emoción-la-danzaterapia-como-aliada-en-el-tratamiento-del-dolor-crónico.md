@@ -2,7 +2,7 @@
 templateKey: article
 title: 'Danza Emoción: la danzaterapia como aliada en el tratamiento del dolor crónico'
 date: 2025-09-11T16:01:28.615Z
-featuredImage: /img/screenshot_20250412_161943_gallery-1-.jpg
+featuredImage: /img/hailey-kean-zt8pj6lt9uw-unsplash.jpg
 productType: danza-emocion
 description: >
 
