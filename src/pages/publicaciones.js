@@ -17,7 +17,7 @@ const PublicacionesView = ({
           'Artículos sobre psicopedagogía corporal, biodanza, danza emoción, bioenergética y movimiento. Descubre también los próximos talleres.',
         type: 'website',
       }}
-      intro="Artículos en profundidad (en español). Si quieres practicar y profundizar, revisa los próximos talleres y clases."
+      intro="Artículos en profundidad. Si quieres practicar y profundizar, revisa los próximos talleres y clases."
       workshopPromo={workshopsQ?.edges?.[0]?.node}
     />
   )
