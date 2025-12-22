@@ -158,16 +158,23 @@ const Article = ({ data, location }) => {
   const productType = post?.frontmatter?.productType
   const now = new Date()
 
-  const relevantWorkshops = workshops
-    .filter(w => !productType || w?.frontmatter?.productType === productType)
-    .filter(w => {
-      const exp = w?.frontmatter?.expirationDate
-      if (!exp) return true
-      const expDate = new Date(exp)
-      return !Number.isNaN(expDate.getTime()) ? expDate >= now : true
-    })
+  const isNotExpired = w => {
+    const exp = w?.frontmatter?.expirationDate
+    if (!exp) return true
+    const expDate = new Date(exp)
+    return !Number.isNaN(expDate.getTime()) ? expDate >= now : true
+  }
 
-  const recommendedWorkshop = relevantWorkshops[0] || null
+  const notExpiredWorkshops = workshops.filter(isNotExpired)
+
+  // If a post has `productType` but there is no matching workshop, we still show a general workshop
+  // so the conversion block never looks "empty".
+  const relevantWorkshops = notExpiredWorkshops.filter(
+    w => !productType || w?.frontmatter?.productType === productType
+  )
+
+  const recommendedWorkshop =
+    relevantWorkshops[0] || notExpiredWorkshops[0] || null
 
   const relatedArticles = articles
     .filter(a => a?.id !== post?.id)

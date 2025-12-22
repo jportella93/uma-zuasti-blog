@@ -2,6 +2,12 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+// Ensure Spanish month/day names when using `date(formatString: ...)` in GraphQL queries.
+// Gatsby v2 uses Moment for date formatting internally.
+const moment = require('moment')
+require('moment/locale/es')
+moment.locale('es')
+
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const nowIso = new Date().toISOString()
