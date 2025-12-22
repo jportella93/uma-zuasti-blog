@@ -3,6 +3,7 @@ import React from "react";
 import HoritzontalLineSeparator from "../components/HoritzontalLineSeparator";
 import ImageTextBlock from "../components/ImageTextBlock";
 import Layout from "../components/Layout";
+import SEO from "../components/SEO";
 import Separator from "../components/Separator";
 import { H1, P } from "../components/TextStyles";
 
@@ -37,7 +38,7 @@ const getContentsForTextBlocks = (startIndex, finishIndex) => (
   </>
 )
 
-const UmaPage = ({ data }) => {
+const UmaPage = ({ data, location }) => {
   const fluidSrcs = data.images.nodes.map(node => node.childImageSharp?.fluid)
 
   const imageTextBlocks = [
@@ -64,10 +65,25 @@ const UmaPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title="Acerca de Uma"
+        description="Trayectoria y formación de Uma Zuasti. Psicopedagogía corporal, biodanza, danzaterapia y técnicas psicocorporales."
+        pathname={location?.pathname}
+      />
       <Separator height="24px" />
       <H1>Acerca de Uma</H1>
       <Separator height="24px" />
-      {imageTextBlocks.map((props) => <ImageTextBlock shorter {...props} />)}
+      {imageTextBlocks.map((props, i) => (
+        <ImageTextBlock
+          shorter
+          key={i}
+          {...props}
+          imgProps={{
+            ...(props.imgProps || {}),
+            alt: props.imgProps?.alt || 'Retrato de Uma Zuasti',
+          }}
+        />
+      ))}
     </Layout>
   )
 };

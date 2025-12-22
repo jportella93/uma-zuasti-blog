@@ -37,6 +37,7 @@ export const Workshop = graphql`
     frontmatter {
       title
       description
+      productType
       featuredImage
       eventDates
       eventPlace

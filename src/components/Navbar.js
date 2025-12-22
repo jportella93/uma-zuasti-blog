@@ -81,6 +81,19 @@ const MenuItem = styled(A)`
   margin: 0 auto 20px;
 `
 
+const WorkshopsCta = styled(A)`
+  margin: 0 auto 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: ${palette.red};
+  color: ${palette.white};
+  font-weight: 800;
+  text-decoration: none;
+`
+
 const submenuItemsMap = new Map([
   ['Biodanza', 'biodanza'],
   ['Danza Emoción', 'danza-emocion'],
@@ -162,6 +175,8 @@ const Navbar = ({ navbarColor }) => {
         isHidden={isNavbarHidden}
         className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
         onClick={() => setMenuOpen(!isMenuOpen)}
+        aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+        aria-expanded={isMenuOpen}
         type="button">
         <span className="hamburger-box">
           <HamburguerBars
@@ -177,6 +192,10 @@ const Navbar = ({ navbarColor }) => {
           <LogoImgLink to={routes.get('home')}>
             <img src={logoRed} alt="Uma Zuasti logo." />
           </LogoImgLink>
+
+          <WorkshopsCta to={routes.get('clases-y-talleres')}>
+            Ver talleres y clases
+          </WorkshopsCta>
 
           <FirstNavbarLinksBlock>
             {submenuItems.slice(0, 4)}

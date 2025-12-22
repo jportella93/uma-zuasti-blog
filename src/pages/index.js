@@ -1,4 +1,4 @@
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import ContactBlock from "../components/ContactBlock";
@@ -10,6 +10,7 @@ import routes from "../components/routes";
 import SearchIconText from '../components/SearchIconText';
 import { H1, H2, H4, P, Span } from "../components/TextStyles";
 import titleToSnakeCase from "../components/titleToSnakeCase";
+import SEO from "../components/SEO";
 import logoWhite from "../img/logo-white.svg";
 
 const Logo = styled.img`
@@ -20,6 +21,20 @@ const Logo = styled.img`
 const LogoSubtitle = styled(H4)`
   max-width: 150px;
   margin-bottom: 100px;
+`;
+
+const WorkshopsCta = styled(Link)`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: rgba(250, 250, 250, 0.14);
+  border: 2px solid rgba(250, 250, 250, 0.55);
+  color: rgba(250, 250, 250, 1);
+  font-weight: 800;
+  text-decoration: none;
 `;
 
 const TopicSearchIconText = ({ topic }) => (
@@ -157,6 +172,7 @@ const renderBlocks = (dataArr, startIndex, endIndex) =>
       <ImageTextBlock
         key={id}
         fluidSrc={fluidSrc}
+        imgProps={{ alt: title }}
         shadow={shadow}
         titleSlot={
           <H2 textAlign="left" marginTop="0" paddingTop="24px">
@@ -172,7 +188,7 @@ const renderBlocks = (dataArr, startIndex, endIndex) =>
       />
     ))
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, location }) => {
   const imageTextDataBlockMaps = data.images.nodes.map((node, i) =>
     ({
       ...imageTextBlockMaps[i],
@@ -183,10 +199,18 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title="Psicopedagogía corporal"
+        description="Biodanza, Danza Emoción, Biodanza Perinatal, Terapia Bioenergética y Parto y Movimiento. Talleres, clases y acompañamiento en Tarragona y Reus."
+        pathname={location?.pathname}
+      />
       <LimitedContainer>
         <Logo src={logoWhite} />
         <LogoSubtitle>Psicopedagogía corporal</LogoSubtitle>
         <ContactBlock bold={true} />
+        <WorkshopsCta to={routes.get('clases-y-talleres')}>
+          Ver talleres y clases
+        </WorkshopsCta>
         <H1 marginTop="170px">Servicios</H1>
         <P textAlign="left" marginTop="50px">
           Acompañamiento en momentos de transformación y cambios vitales,
