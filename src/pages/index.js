@@ -200,13 +200,13 @@ const IndexPage = ({ data, location }) => {
   return (
     <Layout>
       <SEO
-        title="Psicología clínica · Danza Emoción"
-        description="Psicología clínica y Danza Emoción: acompañamiento psicológico y trabajo corporal para procesos de cambio, bienestar emocional y vínculo. Tarragona, Reus y online."
+        title="Psicología integrativa · Danza Emoción"
+        description="Danza Emoción y acompañamiento psicológico integrativo: cuerpo, emoción y palabra para procesos de cambio, bienestar emocional y vínculo. Tarragona, Reus y online."
         pathname={location?.pathname}
       />
       <LimitedContainer>
         <Logo src={logoWhite} />
-        <LogoSubtitle>Psicología clínica · Danza Emoción</LogoSubtitle>
+        <LogoSubtitle>Psicología integrativa · Danza Emoción</LogoSubtitle>
         <ContactBlock bold={true} />
         <WorkshopsCta to={routes.get('clases-y-talleres')}>
           Ver talleres y clases
@@ -215,31 +215,12 @@ const IndexPage = ({ data, location }) => {
         <P textAlign="left" marginTop="50px">
           Acompañamiento psicológico y corporal en momentos de transformación y
           cambio vital. Un espacio seguro para comprender, regular y elaborar lo
-          que estás viviendo, integrando cuerpo, emoción y palabra desde un marco
-          clínico e integrativo.
+          que estás viviendo, integrando cuerpo, emoción y palabra desde una
+          mirada integrativa.
           </P>
       </LimitedContainer>
       <Foldable title="Danza Emoción" folded={false} >
         {renderBlocks(imageTextDataBlockMaps, 4, 8)}
-      </Foldable>
-      <Foldable title="Psicología clínica" folded={false}>
-        <ImageTextBlock
-          shadow="both"
-          titleSlot={
-            <H2 textAlign="left" marginTop="0" paddingTop="24px">
-              ¿Qué es?
-            </H2>
-          }
-          contentSlot={
-            <P textAlign="left" marginBottom="0" paddingBottom="24px">
-              Un proceso de acompañamiento psicológico desde una mirada clínica e
-              integrativa, con sensibilidad corporal. Para sostener crisis vitales,
-              ansiedad, duelo, dificultades vinculares y momentos de transición,
-              trabajando regulación emocional, sentido y recursos personales.
-            </P>
-          }
-          footerSlot={<TopicSearchIconText topic="Psicología clínica" />}
-        />
       </Foldable>
       <Foldable title="Terapia Bioenergética" folded >
         {renderBlocks(imageTextDataBlockMaps, 12, 16)}

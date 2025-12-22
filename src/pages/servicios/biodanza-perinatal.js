@@ -5,7 +5,7 @@ import ServiceView from '../../components/ServiceView';
 const BiodanzaPerinatalView = ({ data, location }) => {
   data.title = "Biodanza Perinatal"
   data.description =
-    "Biodanza Perinatal forma parte de mi trayectoria en el acompañamiento del puerperio y la crianza desde el cuerpo, el movimiento y el vínculo. Hoy doy prioridad a Danza Emoción y a la psicología clínica como marco principal. Aquí puedes ver publicaciones y actividades relacionadas como parte de ese recorrido."
+    "Biodanza Perinatal forma parte de mi trayectoria en el acompañamiento del puerperio y la crianza desde el cuerpo, el movimiento y el vínculo. Hoy doy prioridad a Danza Emoción y a un acompañamiento psicológico integrativo como marco principal. Aquí puedes ver publicaciones y actividades relacionadas como parte de ese recorrido."
   data.location = location
   data.noindex = true
 

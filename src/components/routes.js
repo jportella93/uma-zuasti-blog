@@ -1,6 +1,5 @@
 const routes = new Map([
   ['home', '/'],
-  ['psicologia-clinica', '/servicios/psicologia-clinica'],
   ['biodanza', '/servicios/biodanza'],
   ['danza-emocion', '/servicios/danza-emocion'],
   ['biodanza-perinatal', '/servicios/biodanza-perinatal'],

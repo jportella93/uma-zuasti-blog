@@ -96,11 +96,8 @@ const WorkshopsCta = styled(A)`
 
 const submenuItemsMap = new Map([
   ['Danza Emoción', 'danza-emocion'],
-  ['Psicología clínica', 'psicologia-clinica'],
   ['Clases y Talleres', 'clases-y-talleres'],
   ['Publicaciones', 'publicaciones'],
-  ['Terapia Bioenergética', 'terapia-bioenergetica'],
-  ['Parto y Movimiento', 'parto-y-movimiento'],
   ['Trayectoria', 'uma']
 ])
 

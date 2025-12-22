@@ -8,7 +8,7 @@ import Separator from "../components/Separator";
 import { H1, H2, P } from "../components/TextStyles";
 
 const textBlocks = [
-  `Psicología clínica · Danza Emoción. Mi trabajo integra clínica, cuerpo y movimiento para acompañar procesos de transformación con profundidad, claridad y cuidado. Soy la creadora del método Danza Emoción.`,
+  `Psicología integrativa · Danza Emoción. Mi trabajo integra acompañamiento psicológico, cuerpo y movimiento para sostener procesos de transformación con profundidad, claridad y cuidado. Soy la creadora del método Danza Emoción.`,
   `Formación de posgrado en psicología perinatal y acompañamiento en etapas de transición (embarazo, parto, puerperio y crianza).`,
   `Mi recorrido inicial incluyó Biodanza y diversas formaciones en trabajo corporal y danzaterapia, que hoy nutren mi enfoque sin definir mi identidad profesional actual.`,
   `Formación e influencias en análisis bioenergético (terapia corporal), orientación junguiana y enfoques de integración cuerpo‑mente.`,
@@ -77,7 +77,7 @@ const UmaPage = ({ data, location }) => {
     <Layout>
       <SEO
         title="Trayectoria"
-        description="Trayectoria y formación de Uma Zuasti. Psicología clínica y Danza Emoción, con raíces en el trabajo corporal, danzaterapia y enfoques psicocorporales."
+        description="Trayectoria y formación de Uma Zuasti. Psicología integrativa y Danza Emoción, con raíces en el trabajo corporal, danzaterapia y enfoques psicocorporales."
         pathname={location?.pathname}
       />
       <Separator height="24px" />

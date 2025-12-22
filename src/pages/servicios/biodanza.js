@@ -5,7 +5,7 @@ import ServiceView from '../../components/ServiceView';
 const BiodanzaView = ({ data, location }) => {
   data.title = "Biodanza"
   data.description =
-    "Biodanza forma parte de mi recorrido inicial en el trabajo con cuerpo, emoción y vínculo. Hoy mi enfoque actual se articula principalmente desde Danza Emoción (mi método) y la psicología clínica. Aquí encontrarás publicaciones y actividades relacionadas con Biodanza como parte de ese trayecto."
+    "Biodanza forma parte de mi recorrido inicial en el trabajo con cuerpo, emoción y vínculo. Hoy mi enfoque actual se articula principalmente desde Danza Emoción (mi método) y un acompañamiento psicológico integrativo. Aquí encontrarás publicaciones y actividades relacionadas con Biodanza como parte de ese trayecto."
   data.location = location
   data.noindex = true
 
