@@ -67,7 +67,7 @@ const Secondary = styled(Link)`
   text-decoration: none;
 `
 
-const WorkshopPromo = ({ workshop, productTypeLabel }) => {
+const WorkshopPromo = ({ workshop, productTypeLabel, eyebrowText }) => {
   if (!workshop) return null
 
   const title = workshop?.frontmatter?.title
@@ -78,7 +78,9 @@ const WorkshopPromo = ({ workshop, productTypeLabel }) => {
 
   return (
     <Card aria-label="Recomendación de taller">
-      <Eyebrow>{productTypeLabel ? `Taller recomendado · ${productTypeLabel}` : 'Taller recomendado'}</Eyebrow>
+      <Eyebrow>
+        {eyebrowText || (productTypeLabel ? `Taller recomendado · ${productTypeLabel}` : 'Taller recomendado')}
+      </Eyebrow>
       <Title>{title}</Title>
       {description && <Meta>{description}</Meta>}
       {(eventPlace || eventDates) && (

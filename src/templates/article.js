@@ -167,19 +167,9 @@ const Article = ({ data, location }) => {
   const articles = data?.articles?.edges?.map(e => e.node) || []
 
   const productType = post?.frontmatter?.productType
-  const now = new Date()
-
-  const isNotExpired = w => {
-    const exp = w?.frontmatter?.expirationDate
-    if (!exp) return true
-    const expDate = new Date(exp)
-    return !Number.isNaN(expDate.getTime()) ? expDate >= now : true
-  }
-
-  const notExpiredWorkshops = workshops.filter(isNotExpired)
-
-  // Always show the newest upcoming workshop (primary conversion goal).
-  const recommendedWorkshop = notExpiredWorkshops[0] || null
+  // Match `/clases-y-talleres`: show the newest workshop by date (no expiration filtering),
+  // so the promo always matches the top item in the workshops list.
+  const recommendedWorkshop = workshops[0] || null
 
   const relatedArticles = articles
     .filter(a => a?.id !== post?.id)
@@ -214,7 +204,7 @@ const Article = ({ data, location }) => {
           <SectionTitle>¿Quieres profundizar con acompañamiento?</SectionTitle>
           <WorkshopPromo
             workshop={recommendedWorkshop}
-            productTypeLabel={productType}
+            eyebrowText="Próximo taller"
           />
           {relatedArticles.length ? (
             <>
