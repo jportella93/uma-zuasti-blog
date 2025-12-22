@@ -19,17 +19,20 @@ const textBlocks = [
 ]
 
 const detailedFormationBlocks = [
-  `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
-  `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621  Milán.`,
-  `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
-  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" (Nadia Costa) y "Biodanza para gestantes" (Claudette Sant´Anna, Scuolatoro UNIPIB Milán). Educación Biocentrica (Ruth Cavalcante) y Biodanza Clínica y social. Extensiones: "Biodanza y arcilla" y "El camino del Heroe". Formación en LABAN MOVEMENT ANALYSIS para distintos tipos de intervención en Danzaterapia.`,
+  `Psicóloga (P1827).`,
   `Formación básica en DMT.`,
-  `Arte-teraputa de orientación Junguiana.`,
-  `Terapeuta en PHMA (Phyco Motor Healing Activitis) y SEL (Somatic emocional liberation), herramientas post trauma utilizadas con niños en los campos de refugiados de Turquía y Lebanon.`,
-  `Formada en primeros auxilios psicologicos en situaciones de crisis y emergencias por UNED.`,
-  `Terapeuta corporal Bioenergética, formada en el Instituto de Psicoterapia Corporal Bioenergética de Barcelona.`,
+  `Formación en Análisis del Movimiento Laban (Laban Movement Analysis).`,
+  `Arte-terapeuta de orientación junguiana.`,
+  `Formada en Diálogos Abiertos en Salud Mental.`,
+  `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
+  `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621 Milán.`,
+  `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
+  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" (Nadia Costa) y "Biodanza para gestantes" (Claudette Sant´Anna, Scuolatoro UNIPIB Milán). Educación Biocéntrica (Ruth Cavalcante) y Biodanza Clínica y social. Extensiones: "Biodanza y arcilla" y "El camino del Héroe".`,
+  `Terapeuta corporal bioenergética, formada en el Instituto de Psicoterapia Corporal Bioenergética de Barcelona.`,
+  `Terapeuta en PHMA (Phyco Motor Healing Activitis) y SEL (Somatic Emotional Liberation), herramientas post-trauma utilizadas con niños en los campos de refugiados de Turquía y Líbano.`,
+  `Formada en primeros auxilios psicológicos en situaciones de crisis y emergencias por UNED.`,
   `Ha cursado el seminario de Psicología Transpersonal "Psique y Cosmos", dictado por Stanislav Grof y Richard Tarnas, CIIS.`,
-  `Profesora Autorizada en la metodología Parto y Movimiento, de Nuria Vives.`
+  `Profesora autorizada en la metodología Parto y Movimiento, de Nuria Vives.`
 ]
 
 const getContentsForTextBlocks = (blocks, startIndex, finishIndex) => (
