@@ -95,14 +95,13 @@ const WorkshopsCta = styled(A)`
 `
 
 const submenuItemsMap = new Map([
-  ['Biodanza', 'biodanza'],
   ['Danza Emoción', 'danza-emocion'],
-  ['Biodanza Perinatal', 'biodanza-perinatal'],
-  ['Terapia Bioenergética', 'terapia-bioenergetica'],
-  ['Parto y Movimiento', 'parto-y-movimiento'],
+  ['Psicología clínica', 'psicologia-clinica'],
   ['Clases y Talleres', 'clases-y-talleres'],
   ['Publicaciones', 'publicaciones'],
-  ['Uma', 'uma']
+  ['Terapia Bioenergética', 'terapia-bioenergetica'],
+  ['Parto y Movimiento', 'parto-y-movimiento'],
+  ['Trayectoria', 'uma']
 ])
 
 const getSubmenuItems = () => {

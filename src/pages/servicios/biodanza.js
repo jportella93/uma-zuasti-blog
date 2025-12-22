@@ -5,8 +5,9 @@ import ServiceView from '../../components/ServiceView';
 const BiodanzaView = ({ data, location }) => {
   data.title = "Biodanza"
   data.description =
-    "Biodanza es una práctica vivencial que combina música y movimiento para favorecer la integración afectiva, el bienestar y la conexión con la vida. Aquí encontrarás próximos talleres y artículos para profundizar."
+    "Biodanza forma parte de mi recorrido inicial en el trabajo con cuerpo, emoción y vínculo. Hoy mi enfoque actual se articula principalmente desde Danza Emoción (mi método) y la psicología clínica. Aquí encontrarás publicaciones y actividades relacionadas con Biodanza como parte de ese trayecto."
   data.location = location
+  data.noindex = true
 
   return <ServiceView {...data} />
 }

@@ -101,19 +101,19 @@ const Footer = () => (
               <Link to="/publicaciones/">Blog</Link>
             </li>
             <li>
-              <Link to="/servicios/biodanza">Biodanza</Link>
-            </li>
-            <li>
               <Link to="/servicios/danza-emocion">Danza Emoción</Link>
             </li>
             <li>
-              <Link to="/servicios/biodanza-perinatal">Biodanza Perinatal</Link>
+              <Link to="/servicios/psicologia-clinica">Psicología clínica</Link>
             </li>
             <li>
               <Link to="/servicios/terapia-bioenergetica">Terapia Bioenergética</Link>
             </li>
             <li>
               <Link to="/servicios/parto-y-movimiento">Parto y Movimiento</Link>
+            </li>
+            <li>
+              <Link to="/uma/">Trayectoria</Link>
             </li>
           </List>
         </div>

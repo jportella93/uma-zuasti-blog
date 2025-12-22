@@ -29,6 +29,7 @@ const ServiceView = ({
   title,
   description,
   location,
+  noindex = false,
   workshopsQ: { edges: workshops },
   articlesQ: { edges: articles },
   featuredImageQ
@@ -46,6 +47,7 @@ const ServiceView = ({
         pathname={location?.pathname}
         image={fluid?.src}
         type="website"
+        noindex={noindex}
       />
       <LimitedContainer>
         <Title>{title}</Title>
