@@ -98,7 +98,7 @@ const submenuItemsMap = new Map([
   ['Danza Emoción', 'danza-emocion'],
   ['Clases y Talleres', 'clases-y-talleres'],
   ['Publicaciones', 'publicaciones'],
-  ['Trayectoria', 'uma']
+  ['Uma', 'uma']
 ])
 
 const getSubmenuItems = () => {

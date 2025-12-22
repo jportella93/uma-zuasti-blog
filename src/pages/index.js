@@ -231,12 +231,6 @@ const IndexPage = ({ data, location }) => {
       <Foldable title="Danza Emoción" folded={false} >
         {renderBlocks(imageTextDataBlockMaps, 4, 8)}
       </Foldable>
-      <Foldable title="Terapia Bioenergética" folded >
-        {renderBlocks(imageTextDataBlockMaps, 12, 16)}
-      </Foldable>
-      <Foldable title="Parto y Movimiento" folded >
-        {renderBlocks(imageTextDataBlockMaps, 16, 20)}
-      </Foldable>
     </Layout>
   )
 };

@@ -8,14 +8,14 @@ import Separator from "../components/Separator";
 import { H1, H2, P } from "../components/TextStyles";
 
 const textBlocks = [
-  `Psicología integrativa · Danza Emoción. Mi trabajo integra acompañamiento psicológico, cuerpo y movimiento para sostener procesos de transformación con profundidad, claridad y cuidado. Soy la creadora del método Danza Emoción.`,
-  `Formación de posgrado en psicología perinatal y acompañamiento en etapas de transición (embarazo, parto, puerperio y crianza).`,
-  `Mi recorrido inicial incluyó Biodanza y diversas formaciones en trabajo corporal y danzaterapia, que hoy nutren mi enfoque sin definir mi identidad profesional actual.`,
-  `Formación e influencias en análisis bioenergético (terapia corporal), orientación junguiana y enfoques de integración cuerpo‑mente.`,
-  `Formación en herramientas de intervención post‑trauma (PHMA y SEL) aplicadas en contextos humanitarios.`,
-  `Formación en primeros auxilios psicológicos en crisis y emergencias (UNED).`,
-  `Profundización en psicología transpersonal: "Psique y Cosmos" (Stanislav Grof y Richard Tarnas, CIIS).`,
-  `Profesora autorizada en la metodología Parto y Movimiento (Nuria Vives).`
+  `Soy Uma Zuasti. Integro cuerpo, emoción y palabra para acompañar procesos de transformación con presencia, claridad y cuidado.`,
+  `Soy la creadora del método Danza Emoción: una síntesis madura entre danza, psicología y prácticas psicocorporales.`,
+  `Investigo y aplico el movimiento como vía de regulación emocional, vínculo, creatividad y reconexión con la vida cotidiana.`,
+  `Mi trayectoria incluye trabajo en distintos ámbitos y colectivos, con un enfoque que prioriza lo humano, lo seguro y lo sostenible en el tiempo.`,
+  `Mis raíces están en la danzaterapia y el trabajo corporal (incluyendo Biodanza) y en diferentes enfoques que nutren mi método desde lo histórico y lo contextual.`,
+  `Me he formado en acompañamiento en etapas de transición y procesos vitales, con especial atención al cuerpo y al vínculo.`,
+  `También me han influido marcos humanistas y transpersonales que amplían la mirada sobre sentido, identidad y experiencia.`,
+  `Más abajo encontrarás el detalle de mi formación, títulos y certificaciones.`
 ]
 
 const detailedFormationBlocks = [
@@ -76,12 +76,12 @@ const UmaPage = ({ data, location }) => {
   return (
     <Layout>
       <SEO
-        title="Trayectoria"
-        description="Trayectoria y formación de Uma Zuasti. Psicología integrativa y Danza Emoción, con raíces en el trabajo corporal, danzaterapia y enfoques psicocorporales."
+        title="Uma"
+        description="Uma Zuasti: creadora de Danza Emoción. Trayectoria, formación, títulos y certificaciones."
         pathname={location?.pathname}
       />
       <Separator height="24px" />
-      <H1>Trayectoria</H1>
+      <H1>Uma</H1>
       <Separator height="24px" />
       {imageTextBlocks.map((props, i) => (
         <ImageTextBlock

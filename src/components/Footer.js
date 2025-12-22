@@ -104,7 +104,7 @@ const Footer = () => (
               <Link to="/servicios/danza-emocion">Danza Emoción</Link>
             </li>
             <li>
-              <Link to="/uma/">Trayectoria</Link>
+              <Link to="/uma/">Uma</Link>
             </li>
           </List>
         </div>
