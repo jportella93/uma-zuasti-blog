@@ -136,11 +136,17 @@ const WorkshopTemplate = ({ post, relatedArticles }) => {
       )}
 
       <Actions aria-label="Acciones de reserva">
-        <Primary href="tel:636231517">Llamar / WhatsApp para reservar</Primary>
-        <Secondary href="mailto:umazuasti@gmail.com?subject=Reserva%20taller">
-          Escribir por email
-        </Secondary>
+        <Primary href="https://wa.me/34636231517?text=Hola%20Uma%2C%20quiero%20reservar%20plaza%20en%20un%20taller.">
+          WhatsApp para reservar
+        </Primary>
+        <Secondary href="mailto:umazuasti@gmail.com?subject=Reserva%20taller">Escribir por email</Secondary>
       </Actions>
+      <p style={{ marginTop: '10px', color: '#333' }}>
+        <b>Teléfono:</b>{' '}
+        <a href="tel:636231517" style={{ color: palette.red, textDecoration: 'underline' }}>
+          636 23 15 17
+        </a>
+      </p>
 
       <ContentWrap>
         <HTMLContent content={post.html} />

@@ -2,8 +2,11 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import ServiceView from '../../components/ServiceView';
 
-const BiodanzaPerinatalView = ({ data }) => {
+const BiodanzaPerinatalView = ({ data, location }) => {
   data.title = "Biodanza Perinatal"
+  data.description =
+    "Biodanza Perinatal acompaña el puerperio y la crianza con música, movimiento y vínculo en un entorno seguro. Aquí puedes ver próximos talleres y publicaciones relacionadas."
+  data.location = location
 
   return <ServiceView {...data} />
 }
@@ -13,7 +16,7 @@ export const pageQuery = graphql`
     workshopsQ: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {templateKey: {eq: "workshop"}, productType: {eq: "biodanza-perinatal"}}}) {
       edges {
         node{
-          ...Article
+          ...Workshop
         }
       }
     }

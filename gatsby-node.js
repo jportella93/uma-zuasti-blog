@@ -2,11 +2,11 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const nowIso = new Date().toISOString()
 
-  return graphql(`
+  const result = await graphql(`
     {
       allMarkdownRemark(limit: 1000) {
         edges {
@@ -27,32 +27,58 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
-    if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
-    }
+  `)
 
-    const posts = result.data.allMarkdownRemark.edges
+  if (result.errors) {
+    result.errors.forEach(e => console.error(e.toString()))
+    return Promise.reject(result.errors)
+  }
 
-    posts.forEach(edge => {
-      const id = edge.node.id
-      const { featuredImage, templateKey, productType } = edge.node.frontmatter;
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve(
-          `src/templates/${String(templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-          featuredImage,
-          productType,
-          nowIso,
-        },
-      })
+  const posts = result.data.allMarkdownRemark.edges
+
+  posts.forEach(edge => {
+    const id = edge.node.id
+    const { featuredImage, templateKey, productType } = edge.node.frontmatter
+    createPage({
+      path: edge.node.fields.slug,
+      component: path.resolve(`src/templates/${String(templateKey)}.js`),
+      // additional data can be passed via context
+      context: {
+        id,
+        featuredImage,
+        productType,
+        nowIso,
+      },
     })
+  })
 
+  // Create tag pages for internal linking (/tags/<tag>/)
+  const tagsResult = await graphql(`
+    {
+      allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
+    }
+  `)
+
+  if (tagsResult.errors) {
+    tagsResult.errors.forEach(e => console.error(e.toString()))
+    return Promise.reject(tagsResult.errors)
+  }
+
+  const tagTemplate = path.resolve('src/templates/tags.js')
+  const tags = tagsResult.data.allMarkdownRemark.group
+    .map(g => g.fieldValue)
+    .filter(Boolean)
+
+  tags.forEach(tag => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag)}/`,
+      component: tagTemplate,
+      context: { tag },
+    })
   })
 }
 

@@ -172,6 +172,7 @@ const renderBlocks = (dataArr, startIndex, endIndex) =>
       <ImageTextBlock
         key={id}
         fluidSrc={fluidSrc}
+        imgProps={{ alt: title }}
         shadow={shadow}
         titleSlot={
           <H2 textAlign="left" marginTop="0" paddingTop="24px">

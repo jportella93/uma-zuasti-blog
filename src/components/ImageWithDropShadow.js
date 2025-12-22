@@ -34,12 +34,22 @@ const ImgContainer = styled.img`
  * A fluid or normal image with drop shadow and optional link.
  */
 const ImageWithDropShadow = ({fluidSrc, imgSrc, imgLink, ...restProps}) => {
+  // Accessibility: always provide an alt attribute (empty string for decorative images).
+  const alt = Object.prototype.hasOwnProperty.call(restProps, 'alt') ? restProps.alt : ''
 
   let imgComponent;
   if (fluidSrc) {
-    imgComponent = <FluidImgContainer fluid={fluidSrc} {...restProps} />
+    imgComponent = <FluidImgContainer fluid={fluidSrc} alt={alt} {...restProps} />
   } else if (imgSrc) {
-    imgComponent = <ImgContainer src={imgSrc} {...restProps} />
+    imgComponent = (
+      <ImgContainer
+        src={imgSrc}
+        alt={alt}
+        loading="lazy"
+        decoding="async"
+        {...restProps}
+      />
+    )
   }
 
   const imageBlock = imgLink

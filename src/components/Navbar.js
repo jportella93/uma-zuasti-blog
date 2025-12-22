@@ -175,6 +175,8 @@ const Navbar = ({ navbarColor }) => {
         isHidden={isNavbarHidden}
         className={`hamburger hamburger--spring ${isMenuOpen ? 'is-active' : ''}`}
         onClick={() => setMenuOpen(!isMenuOpen)}
+        aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+        aria-expanded={isMenuOpen}
         type="button">
         <span className="hamburger-box">
           <HamburguerBars

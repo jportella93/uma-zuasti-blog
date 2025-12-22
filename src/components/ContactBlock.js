@@ -51,14 +51,14 @@ const ContactBlock = ({color, bold}) => (
 
     <FirstContactLink href="mailto:umazuasti@gmail.com">
       <ContactItemBlock>
-        <ContactItemImg src={iconSrcs.mail[color]} />
+        <ContactItemImg src={iconSrcs.mail[color]} alt="Email" />
         <MenuItem color={palette[color]} bold={bold}>umazuasti@gmail.com</MenuItem>
       </ContactItemBlock>
     </FirstContactLink>
 
     <a href="tel:636231517">
       <ContactItemBlock>
-        <ContactItemImg src={iconSrcs.phone[color]} />
+        <ContactItemImg src={iconSrcs.phone[color]} alt="Teléfono" />
         <MenuItem color={palette[color]} bold={bold}>636231517</MenuItem>
       </ContactItemBlock>
     </a>

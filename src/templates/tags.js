@@ -1,7 +1,7 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 
 class TagRoute extends React.Component {
   render() {
@@ -23,7 +23,11 @@ class TagRoute extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`Tag: ${tag} | ${title}`} />
+          <SEO
+            title={`Tag: ${tag}`}
+            description={`Artículos y talleres relacionados con “${tag}”.`}
+            pathname={this.props.location?.pathname}
+          />
           <div className="container content">
             <div className="columns">
               <div

@@ -3,8 +3,21 @@ import styled, { createGlobalStyle, css } from 'styled-components';
 import { palette } from './constants';
 
 export const GlobalStyles = createGlobalStyle`
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
   body {
     font-family: Montserrat, sans-serif !important;
+    margin: 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :focus-visible {
+    outline: 3px solid rgba(197, 49, 81, 0.35);
+    outline-offset: 2px;
   }
 `
 

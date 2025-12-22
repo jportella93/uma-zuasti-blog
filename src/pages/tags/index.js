@@ -1,15 +1,20 @@
 import React from 'react'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import SEO from '../../components/SEO'
 
 const TagsPage = ({
   data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
+  location,
 }) => (
   <Layout>
     <section className="section">
-      <Helmet title={`Tags | ${title}`} />
+      <SEO
+        title={`Tags`}
+        description="Explora etiquetas para descubrir artículos y talleres relacionados."
+        pathname={location?.pathname}
+      />
       <div className="container content">
         <div className="columns">
           <div

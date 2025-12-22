@@ -3,7 +3,8 @@ module.exports = {
     title: "Uma Zuasti",
     description:
       "Psicopedagogía corporal: Biodanza, Danza Emoción, Biodanza Perinatal, Terapia Bioenergética y Parto y Movimiento. Talleres, clases y acompañamiento en Tarragona y Reus.",
-    siteUrl: "https://www.umazuasti.com",
+    // Canonical base URL (production is served at umazuasti.com).
+    siteUrl: "https://umazuasti.com",
     language: "es",
     author: "Uma Zuasti",
     organization: {
