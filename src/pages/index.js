@@ -19,8 +19,13 @@ const Logo = styled.img`
 `;
 
 const LogoSubtitle = styled(H4)`
-  max-width: 150px;
+  max-width: 280px;
   margin-bottom: 100px;
+  line-height: 1.25;
+`;
+
+const SubtitleChunk = styled.span`
+  white-space: nowrap;
 `;
 
 const WorkshopsCta = styled(Link)`
@@ -206,7 +211,11 @@ const IndexPage = ({ data, location }) => {
       />
       <LimitedContainer>
         <Logo src={logoWhite} />
-        <LogoSubtitle>Psicología integrativa · Danza Emoción</LogoSubtitle>
+        <LogoSubtitle>
+          <SubtitleChunk>Psicología integrativa</SubtitleChunk>
+          <wbr />
+          <SubtitleChunk> · Danza Emoción</SubtitleChunk>
+        </LogoSubtitle>
         <ContactBlock bold={true} />
         <WorkshopsCta to={routes.get('clases-y-talleres')}>
           Ver talleres y clases
