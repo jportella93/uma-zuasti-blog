@@ -4,6 +4,7 @@ const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
+  const nowIso = new Date().toISOString()
 
   return graphql(`
     {
@@ -16,6 +17,11 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               templateKey
+              productType
+              title
+              description
+              featuredImage
+              date
             }
           }
         }
@@ -31,16 +37,18 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id
-      const { featuredImage } = edge.node.frontmatter;
+      const { featuredImage, templateKey, productType } = edge.node.frontmatter;
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(templateKey)}.js`
         ),
         // additional data can be passed via context
         context: {
           id,
-          featuredImage
+          featuredImage,
+          productType,
+          nowIso,
         },
       })
     })
