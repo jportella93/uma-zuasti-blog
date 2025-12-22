@@ -44,14 +44,22 @@ const Small = styled.p`
 `
 
 const PrimaryCta = styled(Link)`
-  display: inline-block;
-  background: ${palette.white};
-  color: ${palette.darkRed};
-  font-weight: 800;
-  padding: 12px 16px;
-  border-radius: 10px;
-  text-decoration: none;
-  margin-top: 10px;
+  /* Increase specificity so FooterEl's global anchor color doesn't override CTA text color. */
+  && {
+    display: inline-block;
+    background: ${palette.white};
+    color: ${palette.darkRed};
+    font-weight: 800;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  &&:hover {
+    text-decoration: none;
+    filter: brightness(0.98);
+  }
 `
 
 const List = styled.ul`
