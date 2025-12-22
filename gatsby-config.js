@@ -11,7 +11,7 @@ module.exports = {
       name: "Uma Zuasti",
       email: "umazuasti@gmail.com",
       phone: "+34 636 23 15 17",
-      areaServed: ["Tarragona", "Reus", "Online"],
+      areaServed: ["Tarragona", "Reus", "Barcelona", "Online"],
     },
   },
   plugins: [
