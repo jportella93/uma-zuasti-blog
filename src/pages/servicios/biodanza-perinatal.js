@@ -5,8 +5,9 @@ import ServiceView from '../../components/ServiceView';
 const BiodanzaPerinatalView = ({ data, location }) => {
   data.title = "Biodanza Perinatal"
   data.description =
-    "Biodanza Perinatal acompaña el puerperio y la crianza con música, movimiento y vínculo en un entorno seguro. Aquí puedes ver próximos talleres y publicaciones relacionadas."
+    "Biodanza Perinatal forma parte de mi trayectoria en el acompañamiento del puerperio y la crianza desde el cuerpo, el movimiento y el vínculo. Hoy doy prioridad a Danza Emoción y a un acompañamiento psicológico integrativo como marco principal. Aquí puedes ver publicaciones y actividades relacionadas como parte de ese recorrido."
   data.location = location
+  data.noindex = true
 
   return <ServiceView {...data} />
 }

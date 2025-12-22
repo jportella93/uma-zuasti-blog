@@ -19,8 +19,13 @@ const Logo = styled.img`
 `;
 
 const LogoSubtitle = styled(H4)`
-  max-width: 150px;
+  max-width: 280px;
   margin-bottom: 100px;
+  line-height: 1.25;
+`;
+
+const SubtitleChunk = styled.span`
+  white-space: nowrap;
 `;
 
 const WorkshopsCta = styled(Link)`
@@ -200,40 +205,31 @@ const IndexPage = ({ data, location }) => {
   return (
     <Layout>
       <SEO
-        title="Psicopedagogía corporal"
-        description="Biodanza, Danza Emoción, Biodanza Perinatal, Terapia Bioenergética y Parto y Movimiento. Talleres, clases y acompañamiento en Tarragona y Reus."
+        title="Psicología integrativa · Danza Emoción"
+        description="Danza Emoción y acompañamiento psicológico integrativo: cuerpo, emoción y palabra para procesos de cambio, bienestar emocional y vínculo. Tarragona, Reus y online."
         pathname={location?.pathname}
       />
       <LimitedContainer>
         <Logo src={logoWhite} />
-        <LogoSubtitle>Psicopedagogía corporal</LogoSubtitle>
+        <LogoSubtitle>
+          <SubtitleChunk>Psicología integrativa</SubtitleChunk>
+          <wbr />
+          <SubtitleChunk> · Danza Emoción</SubtitleChunk>
+        </LogoSubtitle>
         <ContactBlock bold={true} />
         <WorkshopsCta to={routes.get('clases-y-talleres')}>
           Ver talleres y clases
         </WorkshopsCta>
         <H1 marginTop="170px">Servicios</H1>
         <P textAlign="left" marginTop="50px">
-          Acompañamiento en momentos de transformación y cambios vitales,
-          creando espacios donde la persona se sienta, escuchada, atendida y
-          comprendida, promoviendo el auto-conocimiento y el desarrollo de
-          capacidades y recursos personales, a través de técnicas
-          psico-corporales.
+          Acompañamiento psicológico y corporal en momentos de transformación y
+          cambio vital. Un espacio seguro para comprender, regular y elaborar lo
+          que estás viviendo, integrando cuerpo, emoción y palabra desde una
+          mirada integrativa.
           </P>
       </LimitedContainer>
-      <Foldable title="Biodanza" folded >
-        {renderBlocks(imageTextDataBlockMaps, 0, 4)}
-      </Foldable>
-      <Foldable title="Danza Emoción" folded >
+      <Foldable title="Danza Emoción" folded={false} >
         {renderBlocks(imageTextDataBlockMaps, 4, 8)}
-      </Foldable>
-      <Foldable title="Biodanza Perinatal" folded >
-        {renderBlocks(imageTextDataBlockMaps, 8, 12)}
-      </Foldable>
-      <Foldable title="Terapia Bioenergética" folded >
-        {renderBlocks(imageTextDataBlockMaps, 12, 16)}
-      </Foldable>
-      <Foldable title="Parto y Movimiento" folded >
-        {renderBlocks(imageTextDataBlockMaps, 16, 20)}
       </Foldable>
     </Layout>
   )

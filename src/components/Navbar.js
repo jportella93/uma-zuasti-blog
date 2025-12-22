@@ -1,5 +1,5 @@
 import _throttle from 'lodash/throttle'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { palette } from '../components/constants'
 import routes from '../components/routes'
@@ -95,11 +95,7 @@ const WorkshopsCta = styled(A)`
 `
 
 const submenuItemsMap = new Map([
-  ['Biodanza', 'biodanza'],
   ['Danza Emoción', 'danza-emocion'],
-  ['Biodanza Perinatal', 'biodanza-perinatal'],
-  ['Terapia Bioenergética', 'terapia-bioenergetica'],
-  ['Parto y Movimiento', 'parto-y-movimiento'],
   ['Clases y Talleres', 'clases-y-talleres'],
   ['Publicaciones', 'publicaciones'],
   ['Uma', 'uma']
@@ -122,52 +118,51 @@ const getSubmenuItems = () => {
 
 const getCurrentScrollPosition = () => window.scrollY;
 
-function getScrollDirection(lastPosition) {
-  const newScrollPosition = getCurrentScrollPosition();
-  return lastPosition > newScrollPosition
-    ? 'up'
-    : 'down'
-}
-
-function hideNavbarIfNeeded(direction, hiddingFn, isMenuOpen, isNavbarHidden) {
-  if (isMenuOpen) return;
-  if (window.scrollX === 0 && isNavbarHidden) {
-    hiddingFn(false);
-    return;
-  }
-  if (direction === 'up' && isNavbarHidden) {
-    hiddingFn(false);
-    return;
-  }
-  if (direction === 'down' && !isNavbarHidden) {
-    hiddingFn(true);
-    return;
-  }
-}
-
 const Navbar = ({ navbarColor }) => {
   const [isMenuOpen, setMenuOpen] = React.useState(false);
   const [isNavbarHidden, setNavbarHidden] = React.useState(false);
+  const lastScrollPositionRef = useRef(0)
+  const isMenuOpenRef = useRef(false)
 
   const submenuItems = getSubmenuItems();
 
   useEffect(() => {
-    let lastScrollPosition = getCurrentScrollPosition();
+    isMenuOpenRef.current = isMenuOpen
+  }, [isMenuOpen])
+
+  useEffect(() => {
+    // Keep latest values without stale closures inside the scroll listener.
+    // Ensures the hamburger always re-appears at the top.
+    lastScrollPositionRef.current = getCurrentScrollPosition() || 0
 
     function handleScroll() {
-      const scrollDirection = getScrollDirection(lastScrollPosition)
-      hideNavbarIfNeeded(scrollDirection, setNavbarHidden, isMenuOpen, isNavbarHidden)
-      lastScrollPosition = getCurrentScrollPosition();
+      const newScrollPosition = getCurrentScrollPosition() || 0
+      const last = lastScrollPositionRef.current || 0
+      const direction = last > newScrollPosition ? 'up' : 'down'
+
+      if (isMenuOpenRef.current) {
+        lastScrollPositionRef.current = newScrollPosition
+        return
+      }
+
+      if (newScrollPosition <= 0) {
+        setNavbarHidden(false)
+        lastScrollPositionRef.current = 0
+        return
+      }
+
+      setNavbarHidden(direction === 'down')
+      lastScrollPositionRef.current = newScrollPosition
     }
 
     const throttledHandleScroll = _throttle(handleScroll, 250)
-
-    document.addEventListener('scroll', throttledHandleScroll);
+    document.addEventListener('scroll', throttledHandleScroll)
 
     return () => {
-      document.removeEventListener('scroll', throttledHandleScroll);
-    };
-  });
+      throttledHandleScroll.cancel?.()
+      document.removeEventListener('scroll', throttledHandleScroll)
+    }
+  }, []);
 
   return (
     <>

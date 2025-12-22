@@ -52,6 +52,9 @@ const ImageWithDropShadow = ({fluidSrc, imgSrc, imgLink, ...restProps}) => {
     )
   }
 
+  // React expects `null` when there's nothing to render.
+  if (!imgComponent) return null
+
   const imageBlock = imgLink
     ? <A to={imgLink}>{imgComponent}</A>
     : imgComponent;

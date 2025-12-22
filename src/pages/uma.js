@@ -5,31 +5,44 @@ import ImageTextBlock from "../components/ImageTextBlock";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import Separator from "../components/Separator";
-import { H1, P } from "../components/TextStyles";
+import { H1, H2, P } from "../components/TextStyles";
 
 const textBlocks = [
-  `Profesional interdisciplinar que fusiona la psicología, la danza y técnicas psicocorporales, integrando los conocimientos de ambas disciplinas. Investigadora en la aplicación de la danza en diferentes ámbitos y colectivos. Creadora del método Danza Emoción.`,
-  `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
-  `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621  Milán.`,
-  `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
-  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" formada por Nadia Costa y "Biodanza para gestantes" por Claudette Sant´Anna, Scuolatoro UNIPIB Milán (Italia). Educación Biocentrica por Ruth Cavalcante y Biodanza Clínica y social. También en las extensiones "Biodanza y arcilla" y "El camino del Heroe", trabajo corporal sobre algunos de los arquetipos post-junguianos. Formada en LABAN MOVEMENT ANALYSIS para distintos tipos de intervención en Danzaterapia.`,
-  `Formación básica en DMT`,
-  `Arte-teraputa de orientación Junguiana.`,
-  `Terapeuta en PHMA, (Phyco Motor Healing Activitis) y SEL (Somatic emocional liberation), herramientas post trauma utilizadas con niños en los campos de refugiados de Turquía y Lebanon.`,
-  `Formada en primeros auxilios psicologicos en situaciones de crisis y emergencias por UNED.`,
-  `Terapeuta corporal Bioenergética, formada en el Instituto de Psicoterapia Corporal Bioenergética de Barcelona.`,
-  `Ha cursado el seminario de Psicología Transpersonal "Psique y Cosmos", Dictado por Stanislav Grof y Richard Tarnas, CIIS.`,
-  `Profesora Autorizada en la metodología Parto y Movimiento, de Nuria Vives.`
+  `Soy Uma Zuasti. Integro cuerpo, emoción y palabra para acompañar procesos de transformación con presencia, claridad y cuidado.`,
+  `Soy la creadora del método Danza Emoción: una síntesis madura entre danza, psicología y prácticas psicocorporales.`,
+  `Investigo y aplico el movimiento como vía de regulación emocional, vínculo, creatividad y reconexión con la vida cotidiana.`,
+  `Mi trayectoria incluye trabajo en distintos ámbitos y colectivos, con un enfoque que prioriza lo humano, lo seguro y lo sostenible en el tiempo.`,
+  `Mis raíces están en la danzaterapia y el trabajo corporal (incluyendo Biodanza) y en diferentes enfoques que nutren mi método desde lo histórico y lo contextual.`,
+  `Me he formado en acompañamiento en etapas de transición y procesos vitales, con especial atención al cuerpo y al vínculo.`,
+  `También me han influido marcos humanistas y transpersonales que amplían la mirada sobre sentido, identidad y experiencia.`,
+  `Más abajo encontrarás el detalle de mi formación, títulos y certificaciones.`
 ]
 
-const getContentsForTextBlocks = (startIndex, finishIndex) => (
+const detailedFormationBlocks = [
+  `Psicóloga (P1827).`,
+  `Formación básica en DMT.`,
+  `Formación en Análisis del Movimiento Laban (Laban Movement Analysis).`,
+  `Arte-terapeuta de orientación junguiana.`,
+  `Formada en Diálogos Abiertos en Salud Mental.`,
+  `Postgrado en Psicología Perinatal, pionera en Biodanza Perinatal.`,
+  `Profesora Didacta de Biodanza Sistema Original nº de Reg. IBF PV1621 Milán.`,
+  `Tutora en la Escuela de Formación de Profesionales de Biodanza SRT de Castellón AYUN.`,
+  `Especialista en las Aplicaciones "Biodanza para niños, adolescentes y familia" (Nadia Costa) y "Biodanza para gestantes" (Claudette Sant´Anna, Scuolatoro UNIPIB Milán). Educación Biocéntrica (Ruth Cavalcante) y Biodanza Clínica y social. Extensiones: "Biodanza y arcilla" y "El camino del Héroe".`,
+  `Terapeuta corporal bioenergética, formada en el Instituto de Psicoterapia Corporal Bioenergética de Barcelona.`,
+  `Terapeuta en PHMA (Phyco Motor Healing Activitis) y SEL (Somatic Emotional Liberation), herramientas post-trauma utilizadas con niños en los campos de refugiados de Turquía y Líbano.`,
+  `Formada en primeros auxilios psicológicos en situaciones de crisis y emergencias por UNED.`,
+  `Ha cursado el seminario de Psicología Transpersonal "Psique y Cosmos", dictado por Stanislav Grof y Richard Tarnas, CIIS.`,
+  `Profesora autorizada en la metodología Parto y Movimiento, de Nuria Vives.`
+]
+
+const getContentsForTextBlocks = (blocks, startIndex, finishIndex) => (
   <>
     <Separator height="24px" />
-    {textBlocks
+    {blocks
       .slice(startIndex, finishIndex)
       .map((textBlock, i, { length }) => (
         <>
-          <P key={textBlock}>{textBlock}</P>
+          <P key={`${i}-${textBlock}`}>{textBlock}</P>
           {i + 1 !== length && <HoritzontalLineSeparator width="70%" />}
         </>
       ))
@@ -44,7 +57,7 @@ const UmaPage = ({ data, location }) => {
   const imageTextBlocks = [
     {
       fluidSrc: fluidSrcs[0],
-      contentSlot: getContentsForTextBlocks(0, 4),
+      contentSlot: getContentsForTextBlocks(textBlocks, 0, 4),
       imgProps: {
         style: {
           maxWidth: '300px',
@@ -55,23 +68,23 @@ const UmaPage = ({ data, location }) => {
     },
     {
       fluidSrc: fluidSrcs[1],
-      contentSlot: getContentsForTextBlocks(4, 7)
+      contentSlot: getContentsForTextBlocks(textBlocks, 4, 7)
     },
     {
       fluidSrc: fluidSrcs[2],
-      contentSlot: getContentsForTextBlocks(7)
+      contentSlot: getContentsForTextBlocks(textBlocks, 7)
     },
   ]
 
   return (
     <Layout>
       <SEO
-        title="Acerca de Uma"
-        description="Trayectoria y formación de Uma Zuasti. Psicopedagogía corporal, biodanza, danzaterapia y técnicas psicocorporales."
+        title="Uma"
+        description="Uma Zuasti: creadora de Danza Emoción. Trayectoria, formación, títulos y certificaciones."
         pathname={location?.pathname}
       />
       <Separator height="24px" />
-      <H1>Acerca de Uma</H1>
+      <H1>Uma</H1>
       <Separator height="24px" />
       {imageTextBlocks.map((props, i) => (
         <ImageTextBlock
@@ -84,6 +97,12 @@ const UmaPage = ({ data, location }) => {
           }}
         />
       ))}
+
+      <Separator height="40px" />
+      <H2 textAlign="left" color="white" margin="0 auto" maxWidth="980px">
+        Formación, títulos y certificaciones
+      </H2>
+      {getContentsForTextBlocks(detailedFormationBlocks, 0)}
     </Layout>
   )
 };

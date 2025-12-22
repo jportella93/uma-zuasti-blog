@@ -1,4 +1,11 @@
 const titleToSnakeCase = (str) =>
-  str.replace('é', 'e').replace('á', 'a').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').split(' ').join('-').toLowerCase()
+  String(str || '')
+    // Remove accents/diacritics (áéíóúüñ → aeiouun).
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .split(/\s+/)
+    .join('-')
+    .toLowerCase()
 
 export default titleToSnakeCase;
