@@ -9,9 +9,19 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import SubscriptionForm from '../components/SubscriptionForm'
-import Disqus from '../components/Disqus'
 import Separator from '../components/Separator'
 import WorkshopPromo from '../components/WorkshopPromo'
+
+function formatDateEs(dateInput) {
+  if (!dateInput) return null
+  const date = new Date(dateInput)
+  if (Number.isNaN(date.getTime())) return null
+  return new Intl.DateTimeFormat('es-ES', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date)
+}
 
 export const ArticleTemplate = ({
   content,
@@ -19,10 +29,11 @@ export const ArticleTemplate = ({
   description,
   tags,
   title,
-  dateDisplay,
+  date,
   productType,
 }) => {
   const PostContent = contentComponent || Content
+  const dateDisplay = formatDateEs(date)
 
   return (
     <section className="content">
@@ -59,7 +70,7 @@ ArticleTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  dateDisplay: PropTypes.string,
+  date: PropTypes.string,
   productType: PropTypes.string,
 }
 
@@ -167,14 +178,8 @@ const Article = ({ data, location }) => {
 
   const notExpiredWorkshops = workshops.filter(isNotExpired)
 
-  // If a post has `productType` but there is no matching workshop, we still show a general workshop
-  // so the conversion block never looks "empty".
-  const relevantWorkshops = notExpiredWorkshops.filter(
-    w => !productType || w?.frontmatter?.productType === productType
-  )
-
-  const recommendedWorkshop =
-    relevantWorkshops[0] || notExpiredWorkshops[0] || null
+  // Always show the newest upcoming workshop (primary conversion goal).
+  const recommendedWorkshop = notExpiredWorkshops[0] || null
 
   const relatedArticles = articles
     .filter(a => a?.id !== post?.id)
@@ -200,7 +205,7 @@ const Article = ({ data, location }) => {
             content={post.html}
             contentComponent={HTMLContent}
             description={post.frontmatter.description}
-            dateDisplay={post.frontmatter.dateDisplay}
+            date={post.frontmatter.dateRaw || post.frontmatter.dateISO}
             tags={post.frontmatter.tags}
             title={post.frontmatter.title}
             productType={post.frontmatter.productType}
@@ -226,8 +231,6 @@ const Article = ({ data, location }) => {
           ) : null}
           <Separator height="36px" />
           <SubscriptionForm />
-          <Separator height="48px" />
-          <Disqus identifier={post.id} title={post.frontmatter.title} />
         </ArticleContainer>
       </BordersContainer>
     </Layout>
@@ -253,7 +256,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         dateISO: date(formatString: "YYYY-MM-DD")
-        dateDisplay: date(formatString: "D MMMM YYYY")
+        dateRaw: date
         title
         description
         tags
