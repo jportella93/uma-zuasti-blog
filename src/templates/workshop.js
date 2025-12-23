@@ -186,7 +186,11 @@ const Workshop = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
         pathname={location?.pathname}
-        image={post.frontmatter.featuredImage}
+        image={
+          post.fields?.featuredImageFile?.childImageSharp?.fluid?.src ||
+          post.fields?.featuredImageFile?.publicURL ||
+          post.frontmatter.featuredImage
+        }
         publishedTime={post.frontmatter.dateISO}
       />
       <BordersContainer>
@@ -211,6 +215,16 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
+      fields {
+        featuredImageFile {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 78) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+          publicURL
+        }
+      }
       html
       frontmatter {
         dateISO: date(formatString: "YYYY-MM-DD")

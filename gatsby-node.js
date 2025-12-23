@@ -26,7 +26,6 @@ exports.createPages = async ({ actions, graphql }) => {
               productType
               title
               description
-              featuredImage
               date
             }
           }
@@ -44,14 +43,13 @@ exports.createPages = async ({ actions, graphql }) => {
 
   posts.forEach(edge => {
     const id = edge.node.id
-    const { featuredImage, templateKey, productType } = edge.node.frontmatter
+    const { templateKey, productType } = edge.node.frontmatter
     createPage({
       path: edge.node.fields.slug,
       component: path.resolve(`src/templates/${String(templateKey)}.js`),
       // additional data can be passed via context
       context: {
         id,
-        featuredImage,
         productType,
         nowIso,
       },
@@ -88,15 +86,36 @@ exports.createPages = async ({ actions, graphql }) => {
   })
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = ({ node, actions, getNode, getNodesByType }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
+  if (node.internal.type !== `MarkdownRemark`) return
+
+  // Slug for markdown pages.
+  const value = createFilePath({ node, getNode })
+  createNodeField({
+    name: `slug`,
+    node,
+    value,
+  })
+
+  // Link Netlify CMS `featuredImage: /img/<file>` frontmatter to a File node,
+  // exposing it as `fields.featuredImageFile` (so we can query `childImageSharp`).
+  const raw = node.frontmatter?.featuredImage
+  if (!raw || typeof raw !== 'string') return
+
+  let relativePath = raw.trim().replace(/^\/+/, '')
+  if (relativePath.startsWith('img/')) relativePath = relativePath.slice('img/'.length)
+  if (!relativePath) return
+
+  const fileNode = getNodesByType('File').find(
+    f => f?.sourceInstanceName === 'uploads' && f?.relativePath === relativePath
+  )
+  if (!fileNode) return
+
+  createNodeField({
+    name: `featuredImageFile___NODE`,
+    node,
+    value: fileNode.id,
+  })
 }

@@ -22,6 +22,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        // Netlify CMS uploads live here (see `static/admin/config.yml`).
+        path: `${__dirname}/static/img`,
+        name: "uploads",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         path: `${__dirname}/src/pages`,
         name: "pages",
       },
@@ -37,7 +45,27 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [],
+        plugins: [
+          {
+            // Converts CMS absolute paths like `/img/foo.jpg` into File links.
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads",
+            },
+          },
+          {
+            // Generates responsive images + placeholders for markdown body images.
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1200,
+              quality: 78,
+              withWebp: true,
+              linkImagesToOriginal: false,
+              showCaptions: true,
+              backgroundColor: "transparent",
+            },
+          },
+        ],
       },
     },
     "gatsby-plugin-sharp",

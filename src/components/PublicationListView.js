@@ -51,7 +51,13 @@ const PublicationListView = ({
           node: {
             id,
             fields,
-            frontmatter: { featuredImage, description, eventDates, eventPlace, title: postTitle },
+            frontmatter: {
+              featuredImage,
+              description,
+              eventDates,
+              eventPlace,
+              title: postTitle,
+            },
           },
         },
         i,
@@ -59,7 +65,8 @@ const PublicationListView = ({
       ) => (
         <ImageTextBlock
           key={id}
-          imgSrc={featuredImage}
+          fluidSrc={fields?.featuredImageFile?.childImageSharp?.fluid}
+          imgSrc={fields?.featuredImageFile?.publicURL || featuredImage}
           imgLink={fields.slug}
           imgProps={{ alt: postTitle }}
           shadow={getShadowPosition(publications.length, i)}
