@@ -63,7 +63,8 @@ const ServiceView = ({
           .map(({ node: post }, i, workshops) => (
             <ImageTextBlock
               key={post.id}
-              imgSrc={post.frontmatter.featuredImage}
+              fluidSrc={post.fields?.featuredImageFile?.childImageSharp?.fluid}
+              imgSrc={post.fields?.featuredImageFile?.publicURL || post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
               imgProps={{ alt: post.frontmatter.title }}
               shadow={getShadowPosition(workshops.length, i)}
@@ -90,7 +91,8 @@ const ServiceView = ({
             // <>
             <ImageTextBlock
               key={post.id}
-              imgSrc={post.frontmatter.featuredImage}
+              fluidSrc={post.fields?.featuredImageFile?.childImageSharp?.fluid}
+              imgSrc={post.fields?.featuredImageFile?.publicURL || post.frontmatter.featuredImage}
               imgLink={post.fields.slug}
               imgProps={{ alt: post.frontmatter.title }}
               shadow={getShadowPosition(articles.length, i)}

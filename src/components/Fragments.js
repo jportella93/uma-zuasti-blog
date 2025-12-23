@@ -17,6 +17,14 @@ export const Article = graphql`
     id
     fields {
       slug
+      featuredImageFile {
+        childImageSharp {
+          fluid(maxWidth: 1200, quality: 78) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+        publicURL
+      }
     }
     frontmatter {
       title
@@ -33,6 +41,14 @@ export const Workshop = graphql`
     id
     fields {
       slug
+      featuredImageFile {
+        childImageSharp {
+          fluid(maxWidth: 1200, quality: 78) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+        publicURL
+      }
     }
     frontmatter {
       title

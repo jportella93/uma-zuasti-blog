@@ -18,6 +18,7 @@
     "gatsby-plugin-sharp": "^2.6.17",
     "gatsby-plugin-styled-components": "^3.1.16",
     "gatsby-remark-images": "^3.1.34",
+    "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-remark": "^2.6.38",
     "gatsby-transformer-sharp": "^2.5.10",
@@ -46,6 +47,7 @@
     "develop": "npm run clean && NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "dev": "npm run develop",
     "deploy:github": "npm run build && node ./scripts/deployGithub",
+    "optimize:cms-images": "node ./scripts/optimize-cms-images.mjs",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
