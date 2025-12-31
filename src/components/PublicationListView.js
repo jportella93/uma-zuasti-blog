@@ -81,15 +81,15 @@ const PublicationListView = ({
                   <br />
                 </>
               )}
-              {description && (
-                <>
-                  {description}
-                  <br />
-                </>
-              )}
               {eventPlace && (
                 <>
                   {eventPlace}
+                  <br />
+                </>
+              )}
+              {description && (
+                <>
+                  {description}
                   <br />
                 </>
               )}
