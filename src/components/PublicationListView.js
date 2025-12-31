@@ -77,13 +77,13 @@ const PublicationListView = ({
               <br />
               {eventDates && (
                 <>
-                  {eventDates}
+                  • {eventDates}
                   <br />
                 </>
               )}
               {eventPlace && (
                 <>
-                  {eventPlace}
+                  • {eventPlace}
                   <br />
                 </>
               )}
