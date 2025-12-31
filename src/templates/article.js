@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import React from 'react'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 import { palette } from '../components/constants'
 import { BlogLimitedContainer } from '../components/Containers'
 import Content, { HTMLContent } from '../components/Content'
@@ -31,14 +32,30 @@ export const ArticleTemplate = ({
   title,
   date,
   productType,
+  featuredImageFluid,
+  featuredImageSrc,
+  featuredImageAlt,
 }) => {
   const PostContent = contentComponent || Content
   const dateDisplay = formatDateEs(date)
+  const imageAlt = featuredImageAlt || title || ''
 
   return (
     <section className="content">
       <Header>
         <Title>{title}</Title>
+        {featuredImageFluid ? (
+          <FeaturedImage fluid={featuredImageFluid} alt={imageAlt} />
+        ) : featuredImageSrc ? (
+          <FeaturedImageFallbackWrap>
+            <FeaturedImageFallback
+              src={featuredImageSrc}
+              alt={imageAlt}
+              loading="eager"
+              decoding="async"
+            />
+          </FeaturedImageFallbackWrap>
+        ) : null}
         {(dateDisplay || productType) && (
           <MetaLine>
             {dateDisplay && <span>{dateDisplay}</span>}
@@ -72,6 +89,9 @@ ArticleTemplate.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
   productType: PropTypes.string,
+  featuredImageFluid: PropTypes.object,
+  featuredImageSrc: PropTypes.string,
+  featuredImageAlt: PropTypes.string,
 }
 
 const BordersContainer = styled.div`
@@ -94,6 +114,31 @@ const Title = styled.h1`
   font-size: 2rem;
   line-height: 1.15;
   margin: 0 0 10px;
+`
+
+const FeaturedImage = styled(Img)`
+  margin-top: 12px;
+  margin-bottom: 6px;
+  border-radius: 12px;
+  overflow: hidden;
+`
+
+const FeaturedImageFallbackWrap = styled.div`
+  margin-top: 12px;
+  margin-bottom: 6px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.04);
+
+  /* Reserve space to avoid layout shift if we can't use gatsby-image. */
+  aspect-ratio: 16 / 9;
+`
+
+const FeaturedImageFallback = styled.img`
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `
 
 const MetaLine = styled.p`
@@ -157,8 +202,17 @@ const SectionTitle = styled.h2`
 `
 
 const RelatedList = styled.ul`
+  /* Ensure bullets are visible even if a global reset removes them */
+  && {
+    list-style: disc;
+    list-style-position: outside;
+  }
   margin: 0;
   padding-left: 18px;
+
+  li + li {
+    margin-top: 8px;
+  }
 `
 
 const Article = ({ data, location }) => {
@@ -203,6 +257,12 @@ const Article = ({ data, location }) => {
             tags={post.frontmatter.tags}
             title={post.frontmatter.title}
             productType={post.frontmatter.productType}
+            featuredImageFluid={post.fields?.featuredImageFile?.childImageSharp?.fluid}
+            featuredImageSrc={
+              post.fields?.featuredImageFile?.publicURL ||
+              post.frontmatter.featuredImage
+            }
+            featuredImageAlt={post.frontmatter.title}
           />
           <Separator height="28px" />
           <SectionTitle>¿Quieres profundizar con acompañamiento?</SectionTitle>
