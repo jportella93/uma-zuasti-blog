@@ -75,6 +75,12 @@ const PublicationListView = ({
             <P textAlign="left" marginTop="0" paddingTop="24px">
               <b>{postTitle}</b>
               <br />
+              {eventDates && (
+                <>
+                  {eventDates}
+                  <br />
+                </>
+              )}
               {description && (
                 <>
                   {description}
@@ -84,12 +90,6 @@ const PublicationListView = ({
               {eventPlace && (
                 <>
                   {eventPlace}
-                  <br />
-                </>
-              )}
-              {eventDates && (
-                <>
-                  {eventDates}
                   <br />
                 </>
               )}
