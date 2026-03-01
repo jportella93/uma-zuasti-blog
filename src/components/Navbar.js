@@ -159,7 +159,9 @@ const Navbar = ({ navbarColor }) => {
     document.addEventListener('scroll', throttledHandleScroll)
 
     return () => {
-      throttledHandleScroll.cancel?.()
+      if (throttledHandleScroll.cancel) {
+        throttledHandleScroll.cancel()
+      }
       document.removeEventListener('scroll', throttledHandleScroll)
     }
   }, []);
