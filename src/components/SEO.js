@@ -107,24 +107,24 @@ const SEO = ({
     })
   }
 
-  if (type === ‘workshop’) {
+  if (type === 'workshop') {
     jsonLd.push({
-      ‘@context’: ‘https://schema.org’,
-      ‘@type’: ‘Event’,
+      '@context': 'https://schema.org',
+      '@type': 'Event',
       name: title,
       description: stripHtml(resolvedDescription),
       url: canonical,
       startDate: startDate || undefined,
       endDate: endDate || undefined,
-      eventStatus: ‘https://schema.org/EventScheduled’,
-      eventAttendanceMode: ‘https://schema.org/OfflineEventAttendanceMode’,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
       location: eventPlace
-        ? { ‘@type’: ‘Place’, name: eventPlace, address: eventPlace }
+        ? { '@type': 'Place', name: eventPlace, address: eventPlace }
         : undefined,
-      organizer: { ‘@type’: ‘Organization’, name: orgName, url: siteUrl },
-      performer: { ‘@type’: ‘Person’, name: orgName },
+      organizer: { '@type': 'Organization', name: orgName, url: siteUrl },
+      performer: { '@type': 'Person', name: orgName },
       image: ogImage ? [ogImage] : undefined,
-      inLanguage: meta.language || ‘es’,
+      inLanguage: meta.language || 'es',
     })
   }
 
