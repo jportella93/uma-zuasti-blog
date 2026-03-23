@@ -23,7 +23,7 @@ function stripHtml(html) {
  * - Adds canonical + OpenGraph/Twitter cards
  * - Adds Schema.org JSON-LD for Organization + (Article / Workshop)
  *
- * Note: we keep JSON-LD minimal because workshop dates/places are often free-form strings.
+ * Note: workshop dates use the publication date as startDate; places are free-form strings.
  */
 const SEO = ({
   title,
@@ -34,6 +34,9 @@ const SEO = ({
   publishedTime,
   modifiedTime,
   noindex = false,
+  startDate,
+  endDate,
+  eventPlace,
 }) => {
   const data = useStaticQuery(graphql`
     query SeoDefaultsQuery {
@@ -104,17 +107,24 @@ const SEO = ({
     })
   }
 
-  if (type === 'workshop') {
-    // We use a conservative schema shape so we don’t lie about structured fields we can’t guarantee.
+  if (type === ‘workshop’) {
     jsonLd.push({
-      '@context': 'https://schema.org',
-      '@type': 'Event',
+      ‘@context’: ‘https://schema.org’,
+      ‘@type’: ‘Event’,
       name: title,
       description: stripHtml(resolvedDescription),
       url: canonical,
-      organizer: { '@type': 'Organization', name: orgName, url: siteUrl },
+      startDate: startDate || undefined,
+      endDate: endDate || undefined,
+      eventStatus: ‘https://schema.org/EventScheduled’,
+      eventAttendanceMode: ‘https://schema.org/OfflineEventAttendanceMode’,
+      location: eventPlace
+        ? { ‘@type’: ‘Place’, name: eventPlace, address: eventPlace }
+        : undefined,
+      organizer: { ‘@type’: ‘Organization’, name: orgName, url: siteUrl },
+      performer: { ‘@type’: ‘Person’, name: orgName },
       image: ogImage ? [ogImage] : undefined,
-      inLanguage: meta.language || 'es',
+      inLanguage: meta.language || ‘es’,
     })
   }
 
