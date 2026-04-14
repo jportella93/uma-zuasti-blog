@@ -192,6 +192,9 @@ const Workshop = ({ data, location }) => {
           post.frontmatter.featuredImage
         }
         publishedTime={post.frontmatter.dateISO}
+        startDate={post.frontmatter.dateISO}
+        endDate={post.frontmatter.expirationDateISO}
+        eventPlace={post.frontmatter.eventPlace}
       />
       <BordersContainer>
         <Container>
@@ -234,6 +237,7 @@ export const pageQuery = graphql`
         featuredImage
         eventDates
         eventPlace
+        expirationDateISO: expirationDate(formatString: "YYYY-MM-DD")
       }
     }
     articles: allMarkdownRemark(

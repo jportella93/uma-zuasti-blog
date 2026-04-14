@@ -10,6 +10,7 @@ tags:
   - Biodanza
   - Talleres
   - Tarragona
+eventPlace: Tarragona
 featuredImage: /img/the-good-café-1-.png
 ---
 
