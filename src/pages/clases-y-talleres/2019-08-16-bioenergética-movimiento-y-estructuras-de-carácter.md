@@ -8,6 +8,7 @@ tags:
   - Bioenergética
   - Movimiento
   - Tarragona
+eventPlace: Tarragona
 ---
 "Bioenergética, Movimiento y Estructuras de Carácter"
 
