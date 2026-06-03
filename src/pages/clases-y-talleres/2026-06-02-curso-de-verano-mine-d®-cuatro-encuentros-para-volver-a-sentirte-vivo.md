@@ -1,6 +1,6 @@
 ---
 templateKey: workshop
-title: CURSO DE VERANO MINE-D® Cuatro encuentros para volver a sentirte vivo
+title: CURSO DE VERANO MINED-E® Cuatro encuentros para volver a sentirte vivo
 date: 2026-06-02T12:48:02.820Z
 featuredImage: /img/chatgpt-image-2-jun-2026-14_44_49.png
 eventDates: Julio 2026
