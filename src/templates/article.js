@@ -4,7 +4,7 @@ import { kebabCase } from 'lodash'
 import React from 'react'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import { palette } from '../components/constants'
+import { palette, smallScreenLimit } from '../components/constants'
 import { BlogLimitedContainer } from '../components/Containers'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -183,7 +183,10 @@ const ArticleBody = styled.div`
   }
 
   h2,
-  h3 {
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #111;
     margin-top: 2rem;
   }
@@ -192,6 +195,86 @@ const ArticleBody = styled.div`
     color: ${palette.red};
     text-decoration: underline;
     text-underline-offset: 3px;
+  }
+
+  /* Blockquotes (Netlify CMS "quote" button + pasted artifact quotes) */
+  blockquote {
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+    border-left: 4px solid ${palette.red};
+    background: rgba(197, 49, 81, 0.05);
+    color: #333;
+    font-style: italic;
+  }
+
+  blockquote p {
+    margin: 0;
+  }
+
+  /* Tables (Markdown GFM tables pasted from Claude artifacts) */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  /* On narrow screens let wide tables scroll horizontally instead of
+     overflowing the page (gatsby-transformer-remark emits a bare <table>). */
+  @media (max-width: ${smallScreenLimit}px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+
+  th,
+  td {
+    padding: 0.6rem 0.85rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  thead th {
+    background: ${palette.darkRed};
+    color: ${palette.white};
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  /* Inline + block code */
+  code {
+    background: rgba(0, 0, 0, 0.06);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+
+  pre {
+    background: #1e1e1e;
+    color: #f5f5f5;
+    padding: 1rem 1.25rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  pre code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+  }
+
+  /* Horizontal rule / section dividers */
+  hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 2.5rem 0;
   }
 `
 
