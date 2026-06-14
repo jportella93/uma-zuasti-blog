@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 import { BlogLimitedContainer } from '../components/Containers'
 import { palette } from '../components/constants'
 import { richTextBodyStyles } from '../components/richTextStyles'
-import { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from '../components/Content'
 import Separator from '../components/Separator'
 
 const BordersContainer = styled.div`
@@ -101,8 +101,16 @@ const RelatedList = styled.ul`
   padding-left: 18px;
 `
 
-const WorkshopTemplate = ({ post, relatedArticles }) => {
-  const { title, description, eventDates, eventPlace } = post.frontmatter
+export const WorkshopTemplate = ({
+  title,
+  description,
+  eventDates,
+  eventPlace,
+  content,
+  contentComponent,
+  relatedArticles = [],
+}) => {
+  const PostContent = contentComponent || Content
 
   return (
     <section>
@@ -138,7 +146,7 @@ const WorkshopTemplate = ({ post, relatedArticles }) => {
       </p>
 
       <ContentWrap>
-        <HTMLContent content={post.html} />
+        <PostContent content={content} />
       </ContentWrap>
 
       {relatedArticles.length ? (
@@ -187,11 +195,29 @@ const Workshop = ({ data, location }) => {
       />
       <BordersContainer>
         <Container>
-          <WorkshopTemplate post={post} relatedArticles={relatedArticles} />
+          <WorkshopTemplate
+            title={post.frontmatter.title}
+            description={post.frontmatter.description}
+            eventDates={post.frontmatter.eventDates}
+            eventPlace={post.frontmatter.eventPlace}
+            content={post.html}
+            contentComponent={HTMLContent}
+            relatedArticles={relatedArticles}
+          />
         </Container>
       </BordersContainer>
     </Layout>
   )
+}
+
+WorkshopTemplate.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  eventDates: PropTypes.string,
+  eventPlace: PropTypes.string,
+  content: PropTypes.node,
+  contentComponent: PropTypes.func,
+  relatedArticles: PropTypes.array,
 }
 
 Workshop.propTypes = {
