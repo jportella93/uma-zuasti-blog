@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { BlogLimitedContainer } from '../components/Containers'
 import { palette } from '../components/constants'
+import { richTextBodyStyles } from '../components/richTextStyles'
 import { HTMLContent } from '../components/Content'
 import Separator from '../components/Separator'
 
@@ -86,19 +87,7 @@ const Secondary = styled(ActionLink)`
 
 const ContentWrap = styled.div`
   margin-top: 22px;
-
-  p,
-  li {
-    color: #222;
-    line-height: 1.75;
-    font-size: 1.05rem;
-  }
-
-  a {
-    color: ${palette.red};
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+  ${richTextBodyStyles}
 `
 
 const SectionTitle = styled.h2`
