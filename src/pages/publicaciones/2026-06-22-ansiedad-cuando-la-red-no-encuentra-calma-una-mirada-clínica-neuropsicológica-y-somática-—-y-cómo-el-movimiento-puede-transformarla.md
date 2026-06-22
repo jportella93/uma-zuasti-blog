@@ -6,7 +6,7 @@ title: >-
 date: 2026-06-22T05:27:47.992Z
 featuredImage: /img/gemini_generated_image_bza5iibza5iibza5.png
 productType: other
-description: >+
+description: >
 
   "La ansiedad no es un error del sistema nervioso. Es su voz de alarma más
   antigua, que en algunos casos se queda encendida mucho más tiempo del
@@ -57,8 +57,6 @@ La corteza prefrontal medial y ventromedial cumple la función regulatoria: cont
 
 La ínsula, por su parte, integra las señales interoceptivas —el estado interno del cuerpo— y contribuye a la conciencia del miedo. Cuando está hiperactiva, amplifica la percepción de sensaciones corporales: el latido del corazón se convierte en presagio de infarto, la tensión muscular en señal de catástrofe inminente.
 
-
-
 ─────────────────────────────────────
 
 EL DESEQUILIBRIO ENTRE TRES GRANDES REDES
@@ -74,8 +72,6 @@ La Red de Saliencia (SN) detecta estímulos relevantes en el entorno —especial
 La Red Ejecutiva Central (CEN) gestiona la atención voluntaria, la memoria de trabajo y la toma de decisiones flexibles. Tiene su base en el córtex prefrontal dorsolateral y el lóbulo parietal posterior. En la ansiedad, la CEN está hipoactivada o es incapaz de mantener el control atencional frente a la intrusión de los contenidos amenazantes generados por la SN sobreactivada y la DMN rumiante.
 
 Este triángulo de desequilibrio explica la experiencia subjetiva de la ansiedad con notable precisión: la mente divaga hacia el peligro, el entorno se percibe como amenazante, y resulta casi imposible enfocar o tomar decisiones claras. Las intervenciones más eficaces —desde la práctica de mindfulness hasta las terapias de exposición o las intervenciones corporales— actúan precisamente modulando el equilibrio entre estas tres redes.
-
-
 
 ─────────────────────────────────────
 
@@ -115,7 +111,7 @@ EL ABORDAJE DESDE EL MINED-E®
 
 ─────────────────────────────────────
 
-El Modelo de Integración Neuro-Expresiva Danza-Emoción, MINED-E®, es una propuesta de intervención psicoeducativa y psicoterapéutica que sitúa el cuerpo en movimiento como punto de entrada privilegiado para la regulación emocional. No es un modelo de danza terapéutica convencional: es una integración estructurada de hallazgos de la neurociencia afectiva, la psicología del movimiento y la práctica somático-expresiva.
+El Modelo de Integración Neuro-Expresiva Danza-Emoción, MINE-D®, es una propuesta de intervención psicoeducativa y psicoterapéutica que sitúa el cuerpo en movimiento como punto de entrada privilegiado para la regulación emocional. No es un modelo de danza terapéutica convencional: es una integración estructurada de hallazgos de la neurociencia afectiva, la psicología del movimiento y la práctica somático-expresiva.
 
 El modelo parte de una premisa neuropsicológica central: la regulación emocional es, en primer lugar, regulación somática. Trabajar la ansiedad sin pasar por el cuerpo es trabajar solo con la sombra del problema.
 
@@ -125,7 +121,7 @@ El primer nivel es somático-expresivo. Aquí se activa la conciencia interocept
 
 El segundo nivel es emocional-expresivo. El movimiento se convierte en vehículo de expresión y elaboración emocional. Las cualidades de Esfuerzo descritas por Laban se trabajan de forma intencionada para ampliar el repertorio de respuesta: del flujo ligado hacia el libre, de la urgencia hacia la sostenibilidad, del peso ingrávido hacia el arraigo. Esto interrumpe también los bucles rumiativos de la Red por Defecto, al anclar la atención en la experiencia presente del movimiento.
 
-El tercer nivel es narrativo-simbólico. La experiencia somática vivida se integra cognitiva y simbólicamente a través de la narración. Esto activa la Red por Defecto de forma constructiva —ya no hacia la rumiación, sino hacia la elaboración autobiográfica positiva—, transformando la vivencia corporal en significado. Al mismo tiempo, las propuestas que requieren decisión, variación creativa y atención activan selectivamente la Red Ejecutiva Central, fortaleciendo los circuitos prefrontales de regulación y flexibilidad cognitiva.
+El tercer nivel es narrativo-simbólico. La experiencia somática vivida se integra cognitiva y simbólicamente a través de la narración. Esto modula y reorganiza la Red por Defecto de forma constructiva —ya no hacia la rumiación, sino hacia la elaboración autobiográfica saludable y con significado. Al mismo tiempo, las propuestas que requieren decisión, variación creativa y atención activan selectivamente la Red Ejecutiva Central, fortaleciendo los circuitos prefrontales de regulación y flexibilidad cognitiva.
 
 Lo que distingue al MINED-E® de otras propuestas de intervención es su modelo explicativo integrado. No propone el movimiento como recurso de bienestar general, sino como intervención específica con hipótesis de mecanismo neuropsicológico verificable. Cada técnica remite a un nivel de procesamiento, a un patrón de movimiento Laban y a una red neuronal diana, configurando un mapa de acción que puede ser investigado, replicado y perfeccionado.
 
