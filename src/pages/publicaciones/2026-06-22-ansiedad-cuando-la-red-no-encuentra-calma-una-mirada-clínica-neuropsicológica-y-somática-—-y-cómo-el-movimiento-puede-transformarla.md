@@ -8,9 +8,9 @@ featuredImage: /img/gemini_generated_image_bza5iibza5iibza5.png
 productType: other
 description: >
 
-  "La ansiedad no es un error del sistema nervioso. Es su voz de alarma más
+  La ansiedad no es un error del sistema nervioso. Es su voz de alarma más
   antigua, que en algunos casos se queda encendida mucho más tiempo del
-  necesario."
+  necesario.
 
 
   La ansiedad forma parte del repertorio adaptativo de nuestra especie. Surgió
@@ -95,7 +95,7 @@ UNA LECTURA DESDE EL MOVIMIENTO: EL ANÁLISIS DE LABAN
 
 El Análisis del Movimiento de Rudolf Laban ofrece un sistema articulado y clínicamente muy útil para observar cómo los estados internos —emocionales, cognitivos y neurológicos— se expresan en el movimiento del cuerpo. A través de sus cuatro grandes categorías —Cuerpo, Esfuerzo, Espacio y Forma— es posible trazar un retrato dinámico de cómo la ansiedad se mueve, literalmente.
 
-Empezando por el Esfuerzo, que describe las cualidades dinámicas del movimiento: en la ansiedad, el flujo se polariza entre lo ligado y tenso —un movimiento controlado, sin entrega— y los momentos de flujo libre y explosivo que resultan difíciles de contener. El tiempo se vuelve urgente y acelerado, o al contrario, paralizado y sostenido hasta el agotamiento. El peso pierde su anclaje: el cuerpo se vuelve ingrávido, sin tierra, o rígido y forzado. El uso del espacio se fragmenta entre la dispersión caótica y la rigidez de una dirección única y estrecha.
+Empezando por el Esfuerzo, que describe las cualidades dinámicas del movimiento: en la ansiedad, el flujo se polariza entre lo contenido y tenso —un movimiento controlado, sin entrega— y los momentos de flujo libre y explosivo que resultan difíciles de contener. El tiempo se vuelve urgente y acelerado, o al contrario, paralizado y sostenido hasta el agotamiento. El peso pierde su anclaje: el cuerpo se vuelve ingrávido, sin tierra, o rígido y forzado. El uso del espacio se fragmenta entre la dispersión caótica y la rigidez de una dirección única y estrecha.
 
 En la categoría de Espacio, la kinesfera —el espacio personal que el cuerpo puede alcanzar— se reduce. La persona se mueve en el espacio más próximo, se contrae, se protege. Predominan los niveles altos del cuerpo: pecho, hombros, cabeza. La exploración espacial se fragmenta, sin direcciones sostenidas, como si la atención no pudiera mantenerse en ningún punto.
 
@@ -119,7 +119,7 @@ El trabajo se organiza en tres niveles de procesamiento que abordan la ansiedad 
 
 El primer nivel es somático-expresivo. Aquí se activa la conciencia interoceptiva y se regula el sistema nervioso autónomo mediante secuencias de movimiento que modulan directamente la red de saliencia. El trabajo con el peso, el contacto con el suelo y la exploración de la kinesfera interviene sobre la hiperactivación simpática, ofreciendo al sistema nervioso señales de seguridad que compiten con las señales de amenaza. La expansión gradual del espacio corporal re-educa al sistema de detección de peligro.
 
-El segundo nivel es emocional-expresivo. El movimiento se convierte en vehículo de expresión y elaboración emocional. Las cualidades de Esfuerzo descritas por Laban se trabajan de forma intencionada para ampliar el repertorio de respuesta: del flujo ligado hacia el libre, de la urgencia hacia la sostenibilidad, del peso ingrávido hacia el arraigo. Esto interrumpe también los bucles rumiativos de la Red por Defecto, al anclar la atención en la experiencia presente del movimiento.
+El segundo nivel es emocional-expresivo. El movimiento se convierte en vehículo de expresión y elaboración emocional. Las cualidades de Esfuerzo descritas por Laban se trabajan de forma intencionada para ampliar el repertorio de respuesta: del flujo contenido hacia el libre, de la urgencia hacia la sostenibilidad, del peso ingrávido hacia el arraigo. Esto interrumpe también los bucles rumiativos de la Red por Defecto, al anclar la atención en la experiencia presente del movimiento.
 
 El tercer nivel es narrativo-simbólico. La experiencia somática vivida se integra cognitiva y simbólicamente a través de la narración. Esto modula y reorganiza la Red por Defecto de forma constructiva —ya no hacia la rumiación, sino hacia la elaboración autobiográfica saludable y con significado. Al mismo tiempo, las propuestas que requieren decisión, variación creativa y atención activan selectivamente la Red Ejecutiva Central, fortaleciendo los circuitos prefrontales de regulación y flexibilidad cognitiva.
 
