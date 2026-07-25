@@ -2,7 +2,7 @@
 templateKey: workshop
 title: 'CURSO PARA DOCENTES  : El Aula que se Siente'
 date: 2026-07-21T15:07:05.520Z
-featuredImage: /img/gemini_generated_image_vv9dr3vv9dr3vv9d-1-.png
+featuredImage: /img/gemini_generated_image_-2-.png
 eventDates: Octubre 2026 /Enero 2027
 eventPlace: Tarragona
 productType: danza-emocion
