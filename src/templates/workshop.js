@@ -1,4 +1,4 @@
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
@@ -184,16 +184,7 @@ const Workshop = ({ data, location }) => {
     .filter(a => !productType || a?.frontmatter?.productType === productType)
     .slice(0, 4)
 
-  const siteData = useStaticQuery(graphql`
-    query WorkshopSiteUrlQuery {
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-    }
-  `)
-  const siteUrl = siteData?.site?.siteMetadata?.siteUrl?.replace(/\/+$/, '') || ''
+  const siteUrl = data?.site?.siteMetadata?.siteUrl?.replace(/\/+$/, '') || ''
   const pageUrl = location?.pathname ? `${siteUrl}${location.pathname}` : siteUrl
 
   return (
@@ -232,6 +223,11 @@ export default Workshop
 
 export const pageQuery = graphql`
   query WorkshopByID($id: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)

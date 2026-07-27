@@ -40,6 +40,10 @@
   ],
   "license": "MIT",
   "main": "n/a",
+  "overrides": {
+    "generator-function": "1.0.0",
+    "async-function": "0.1.0"
+  },
   "scripts": {
     "start": "npm run develop",
     "clean": "rimraf .cache public",
