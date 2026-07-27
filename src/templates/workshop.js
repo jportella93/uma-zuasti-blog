@@ -193,7 +193,7 @@ const Workshop = ({ data, location }) => {
         }
         publishedTime={post.frontmatter.dateISO}
         startDate={post.frontmatter.dateISO}
-        endDate={post.frontmatter.expirationDateISO}
+        endDate={post.frontmatter.expirationDateISO || post.frontmatter.dateISO}
         eventPlace={post.frontmatter.eventPlace}
       />
       <BordersContainer>
