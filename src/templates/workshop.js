@@ -1,4 +1,4 @@
-import { graphql, Link } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
@@ -112,8 +112,11 @@ const RelatedList = styled.ul`
   padding-left: 18px;
 `
 
-const WorkshopTemplate = ({ post, relatedArticles }) => {
+const WorkshopTemplate = ({ post, relatedArticles, pageUrl }) => {
   const { title, description, eventDates, eventPlace } = post.frontmatter
+
+  const contactMessage = `Hola Uma, te escribo sobre el taller ${title}${pageUrl ? ` ${pageUrl}` : ''}`
+  const encodedContactMessage = encodeURIComponent(contactMessage)
 
   return (
     <section>
@@ -136,10 +139,12 @@ const WorkshopTemplate = ({ post, relatedArticles }) => {
       )}
 
       <Actions aria-label="Acciones de reserva">
-        <Primary href="https://wa.me/34636231517?text=Hola%20Uma%2C%20quiero%20reservar%20plaza%20en%20un%20taller.">
+        <Primary href={`https://wa.me/34636231517?text=${encodedContactMessage}`}>
           WhatsApp para reservar
         </Primary>
-        <Secondary href="mailto:umazuasti@gmail.com?subject=Reserva%20taller">Escribir por email</Secondary>
+        <Secondary href={`mailto:umazuasti@gmail.com?subject=Reserva%20taller&body=${encodedContactMessage}`}>
+          Escribir por email
+        </Secondary>
       </Actions>
       <p style={{ marginTop: '10px', color: '#333' }}>
         <b>Teléfono:</b>{' '}
@@ -179,6 +184,18 @@ const Workshop = ({ data, location }) => {
     .filter(a => !productType || a?.frontmatter?.productType === productType)
     .slice(0, 4)
 
+  const siteData = useStaticQuery(graphql`
+    query WorkshopSiteUrlQuery {
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+  const siteUrl = siteData?.site?.siteMetadata?.siteUrl?.replace(/\/+$/, '') || ''
+  const pageUrl = location?.pathname ? `${siteUrl}${location.pathname}` : siteUrl
+
   return (
     <Layout bgColor={palette.white} navbarColor={palette.red}>
       <SEO
@@ -198,7 +215,7 @@ const Workshop = ({ data, location }) => {
       />
       <BordersContainer>
         <Container>
-          <WorkshopTemplate post={post} relatedArticles={relatedArticles} />
+          <WorkshopTemplate post={post} relatedArticles={relatedArticles} pageUrl={pageUrl} />
         </Container>
       </BordersContainer>
     </Layout>
