@@ -18,23 +18,23 @@ description: >
 ---
 **Lo que aprendí en las aulas: investigar en lugar de acertar**
 
-En aquellos laboratorios pedagógicos, los niños no tenían que “hacer bien” una tarea. No había una respuesta correcta que encontrar ni un resultado esperado que cumplir. Lo que guiaba la experiencia era, simplemente, la curiosidad.
+En aquellos laboratorios pedagógicos, los niños no tenían que “hacer bien” una tarea, no había una respuesta correcta que encontrar ni un resultado esperado que cumplir. Lo que guiaba la experiencia era, simplemente, la curiosidad.
 
-Los niños exploraban materiales sin más objetivo que descubrir qué pasaba. Inventaban hipótesis sin saber que las estaban inventando, probaban una acción, observaban el efecto, y a partir de ahí modificaban lo que hacían. Ensayo, observación, ajuste, una y otra vez. De ese proceso surgían descubrimientos que ningún adulto les había enseñado directamente.
+Los niños exploraban materiales sin más objetivo que descubrir qué pasaba. Inventaban hipótesis sin saber que las estaban inventando, probaban una acción, observaban el efecto, y a partir de ahí modificaban lo que hacían. Ensayo, observación, ajuste, una y otra vez, de ese proceso surgían descubrimientos que ningún adulto les había enseñado directamente.
 
 Nosotros, como equipo educativo, grabábamos estas experiencias en vídeo, después las analizábamos con calma, buscando entender qué procesos de aprendizaje estaban ocurriendo, qué estrategias aparecían de forma espontánea, cómo se relacionaban entre ellos y qué formas de pensar emergían mientras jugaban. No evaluábamos resultados; intentábamos comprender procesos.
 
 Años más tarde, al desarrollar MINED-E®, comprendí que ese mismo enfoque podía trasladarse al terreno de la psicoterapia con personas adultas, la lógica de fondo es la misma: crear un espacio donde la exploración sea libre y observar con atención lo que ocurre en ella.
 
-Lo que cambia no es el valor que le damos al juego, sino aquello que investigamos a través de él. En el aula observábamos cómo se construía el conocimiento, en los grupos, dentro de MINED-E®, observo cómo el cuerpo organiza la experiencia emocional, relacional y cognitiva de cada persona.
+Lo que cambia no es el valor que le damos al juego, sino aquello que investigamos a través de él, en el aula observábamos cómo se construía el conocimiento, en los grupos, dentro de MINED-E®, observo cómo el cuerpo organiza la experiencia emocional, relacional y cognitiva de cada persona.
 
 **El laboratorio de juego como herramienta terapéutica**
 
-En los laboratorios de juego que propongo dentro de MINED-E® no existen movimientos correctos ni objetivos impuestos desde fuera. No hay una coreografía que seguir ni un ejercicio que completar con éxito.
+En los laboratorios de juego que propongo dentro de MINED-E® no existen movimientos correctos ni objetivos impuestos desde fuera, no hay una coreografía que seguir ni un ejercicio que completar con éxito.
 
 _“Despierta tu curiosidad. Deja que tu cuerpo te muestre cómo quiere jugar.”_
 
-Esa es, habitualmente, toda la consigna que ofrezco, a partir de ahí comienza un auténtico proceso de investigación personal. Cada persona explora el material que tiene delante, el movimiento, el espacio y, cuando hay más de una persona, también la relación con la otra, siguiendo únicamente aquello que despierta su interés en ese momento.
+Esa es, habitualmente, toda la consigna que ofrezco, a partir de ahí comienza un auténtico proceso de investigación personal. Cada persona explora el material que tiene delante, el movimiento, el espacio y también la relación con los otros, siguiendo únicamente aquello que despierta su interés en ese momento.
 
 Mi papel como terapeuta no es dirigir cada acción, es observar cómo se organiza esa exploración de manera espontánea: qué elige la persona, cómo se acerca a lo desconocido, qué hace cuando algo no sale como esperaba.
 
@@ -76,13 +76,13 @@ Y hay algo más: cada acción genera nueva información, y cada nueva percepció
 
 **Del análisis del vídeo a la comprensión clínica**
 
-Igual que hacíamos en los laboratorios pedagógicos de Reggio Emilia, muchas de estas experiencias pueden registrarse en vídeo para analizarlas con más detenimiento después de la sesión. La grabación me permite observar detalles que, en el momento, pasan desapercibidos: pequeños cambios posturales, instantes de duda que apenas duran un segundo, iniciativas espontáneas, la forma particular en que alguien se aproxima a un material, las secuencias de interacción con otra persona, y las transformaciones que se van produciendo a lo largo de varias sesiones.
+Igual que hacíamos en los laboratorios pedagógicos de Reggio Emilia, muchas de estas experiencias pueden registrarse en vídeo para analizarlas con más detenimiento después de la sesión. La grabación nos permite observar detalles que, en el momento, pasan desapercibidos: pequeños cambios posturales, instantes de duda que apenas duran un segundo, iniciativas espontáneas, la forma particular en que alguien se aproxima a un material, las secuencias de interacción con otra persona, y las transformaciones que se van produciendo a lo largo de varias sesiones.
 
 Y quiero subrayar algo que para mí es central: en ningún momento analizamos si una persona “lo hizo bien”. Lo que analizamos es cómo piensa el cuerpo cuando juega.
 
 **Una invitación a descubrir nuevas posibilidades**
 
-Cada laboratorio de juego es, en el fondo, una oportunidad para descubrir recursos que permanecían ocultos bajo hábitos muy automatizados, esos que repetimos tantas veces que ya ni siquiera notamos que los estamos eligiendo.Cuando el cuerpo puede explorar sin miedo a equivocarse, empiezan a aparecer nuevas formas de moverse, de sentir, de relacionarse y de comprender la propia experiencia, y ese es, para mí, el corazón de este trabajo.
+Cada laboratorio de juego es, en el fondo, una oportunidad para descubrir recursos que permanecían ocultos bajo hábitos muy automatizados, esos que repetimos tantas veces que ya ni siquiera notamos que los estamos eligiendo. Cuando el cuerpo puede explorar sin miedo a equivocarse, empiezan a aparecer nuevas formas de moverse, de sentir, de relacionarse y de comprender la propia experiencia, y ese es, para mí, el corazón de este trabajo.
 
 En MINED-E®, el juego se convierte así en un auténtico laboratorio de investigación terapéutica: un espacio donde la curiosidad abre la puerta a la integración, la creatividad y el cambio.
 
