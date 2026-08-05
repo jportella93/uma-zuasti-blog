@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Monográfico "Mujeres que corren con lobos"
 date: 2026-08-05T15:53:48.198Z
-featuredImage: /img/gemini_generated_image_q5eusvq5eusvq5eu.png
+featuredImage: /img/chatgpt-image-5-ago-2026-18_12_20.png
 eventDates: Octubre-Enero 2026/ 2027
 eventPlace: Tarragona
 productType: danza-emocion
