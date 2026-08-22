@@ -8,9 +8,8 @@ eventPlace: Tarragona
 productType: danza-emocion
 description: >-
   Herramientas psicocorporales para el bienestar, la convivencia y el
-  aprendizaje
+  aprendizaje, porque cuando el cuerpo se regula… el aprendizaje florece.
 
-  Porque cuando el cuerpo se regula… el aprendizaje florece.
 
   Las emociones, la atención, la convivencia y la motivación no dependen
   únicamente de lo que pensamos, sino también de cómo nos sentimos en nuestro
@@ -45,11 +44,9 @@ expirationDate: 2026-07-21T15:07:05.524Z
 
 ✔ Cuidar también de tu propio bienestar como docente.
 
-
-
 **Programa**
 
-**Sesión 1 · El cuerpo también educa**
+**\*Sesión 1 · El cuerpo también educa**
 
 Cómo el estado corporal influye en el aprendizaje.
 
@@ -63,9 +60,9 @@ Check-in emocional.
 
 Te llevarás: recursos para iniciar cualquier clase generando presencia y conexión.
 
+****
 
-
-**Sesión 2 · Regular antes de enseñar**
+**\*Sesión 2 · Regular antes de enseñar**
 
 Cuando el sistema nervioso se calma, el cerebro aprende.
 
@@ -79,9 +76,9 @@ Pausas reguladoras.
 
 Aplicación inmediata: estrategias para disminuir la agitación y recuperar la calma.
 
+****
 
-
-**Sesión 3 · La atención se entrena**
+**\*Sesión 3 · La atención se entrena**
 
 Cómo recuperar el foco sin recurrir constantemente al silencio o al castigo.
 
@@ -95,9 +92,9 @@ Activadores de aprendizaje.
 
 Aplicación inmediata: dinámicas breves para aumentar la concentración.
 
+****
 
-
-**Sesión 4 · Comprender las emociones**
+**\*Sesión 4 · Comprender las emociones**
 
 Las emociones son información, no un problema.
 
@@ -109,9 +106,9 @@ Expresión emocional saludable.
 
 Aplicación inmediata: actividades para desarrollar la inteligencia emocional.
 
+****
 
-
-**Sesión 5 · Construir autoestima desde el aula**
+**\*Sesión 5 · Construir autoestima desde el aula**
 
 Aprender a reconocer fortalezas y desarrollar la confianza.
 
@@ -125,9 +122,9 @@ Reconocimiento positivo.
 
 Aplicación inmediata: dinámicas para fortalecer la confianza del alumnado.
 
+****
 
-
-**Sesión 6 · Cohesión y sentido de pertenencia**
+**\*Sesión 6 · Cohesión y sentido de pertenencia**
 
 Un grupo que se siente unido aprende mejor.
 
@@ -141,9 +138,9 @@ Pertenencia.
 
 Aplicación inmediata: juegos cooperativos y actividades para tutorías.
 
+****
 
-
-**Sesión 7 · Comunicación consciente**
+**\*Sesión 7 · Comunicación consciente**
 
 Escuchar también es una experiencia corporal.
 
@@ -157,9 +154,9 @@ Presencia.
 
 Aplicación inmediata: herramientas para mejorar la comunicación en el aula.
 
+****
 
-
-**Sesión 8 · Resolver conflictos restaurando vínculos**
+**\*Sesión 8 · Resolver conflictos restaurando vínculos**
 
 Del castigo a la reparación.
 
@@ -173,9 +170,9 @@ Cultura del diálogo.
 
 Aplicación inmediata: preguntas y dinámicas restaurativas para el aula.
 
+****
 
-
-**Sesión 9 · Movimiento, creatividad y motivación**
+**\*Sesión 9 · Movimiento, creatividad y motivación**
 
 El juego como motor del aprendizaje.
 
@@ -189,9 +186,9 @@ Motivación.
 
 Aplicación inmediata: actividades para despertar la participación y el interés.
 
+****
 
-
-**Sesión 10 · Bienestar docente**
+**\*Sesión 10 · Bienestar docente**
 
 No podemos co-regular si estamos desbordados.
 
@@ -205,9 +202,9 @@ Prevención del desgaste profesional.
 
 Aplicación inmediata: recursos sencillos para recuperar energía durante la jornada.
 
+****
 
-
-**Sesión 11 · Diseñar un aula emocionalmente inteligente**
+**\*Sesión 11 · Diseñar un aula emocionalmente inteligente**
 
 Integrar las herramientas en el día a día.
 
@@ -221,9 +218,9 @@ Diseño de secuencias prácticas.
 
 Aplicación inmediata: creación de un banco personal de recursos.
 
+****
 
-
-**Sesión 12 · Integración y plan de acción**
+**\*Sesión 12 · Integración y plan de acción**
 
 Convertir las herramientas en una nueva manera de enseñar.
 
@@ -237,9 +234,9 @@ Evaluación y cierre.
 
 Metodología
 
+****
 
-
-**Una formación eminentemente vivencial y práctica, donde cada sesión combina:**
+_**Una formación eminentemente vivencial y práctica, donde cada sesión combina:**_
 
 Experiencias psicocorporales.
 
@@ -251,7 +248,7 @@ Aplicación directa al contexto educativo.
 
 _Porque aquello que se experimenta en primera persona es lo que realmente puede transformarse en una herramienta educativa._
 
-__
+
 
 **¿Qué incluye?**
 
@@ -263,7 +260,7 @@ Dossier con actividades para aplicar en el aula.
 
 Recursos organizados por objetivos (atención, regulación, cohesión, convivencia, autoestima y gestión emocional).
 
-Certificado de participación.
+
 
 **¿A quién va dirigido?**
 
@@ -279,20 +276,18 @@ Profesionales de apoyo educativo.
 
 _Una nueva forma de enseñar empieza por una nueva forma de estar en el aula._
 
-**_Fechas: Octubre 2026 -Enero 2027_**
+_**Fechas:**_ _Octubre 2026 -Enero 2027_
 
-**_Martes a las 19:30h._** 
+**_Martes_** _a las 19:30h._ 
 
-**_Precio : 60 € mes_**
+_**Precio :**_ _60 € mes_
 
-**__**
+
 
 Porque cuando el profesorado encuentra recursos para regularse, conectar y cuidar la convivencia, el alumnado también aprende a hacerlo.
 
-
-
 Metodología: Vivencial · Práctica · Aplicable al aula desde el primer día
 
+Danza Emoción® es una metodología propia que integra psicología, movimiento, educación emocional y dinámicas grupales para favorecer el bienestar, la convivencia y el aprendizaje. 
 
-
-Danza Emoción® es una metodología propia que integra psicología, movimiento, educación emocional y dinámicas grupales para favorecer el bienestar, la convivencia y el aprendizaje. Cada herramienta ha sido diseñada para que el profesorado pueda incorporarla de forma sencilla y eficaz en su práctica diaria.
+Cada herramienta ha sido diseñada para que el profesorado pueda incorporarla de forma sencilla y eficaz en su práctica diaria.
