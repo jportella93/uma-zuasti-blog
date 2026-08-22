@@ -7,7 +7,7 @@ eventDates: Octubre-Enero 2026/ 2027
 eventPlace: Tarragona
 productType: danza-emocion
 description: >-
-  Un viaje de integración a través del cuerpo, el movimiento y los arquetipos
+  Un viaje de integración a través del cuerpo, el movimiento y los arquetipos.
 
 
   En este monográfico de 15 sesiones recorreremos algunos de los cuentos más
@@ -15,14 +15,13 @@ description: >-
   Pinkola Estés, desde una propuesta vivencial basada en MINED-E® (Modelo de
   Integración Neuro-Expresiva Danza Emoción®).
 
+
   Cada encuentro será una experiencia de investigación corporal en la que el
   movimiento, el juego, la expresión, la reflexión y el símbolo nos permitirán
   llevar al cuerpo aquello que los cuentos despiertan en nuestro mundo interior.
 expirationDate: 2027-02-01T16:53:48.203Z
 ---
-Dicen los antiguos cuentos que, cuando una mujer escucha la llamada de lo salvaje, algo en su interior comienza a despertar.
-
-No es un camino hacia un lugar desconocido. Es el regreso a la casa que siempre habitó en ella.
+Dicen los antiguos cuentos que, cuando una mujer escucha la llamada de lo salvaje, algo en su interior comienza a despertar. No es un camino hacia un lugar desconocido, es el regreso a la casa que siempre habitó en ella.
 
 En este viaje recorreremos algunos de los relatos más poderosos de Mujeres que corren con los lobos, de Clarissa Pinkola Estés, no para comprenderlos con la mente, sino para permitir que cobren vida en el cuerpo.
 
@@ -30,10 +29,14 @@ A través de MINED-E® (Modelo de Integración Neuro-Expresiva Danza Emoción®)
 
 Cada sesión será una invitación a caminar entre bosques interiores, a reconocer las huellas que dejaron las heridas y a descubrir que, bajo ellas, sigue latiendo una fuerza antigua, libre y profundamente sabia.
 
-**_Porque la Mujer Salvaje no vive lejos._**
+_**Porque la Mujer Salvaje no vive lejos.**_
 
-**Habita en cada respiración que nos devuelve al cuerpo, en cada paso que recupera su verdad y en cada historia que nos recuerda quiénes somos.**
+_Habita en cada respiración que nos devuelve al cuerpo, en cada paso que recupera su verdad y en cada historia que nos recuerda quiénes somos._
 
-_Quizá no has venido a convertirte en otra mujer. Quizá has venido a recordar la que nunca dejaste de ser._
+**_Quizá no has venido a convertirte en otra mujer. Quizá has venido a recordar la que nunca dejaste de ser._**
 
-_Jueves a las 19:30h._
+**_Jueves_** _a las 19:30h. Tarragona_
+
+**Precio**: 60€/mes 
+
+\    (55€/mes alumnos de continuidad)
