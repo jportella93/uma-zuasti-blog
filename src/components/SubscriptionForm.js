@@ -53,11 +53,12 @@ const Form = styled.form`
 
 const SubscriptionForm = () =>
   <Form
-    action="https://buttondown.email/api/emails/embed-subscribe/umazuasti"
+    // Buttondown's supported embed: a standard HTML form submitted directly
+    // to Buttondown, letting the browser follow its response so subscribers
+    // can complete CAPTCHA verification or correct a validation error.
+    // Do not submit this endpoint with fetch, a popup, or an onSubmit handler.
+    action="https://buttondown.com/api/emails/embed-subscribe/umazuasti"
     method="post"
-    target="popupwindow"
-    // Buttondown's embed expects a popup; React requires onSubmit handler (not an HTML string).
-    onSubmit={() => window.open('https://buttondown.email/umazuasti', 'popupwindow')}
     className="embeddable-buttondown-form"
   >
     <label htmlFor="bd-email">
