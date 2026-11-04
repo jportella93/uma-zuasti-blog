@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+# Serialize runs on master so two publishes in a row don't race each other.
+concurrency:
+  group: optimize-cms-images-master
+  cancel-in-progress: false
+
 jobs:
   optimize:
     # Prevent infinite loops when this workflow pushes its own commit.
@@ -44,4 +49,24 @@ jobs:
 
           git add static/img
           git commit -m "chore(images): optimize CMS uploads"
-          git push
+
+          # Netlify CMS usually lands a second commit (the post itself)
+          # seconds after the image upload that triggered this run, while
+          # this workflow takes minutes. By push time master has moved, so
+          # a plain `git push` is rejected as non-fast-forward. Rebase the
+          # optimization commit onto the latest master and retry.
+          for attempt in 1 2 3; do
+            git fetch origin master
+            if ! git rebase origin/master; then
+              git rebase --abort || true
+              echo "Rebase onto latest master failed (attempt $attempt)."
+            elif git push origin HEAD:master; then
+              echo "Pushed optimized images (attempt $attempt)."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying in $((attempt * 5))s..."
+            sleep $((attempt * 5))
+          done
+
+          echo "Could not push optimized images after 3 attempts."
+          exit 1
