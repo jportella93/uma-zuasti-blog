@@ -209,6 +209,7 @@ const Workshop = ({ data, location }) => {
         endDate={post.frontmatter.expirationDateISO || post.frontmatter.dateISO}
         eventPlace={post.frontmatter.eventPlace}
         price={post.frontmatter.price}
+        priceType={post.frontmatter.priceType}
         bookingUrl={bookingUrl}
       />
       <BordersContainer>
@@ -258,6 +259,7 @@ export const pageQuery = graphql`
         eventDates
         eventPlace
         price
+        priceType
         expirationDateISO: expirationDate(formatString: "YYYY-MM-DD")
       }
     }

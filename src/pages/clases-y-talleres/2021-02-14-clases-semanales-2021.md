@@ -6,6 +6,8 @@ featuredImage: /img/añadir-un-poco-de-texto.png
 eventDates: Febrero a Junio
 eventPlace: 'Atgn Tarragona, C/ López Peláez 12 bis , Tarragona'
 productType: biodanza
+price: 45
+priceType: mensual
 description: Nuevos horarios de sesiones semanales en Tarragona
 expirationDate: 2021-02-14T10:24:22.949Z
 ---

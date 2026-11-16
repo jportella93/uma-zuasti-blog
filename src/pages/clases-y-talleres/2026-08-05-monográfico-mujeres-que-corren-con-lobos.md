@@ -6,6 +6,8 @@ featuredImage: /img/chatgpt-image-5-ago-2026-18_12_20.png
 eventDates: Octubre-Enero 2026/ 2027
 eventPlace: Tarragona
 productType: danza-emocion
+price: 60
+priceType: mensual
 description: >-
   Un viaje de integración a través del cuerpo, el movimiento y los arquetipos.
 

@@ -123,7 +123,21 @@ collections:
         value_type: int
         min: 0
         required: false
-        hint: Precio total del taller o curso en euros, sin símbolo (ej. 50). Déjalo vacío si no hay un precio único (p. ej. si es una cuota mensual). Se usa en los datos estructurados para Google.
+        hint: Precio en euros, sin símbolo (ej. 50). Si es una cuota mensual, escribe aquí el importe de cada mes y elige «Mensual» en «Tipo de precio». Déjalo vacío solo si el taller no tiene precio. Se usa en los datos estructurados para Google.
+
+      - label: Tipo de precio
+        name: priceType
+        widget: "select"
+        options:
+          - label: "Único"
+            value: "unico"
+
+          - label: "Mensual"
+            value: "mensual"
+
+        default: "unico"
+        required: false
+        hint: Elige «Único» si el precio es el total del taller o curso, o «Mensual» si es una cuota que se paga cada mes. Se usa en los datos estructurados para Google.
 
       - label: Tema
         name: productType
