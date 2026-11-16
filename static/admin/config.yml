@@ -117,6 +117,14 @@ collections:
         widget: string
         hint: Lugar/es donde se desarrolla la clase o taller
 
+      - label: Precio (€)
+        name: price
+        widget: number
+        value_type: int
+        min: 0
+        required: false
+        hint: Precio total del taller o curso en euros, sin símbolo (ej. 50). Déjalo vacío si no hay un precio único (p. ej. si es una cuota mensual). Se usa en los datos estructurados para Google.
+
       - label: Tema
         name: productType
         widget: "select"

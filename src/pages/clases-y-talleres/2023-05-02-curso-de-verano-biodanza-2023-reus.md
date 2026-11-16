@@ -6,6 +6,7 @@ featuredImage: /img/curso-de-verano-biodanza.png
 eventDates: JULIO
 eventPlace: 'SALTA Psicología i Psicomotricitat , Riera Miró 23 Reus'
 productType: biodanza
+price: 50
 description: NUEVO CURSO DE VERANO DE BIODANZA EN REUS JULIO 2023.
 expirationDate: 2023-05-02T10:45:13.356Z
 ---

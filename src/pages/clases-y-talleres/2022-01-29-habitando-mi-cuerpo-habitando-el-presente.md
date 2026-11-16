@@ -6,6 +6,7 @@ featuredImage: /img/biodanza-srt.png
 eventDates: SABADO 5 DE MARZO 2022
 eventPlace: TARRAGONA
 productType: biodanza
+price: 50
 description: >
   El pasado y futuro sólo habita en nuestra mente,  lo real es nuestro ahora.
   Vivir el presente modifica nuestro cerebro. Varios estudios en el campo de la

@@ -6,6 +6,7 @@ featuredImage: /img/chatgpt-image-2-jun-2026-14_44_49.png
 eventDates: Julio 2026
 eventPlace: Tarragona
 productType: danza-emocion
+price: 60
 description: >-
   Hay momentos en los que la vida se vuelve demasiado mental.
 

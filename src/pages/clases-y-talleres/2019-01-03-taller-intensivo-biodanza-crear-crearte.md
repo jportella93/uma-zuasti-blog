@@ -2,6 +2,7 @@
 templateKey: workshop
 title: 'Taller Intensivo Biodanza, "Crear , Crearte"'
 productType: biodanza
+price: 35
 date: 2019-01-03T11:46:03.105Z
 description: Laboratorio de Creatividad.
 featuredImage: /img/taller-intensivo-biodanza.jpg
