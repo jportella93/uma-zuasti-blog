@@ -187,6 +187,11 @@ const Workshop = ({ data, location }) => {
   const siteUrl = data?.site?.siteMetadata?.siteUrl?.replace(/\/+$/, '') || ''
   const pageUrl = location?.pathname ? `${siteUrl}${location.pathname}` : siteUrl
 
+  // Same WhatsApp reservation link the page shows; used as the Offer URL
+  // in the Event structured data when the workshop has a price.
+  const contactMessage = `Hola Uma, te escribo sobre el taller ${post.frontmatter.title}${pageUrl ? ` ${pageUrl}` : ''}`
+  const bookingUrl = `https://wa.me/34636231517?text=${encodeURIComponent(contactMessage)}`
+
   return (
     <Layout bgColor={palette.white} navbarColor={palette.red}>
       <SEO
@@ -203,6 +208,9 @@ const Workshop = ({ data, location }) => {
         startDate={post.frontmatter.dateISO}
         endDate={post.frontmatter.expirationDateISO || post.frontmatter.dateISO}
         eventPlace={post.frontmatter.eventPlace}
+        price={post.frontmatter.price}
+        priceType={post.frontmatter.priceType}
+        bookingUrl={bookingUrl}
       />
       <BordersContainer>
         <Container>
@@ -250,6 +258,8 @@ export const pageQuery = graphql`
         featuredImage
         eventDates
         eventPlace
+        price
+        priceType
         expirationDateISO: expirationDate(formatString: "YYYY-MM-DD")
       }
     }

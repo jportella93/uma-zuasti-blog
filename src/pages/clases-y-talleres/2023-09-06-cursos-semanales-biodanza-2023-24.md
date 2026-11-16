@@ -6,6 +6,8 @@ featuredImage: /img/biodanza-2024.png
 eventDates: Septiembre 2023 hasta Junio 2024
 eventPlace: Tarragona y Reus
 productType: biodanza
+price: 50
+priceType: mensual
 description: >-
   Cursos semanales Biodanza 2023/24 , este año celebro 10 años facilitando
   Biodanza en Tarragona.

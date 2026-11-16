@@ -22,6 +22,10 @@ function stripHtml(html) {
  * - Keeps titles/descriptions consistent across pages
  * - Adds canonical + OpenGraph/Twitter cards
  * - Adds Schema.org JSON-LD for Organization + (Article / Workshop)
+ * - Workshop Events include `offers` only when the post sets a price
+ *   (frontmatter `price`, in EUR); without a real price no offer is emitted.
+ *   If the price is a monthly fee (frontmatter `priceType: mensual`), the
+ *   Offer also carries a UnitPriceSpecification with billingDuration P1M.
  *
  * Note: workshop dates use the publication date as startDate; places are free-form strings.
  */
@@ -37,6 +41,9 @@ const SEO = ({
   startDate,
   endDate,
   eventPlace,
+  price,
+  priceType,
+  bookingUrl,
 }) => {
   const data = useStaticQuery(graphql`
     query SeoDefaultsQuery {
@@ -108,6 +115,11 @@ const SEO = ({
   }
 
   if (type === 'workshop') {
+    const numericPrice =
+      price === null || price === undefined || price === ''
+        ? null
+        : Number(price)
+
     jsonLd.push({
       '@context': 'https://schema.org',
       '@type': 'Event',
@@ -123,6 +135,29 @@ const SEO = ({
         : undefined,
       organizer: { '@type': 'Organization', name: orgName, url: siteUrl },
       performer: { '@type': 'Person', name: orgName },
+      offers:
+        numericPrice !== null &&
+        Number.isFinite(numericPrice) &&
+        numericPrice >= 0
+          ? {
+              '@type': 'Offer',
+              url: bookingUrl || canonical,
+              price: numericPrice,
+              priceCurrency: 'EUR',
+              availability: 'https://schema.org/InStock',
+              ...(priceType === 'mensual'
+                ? {
+                    priceSpecification: {
+                      '@type': 'UnitPriceSpecification',
+                      price: numericPrice,
+                      priceCurrency: 'EUR',
+                      billingDuration: 'P1M',
+                      unitCode: 'MON',
+                    },
+                  }
+                : {}),
+            }
+          : undefined,
       image: ogImage ? [ogImage] : undefined,
       inLanguage: meta.language || 'es',
     })

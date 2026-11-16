@@ -6,6 +6,7 @@ featuredImage: /img/sesión-abierta-biodanza-3-.png
 eventDates: Julio 2024
 eventPlace: Tarragona
 productType: biodanza
+price: 50
 description: >-
   Un año más llega el curso de verano de Biodanza durante el mes de Julio de
   2024.

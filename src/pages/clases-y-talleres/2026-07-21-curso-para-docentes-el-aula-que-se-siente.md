@@ -6,6 +6,8 @@ featuredImage: /img/gemini_generated_image_vv9dr3vv9dr3vv9d-1-.png
 eventDates: Octubre 2026 /Enero 2027
 eventPlace: Tarragona
 productType: danza-emocion
+price: 60
+priceType: mensual
 description: >-
   Herramientas psicocorporales para el bienestar, la convivencia y el
   aprendizaje, porque cuando el cuerpo se regula… el aprendizaje florece.

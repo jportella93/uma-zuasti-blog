@@ -6,6 +6,7 @@ featuredImage: /img/biodanza.png
 eventDates: 30 de Diciembre y 4 de Enero
 eventPlace: Tarragona
 productType: biodanza
+price: 20
 description: >-
   "La danza es la expresión milenaria de nuestro Ser.Sus múltiples formas y
   movimientos nos ayudan a expresar emociones, potenciar la apertura del corazón

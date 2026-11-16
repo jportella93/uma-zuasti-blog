@@ -6,6 +6,8 @@ featuredImage: /img/chatgpt-image-22-ago-2026-17_28_07.png
 eventDates: Octubre 2026 Enero 2027
 eventPlace: Tarragona
 productType: danza-emocion
+price: 50
+priceType: mensual
 description: >-
   Un espacio de exploración corporal, emocional y expresiva basado en MINED-E®
   (Modelo de Integración Neuro-Expresiva Danza Emoción®).
